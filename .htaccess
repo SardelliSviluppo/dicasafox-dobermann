@@ -1,0 +1,48 @@
+# ===================================================
+# Di Casa Fox Dobermann — .htaccess
+# Configurazione per Aruba Linux Basic
+# ===================================================
+
+# Charset
+AddDefaultCharset UTF-8
+
+# Abilita compressione Gzip
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
+</IfModule>
+
+# Cache browser
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# Sicurezza: nasconde versione server
+ServerSignature Off
+
+# Redirect www → non-www (opzionale, decommentare se necessario)
+# RewriteEngine On
+# RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+# RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Pagina 404 personalizzata
+ErrorDocument 404 /index.html
+
+# Blocca accesso a file sensibili
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+# Forza HTTPS (decommentare dopo aver attivato SSL su Aruba)
+# RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]

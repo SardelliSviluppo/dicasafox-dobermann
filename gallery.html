@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery | Di Casa Fox Dobermann</title>
+  <meta name="description" content="Gallery fotografica dell'allevamento Di Casa Fox Dobermann: struttura, vita quotidiana, proprietari e famiglie con i loro Dobermann.">
+  <link rel="canonical" href="https://www.dicasafoxdobermann.com/gallery.html">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-logo">
+          <a href="index.html" aria-label="Di Casa Fox Dobermann — Home">
+            <img src="images/logo/logo-dicasafox.png?v=3" alt="Logo Di Casa Fox Dobermann" width="280" height="77">
+          </a>
+        </div>
+        <nav class="nav-menu" role="navigation" aria-label="Navigazione principale">
+          <button class="nav-close" aria-label="Chiudi menu">✕</button>
+          <a href="index.html">Home</a>
+          <a href="allevamento.html">Allevamento</a>
+          <a href="dobermann.html">Il Dobermann</a>
+          <div class="nav-dropdown">
+            <a href="i-nostri-dobermann.html" aria-haspopup="true">I Nostri Dobermann <span class="dropdown-arrow">&#9660;</span></a>
+            <div class="dropdown-menu" role="menu">
+              <a href="i-nostri-dobermann.html?cat=maschi" role="menuitem">Maschi</a>
+              <a href="i-nostri-dobermann.html?cat=femmine" role="menuitem">Femmine</a>
+              <a href="i-nostri-dobermann.html?cat=campioni" role="menuitem">Campioni</a>
+              <a href="i-nostri-dobermann.html?cat=eventi" role="menuitem">Eventi e Risultati</a>
+            </div>
+          </div>
+          <a href="cuccioli.html">Cuccioli</a>
+          <a href="addestramento.html">Addestramento</a>
+          <a href="gallery.html" class="active">Gallery</a>
+          <a href="contatti.html" class="nav-cta">Contatti</a>
+        </nav>
+        <button class="hamburger" aria-label="Apri menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> › Gallery</p>
+      <h1>Gallery</h1>
+      <p>Allevamento, struttura e proprietari — la vita quotidiana di Di Casa Fox Dobermann</p>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section">
+    <div class="container">
+
+      <!-- FILTRI -->
+      <div class="gallery-filters reveal" role="group" aria-label="Filtra per categoria">
+        <button class="filter-btn active" data-filter="all">Tutte</button>
+        <button class="filter-btn" data-filter="allevamento">🏡 Allevamento</button>
+        <button class="filter-btn" data-filter="proprietari">👥 Proprietari e Famiglie</button>
+      </div>
+
+      <!-- GALLERY GRID (popolata dinamicamente da JS) -->
+      <div id="galleryGrid" class="gallery-grid reveal">
+        <!-- Le immagini vengono caricate da js/main.js tramite GALLERY_DATA -->
+        <!-- Per aggiungere immagini: modificare l'array GALLERY_DATA in js/main.js -->
+      </div>
+
+      <!-- ISTRUZIONI PER AGGIUNTA IMMAGINI (visibile solo in fase di sviluppo) -->
+      <div class="mt-lg reveal" style="background:rgba(139,0,0,0.06);border:1px dashed rgba(139,0,0,0.3);border-radius:12px;padding:1.5rem;text-align:center;">
+        <p style="color:#8B0000;font-size:0.85rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.5rem;">📁 Come aggiungere immagini</p>
+        <p style="color:var(--color-gray);font-size:0.85rem;max-width:600px;margin:0 auto;">
+          Carica le immagini nelle cartelle <code style="background:rgba(255,255,255,0.1);padding:0.1rem 0.4rem;border-radius:4px;">images/gallery/[categoria]/</code>
+          e aggiungi le voci nell'array <code style="background:rgba(255,255,255,0.1);padding:0.1rem 0.4rem;border-radius:4px;">GALLERY_DATA</code>
+          nel file <code style="background:rgba(255,255,255,0.1);padding:0.1rem 0.4rem;border-radius:4px;">js/main.js</code>.
+          Nessuna modifica strutturale necessaria.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Visualizzatore immagini">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Chiudi">✕</button>
+    <img id="lightboxImg" class="lightbox-img" src="" alt="">
+  </div>
+
+  <!-- CTA -->
+  <section class="section section-dark">
+    <div class="container text-center reveal">
+      <h2 style="color:var(--color-white-pure);margin-bottom:1rem;">Vuoi vedere i nostri cani dal vivo?</h2>
+      <p style="max-width:500px;margin:0 auto var(--space-md);color:var(--color-gray);">
+        Contattaci per organizzare una visita all'allevamento e conoscere di persona
+        i nostri Dobermann.
+      </p>
+      <a href="contatti.html" class="btn btn-primary">Contattaci</a>
+    </div>
+  </section>
+
+
+  <!-- SEZIONE REICO VITAL-SYSTEME -->
+  <section class="section reico-section" id="reico">
+    <div class="container">
+      <div class="reico-inner reveal">
+        <div class="reico-logo-col">
+          <a href="https://www.ilgustodellequilibrio.it/" target="_blank" rel="noopener noreferrer" aria-label="Scopri Reico Vital-Systeme">
+            <img src="images/logo/logo-reico.png" alt="Partner Reico Vital-Systeme" class="reico-logo" width="280" height="129">
+          </a>
+        </div>
+        <div class="reico-text-col">
+          <p class="section-label">Partnership</p>
+          <h2>Partner Reico Vital-Systeme</h2>
+          <p>Siamo partner <strong>Reico Vital-Systeme</strong>, azienda tedesca specializzata in alimentazione naturale ed equilibrata per cani e gatti. Attraverso il nostro sito dedicato puoi scoprire prodotti, filosofia e consulenza nutrizionale per garantire al tuo cane tutto ciò di cui ha bisogno.</p>
+          <a href="https://www.ilgustodellequilibrio.it/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Scopri Reico</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html">
+            <img src="images/logo/logo-dicasafox.png?v=3" alt="Di Casa Fox Dobermann" width="220" height="60">
+          </a>
+          <p>Allevamento Dobermann con affisso ENCI/FCI riconosciuto. Passione, selezione e professionalità dal 1993 a Cagno (CO), Lombardia.</p>
+          <div class="mt-sm">
+            <span class="enci-badge">ENCI</span>
+            <span class="enci-badge" style="margin-left:0.3rem;">FCI</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigazione</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="allevamento.html">Allevamento</a></li>
+            <li><a href="dobermann.html">Il Dobermann</a></li>
+            <li><a href="i-nostri-dobermann.html">I Nostri Dobermann</a></li>
+            <li><a href="cuccioli.html">Cuccioli</a></li>
+            <li><a href="addestramento.html">Addestramento</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Gallery</h4>
+          <ul>
+            <li><a href="gallery.html?cat=allevamento">Allevamento</a></li>
+            <li><a href="gallery.html?cat=proprietari">Proprietari e Famiglie</a></li>
+            <li><a href="i-nostri-dobermann.html?cat=maschi">Maschi</a></li>
+            <li><a href="i-nostri-dobermann.html?cat=femmine">Femmine</a></li>
+            <li><a href="i-nostri-dobermann.html?cat=campioni">Campioni</a></li>
+            <li><a href="i-nostri-dobermann.html?cat=eventi">Eventi e Risultati</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contatti</h4>
+          <p>📍 Via San Giorgio 16<br>22070 Cagno (CO)</p>
+          <p>📞 <a href="tel:+393332654996">+39 333 265 4996</a></p>
+          <p>📞 <a href="tel:+393462197878">+39 346 219 7878</a></p>
+          <p>✉️ <a href="mailto:stefanosardelli2@gmail.com">stefanosardelli2@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Allevamento Di Casa Fox Dobermann — Stefano Sardelli. Tutti i diritti riservati.</p>
+        <p><a href="contatti.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="contatti.html">Cookie Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" aria-label="Torna in cima">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Leggi il parametro ?cat= dall'URL e attiva il filtro corrispondente
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('cat');
+      if (cat) {
+        const btn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
+        if (btn) {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          // renderGallery è definita in main.js, aspetta che il DOM sia pronto
+          document.addEventListener('DOMContentLoaded', () => {
+            if (typeof renderGallery === 'function') renderGallery(cat);
+          });
+        }
+      }
+    })();
+  </script>
+</body>
+</html>
