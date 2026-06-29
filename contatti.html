@@ -23,7 +23,7 @@
             <img src="images/logo/logo-dicasafox.png?v=3" alt="Logo Di Casa Fox Dobermann" width="280" height="77">
           </a>
         </div>
-                <nav class="nav-menu" role="navigation">
+        <nav class="nav-menu" role="navigation">
           <button class="nav-close" aria-label="Chiudi menu">✕</button>
           <a href="index.html">Home</a>
           <a href="allevamento.html">Allevamento</a>
@@ -148,14 +148,14 @@
               <label for="oggetto">Oggetto *</label>
               <select id="oggetto" name="oggetto" required>
                 <option value="" disabled selected>Seleziona un argomento</option>
-                <option value="cuccioli">Informazioni sui Cuccioli</option>
-                <option value="prenotazione">Prenotazione Cucciolo</option>
-                <option value="addestramento">Addestramento</option>
-                <option value="ztp">Preparazione ZTP</option>
-                <option value="expo">Preparazione Expo</option>
-                <option value="visita">Visita all'Allevamento</option>
-                <option value="pensione">Pensione per Cani</option>
-                <option value="altro">Altro</option>
+                <option value="Informazioni sui Cuccioli">Informazioni sui Cuccioli</option>
+                <option value="Prenotazione Cucciolo">Prenotazione Cucciolo</option>
+                <option value="Addestramento">Addestramento</option>
+                <option value="Preparazione ZTP">Preparazione ZTP</option>
+                <option value="Preparazione Expo">Preparazione Expo</option>
+                <option value="Visita all'Allevamento">Visita all'Allevamento</option>
+                <option value="Pensione per Cani">Pensione per Cani</option>
+                <option value="Altro">Altro</option>
               </select>
             </div>
 
@@ -173,9 +173,19 @@
               </label>
             </div>
 
-            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+            <button type="submit" id="submitBtn" class="btn btn-primary" style="width:100%;justify-content:center;">
               Invia Messaggio
             </button>
+
+            <!-- Messaggi di stato -->
+            <div id="formSuccess" style="display:none;margin-top:1.2rem;padding:1rem 1.4rem;background:rgba(0,120,0,0.15);border:1.5px solid rgba(0,180,0,0.4);border-radius:10px;color:#7fff7f;font-size:0.95rem;text-align:center;">
+              ✅ <strong>Messaggio inviato con successo!</strong><br>
+              <span style="font-size:0.85rem;opacity:0.85;">Ti risponderemo entro 24 ore a <span id="confirmEmail"></span></span>
+            </div>
+            <div id="formError" style="display:none;margin-top:1.2rem;padding:1rem 1.4rem;background:rgba(180,0,0,0.15);border:1.5px solid rgba(200,0,0,0.4);border-radius:10px;color:#ff9999;font-size:0.95rem;text-align:center;">
+              ❌ <strong>Errore nell'invio.</strong><br>
+              <span style="font-size:0.85rem;opacity:0.85;">Riprova o scrivici direttamente a <a href="mailto:stefanosardelli2@gmail.com" style="color:#ff9999;">stefanosardelli2@gmail.com</a></span>
+            </div>
 
             <p style="font-size:0.75rem;color:var(--color-gray);margin-top:0.8rem;text-align:center;">
               * Campi obbligatori. Risponderemo entro 24 ore.
@@ -286,6 +296,7 @@
             <li><a href="cuccioli.html">Cuccioli</a></li>
             <li><a href="addestramento.html">Addestramento</a></li>
             <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="alimentazione.html">Alimentazione</a></li>
             <li><a href="contatti.html">Contatti</a></li>
           </ul>
         </div>
@@ -321,5 +332,106 @@
   </button>
 
   <script src="js/main.js"></script>
+
+  <!-- EmailJS SDK v4 -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script>
+  // ============================================================
+  // FORM CONTATTI — INVIO REALE VIA EMAILJS
+  // Service ID:  service_7nn7mca
+  // Template ID: template_7bg0v1c
+  // Public Key:  BInU6XJQRoupKydpH
+  // Destinatario: stefanosardelli2@gmail.com
+  // ============================================================
+  const EMAILJS_SERVICE_ID  = 'service_7nn7mca';
+  const EMAILJS_TEMPLATE_ID = 'template_7bg0v1c';
+  const EMAILJS_PUBLIC_KEY  = 'BInU6XJQRoupKydpH';
+
+  // Inizializza EmailJS con la Public Key
+  emailjs.init(EMAILJS_PUBLIC_KEY);
+
+  (function() {
+    const form             = document.getElementById('contactForm');
+    const submitBtn        = document.getElementById('submitBtn');
+    const successBox       = document.getElementById('formSuccess');
+    const errorBox         = document.getElementById('formError');
+    const confirmEmailSpan = document.getElementById('confirmEmail');
+
+    if (!form) return;
+
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+
+      // Nascondi messaggi precedenti
+      successBox.style.display = 'none';
+      errorBox.style.display   = 'none';
+
+      // Leggi i valori del form
+      const nome     = document.getElementById('nome').value.trim();
+      const cognome  = document.getElementById('cognome').value.trim();
+      const email    = document.getElementById('email').value.trim();
+      const oggetto  = document.getElementById('oggetto').value;
+      const messaggio = document.getElementById('messaggio').value.trim();
+      const privacy  = document.getElementById('privacy').checked;
+
+      // Validazione campi obbligatori
+      if (!nome || !cognome || !email || !oggetto || !messaggio || !privacy) {
+        errorBox.innerHTML = '&#10060; <strong>Compila tutti i campi obbligatori.</strong><br><span style="font-size:0.85rem;">Verifica i campi contrassegnati con *</span>';
+        errorBox.style.display = 'block';
+        return;
+      }
+
+      // Calcola data/ora invio
+      const now    = new Date();
+      const dataOra = now.toLocaleString('it-IT', {
+        day: '2-digit', month: '2-digit', year: 'numeric',
+        hour: '2-digit', minute: '2-digit'
+      });
+
+      // Stato: invio in corso
+      submitBtn.disabled    = true;
+      submitBtn.textContent = 'Invio in corso...';
+
+      // Parametri del template EmailJS
+      const templateParams = {
+        nome:       nome,
+        cognome:    cognome,
+        email:      email,
+        telefono:   document.getElementById('telefono').value.trim() || 'Non fornito',
+        oggetto:    oggetto,
+        messaggio:  messaggio,
+        data_invio: dataOra,
+        reply_to:   email
+      };
+
+      try {
+        const result = await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, templateParams);
+
+        if (result.status === 200) {
+          // SUCCESSO
+          confirmEmailSpan.textContent = email;
+          successBox.style.display     = 'block';
+          form.reset();
+          submitBtn.textContent    = 'Messaggio Inviato ✔';
+          submitBtn.style.background = 'rgba(0,120,0,0.5)';
+          successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        } else {
+          throw new Error('Risposta inattesa: ' + result.status);
+        }
+      } catch (err) {
+        // ERRORE
+        console.error('EmailJS error:', err);
+        errorBox.innerHTML = '&#10060; <strong>Errore nell\'invio.</strong><br>' +
+          '<span style="font-size:0.85rem;">Riprova o scrivici a <a href="mailto:stefanosardelli2@gmail.com" style="color:#ff9999;">stefanosardelli2@gmail.com</a></span>';
+        errorBox.style.display    = 'block';
+        submitBtn.disabled        = false;
+        submitBtn.textContent     = 'Invia Messaggio';
+        submitBtn.style.background = '';
+      }
+    });
+  })();
+  </script>
+
 </body>
 </html>

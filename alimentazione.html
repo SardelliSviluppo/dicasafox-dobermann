@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alimentazione Naturale per il Dobermann | Di Casa Fox — Cagno (CO)</title>
+  <meta name="description" content="Scopri l'alimentazione naturale per il Dobermann: cibo pressato a freddo, alto contenuto di carne, zero conservanti. La scelta dell'allevamento Di Casa Fox dal 1993.">
+  <link rel="canonical" href="https://www.dicasafoxdobermann.com/alimentazione.html">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* ===== STILI SPECIFICI PAGINA ALIMENTAZIONE ===== */
+
+    /* Hero con sfondo scuro e pattern */
+    .alim-hero-quote {
+      background: linear-gradient(135deg, rgba(139,0,0,0.12) 0%, rgba(5,5,5,0) 60%);
+      border-left: 3px solid var(--color-copper);
+      padding: 1.4rem 1.8rem;
+      margin: 2rem 0;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+      font-size: 1.05rem;
+      color: var(--color-silver);
+      line-height: 1.7;
+    }
+    .alim-hero-quote strong {
+      color: var(--color-white-pure);
+      font-style: normal;
+    }
+
+    /* Card benefici */
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .benefit-card {
+      background: var(--color-surface);
+      border: 1px solid rgba(139,0,0,0.2);
+      border-radius: 12px;
+      padding: 1.8rem 1.6rem;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+    .benefit-card:hover {
+      border-color: var(--color-copper);
+      transform: translateY(-4px);
+    }
+    .benefit-card .benefit-icon {
+      font-size: 2rem;
+      margin-bottom: 0.8rem;
+      display: block;
+    }
+    .benefit-card h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 0.95rem;
+      color: var(--color-copper);
+      letter-spacing: 0.08em;
+      margin-bottom: 0.6rem;
+      text-transform: uppercase;
+    }
+    .benefit-card p {
+      font-size: 0.9rem;
+      color: var(--color-gray);
+      line-height: 1.6;
+    }
+
+    /* Sezione confronto crocchette vs naturale */
+    .comparison-wrap {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 2.5rem;
+    }
+    @media (max-width: 700px) {
+      .comparison-wrap { grid-template-columns: 1fr; }
+    }
+    .comparison-col {
+      border-radius: 12px;
+      padding: 2rem 1.8rem;
+    }
+    .comparison-col.bad {
+      background: rgba(80,0,0,0.18);
+      border: 1px solid rgba(200,0,0,0.25);
+    }
+    .comparison-col.good {
+      background: rgba(0,80,0,0.12);
+      border: 1px solid rgba(0,160,0,0.25);
+    }
+    .comparison-col h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      margin-bottom: 1.2rem;
+      text-transform: uppercase;
+    }
+    .comparison-col.bad h4 { color: #ff6666; }
+    .comparison-col.good h4 { color: #66cc66; }
+    .comparison-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .comparison-col ul li {
+      padding: 0.45rem 0;
+      font-size: 0.9rem;
+      color: var(--color-gray);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+    }
+    .comparison-col ul li:last-child { border-bottom: none; }
+    .comparison-col.bad ul li::before {
+      content: "✗";
+      color: #ff6666;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .comparison-col.good ul li::before {
+      content: "✓";
+      color: #66cc66;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    /* Sezione risultati visivi */
+    .results-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .result-item {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      background: var(--color-surface);
+      border-radius: 8px;
+      padding: 0.9rem 1.2rem;
+      border: 1px solid rgba(139,0,0,0.15);
+    }
+    .result-item .result-icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+    .result-item span {
+      font-size: 0.88rem;
+      color: var(--color-silver);
+      line-height: 1.4;
+    }
+
+    /* Immagine con didascalia */
+    .alim-img-wrap {
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+      margin: 2.5rem 0;
+    }
+    .alim-img-wrap img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+      display: block;
+    }
+    .alim-img-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(5,5,5,0.85));
+      padding: 2rem 1.5rem 1.2rem;
+      font-size: 0.85rem;
+      color: var(--color-silver);
+      font-style: italic;
+    }
+
+    /* Sezione due colonne testo + immagine */
+    .alim-two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      .alim-two-col { grid-template-columns: 1fr; gap: 2rem; }
+      .alim-two-col .alim-img-col { order: -1; }
+    }
+    .alim-two-col img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    /* Box numeri */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin: 2.5rem 0;
+    }
+    @media (max-width: 600px) {
+      .stats-row { grid-template-columns: 1fr; }
+    }
+    .stat-box {
+      text-align: center;
+      padding: 1.8rem 1rem;
+      background: var(--color-surface);
+      border-radius: 12px;
+      border: 1px solid rgba(139,0,0,0.2);
+    }
+    .stat-box .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: var(--color-copper);
+      line-height: 1;
+      display: block;
+    }
+    .stat-box .stat-label {
+      font-size: 0.82rem;
+      color: var(--color-gray);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 0.5rem;
+      display: block;
+    }
+
+    /* CTA box finale */
+    .alim-cta-box {
+      background: linear-gradient(135deg, rgba(139,0,0,0.15) 0%, rgba(30,0,0,0.3) 100%);
+      border: 1px solid rgba(139,0,0,0.35);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      text-align: center;
+    }
+    .alim-cta-box h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: var(--color-white-pure);
+      margin-bottom: 1rem;
+    }
+    .alim-cta-box p {
+      color: var(--color-gray);
+      max-width: 560px;
+      margin: 0 auto 2rem;
+      line-height: 1.7;
+    }
+    .alim-cta-box .btn-group {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    /* Tag "Scelta dell'allevamento" */
+    .alim-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(139,0,0,0.2);
+      border: 1px solid rgba(139,0,0,0.4);
+      border-radius: 20px;
+      padding: 0.35rem 1rem;
+      font-size: 0.78rem;
+      color: var(--color-copper);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-weight: 600;
+      margin-bottom: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <div class="header-inner">
+        <div class="header-logo">
+          <a href="index.html" aria-label="Di Casa Fox Dobermann — Home">
+            <img src="images/logo/logo-dicasafox.png?v=3" alt="Logo Di Casa Fox Dobermann" width="280" height="77">
+          </a>
+        </div>
+        <nav class="nav-menu" role="navigation" aria-label="Navigazione principale">
+          <button class="nav-close" aria-label="Chiudi menu">✕</button>
+          <a href="index.html">Home</a>
+          <a href="allevamento.html">Allevamento</a>
+          <a href="dobermann.html">Il Dobermann</a>
+          <div class="nav-dropdown">
+            <a href="i-nostri-dobermann.html" aria-haspopup="true">I Nostri Dobermann <span class="dropdown-arrow">&#9660;</span></a>
+            <div class="dropdown-menu" role="menu">
+              <a href="i-nostri-dobermann.html?cat=maschi" role="menuitem">Maschi</a>
+              <a href="i-nostri-dobermann.html?cat=femmine" role="menuitem">Femmine</a>
+              <a href="i-nostri-dobermann.html?cat=campioni" role="menuitem">Campioni</a>
+              <a href="i-nostri-dobermann.html?cat=eventi" role="menuitem">Eventi e Risultati</a>
+            </div>
+          </div>
+          <a href="cuccioli.html">Cuccioli</a>
+          <a href="addestramento.html">Addestramento</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="alimentazione.html" class="active">Alimentazione</a>
+          <a href="contatti.html" class="nav-cta">Contatti</a>
+        </nav>
+        <button class="hamburger" aria-label="Apri menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> › Alimentazione</p>
+      <h1>Alimentazione Naturale</h1>
+      <p>La salute del Dobermann inizia dal piatto: scopri perché abbiamo scelto un'alimentazione 100% naturale per i nostri cani</p>
+    </div>
+  </section>
+
+  <!-- ===== SEZIONE INTRO ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="alim-two-col reveal">
+        <div class="alim-text-col">
+          <span class="alim-badge">La scelta dell'allevamento dal 1993</span>
+          <h2 style="color:var(--color-white-pure);margin-bottom:1.2rem;">Perché il Dobermann merita un'alimentazione naturale</h2>
+          <div class="section-divider" style="margin:0 0 1.5rem;"></div>
+          <p>
+            Il Dobermann è un cane atletico, muscoloso e longevo: la sua struttura fisica richiede
+            un'alimentazione di qualità superiore, che rispetti la sua fisiologia di carnivoro e
+            supporti articolazioni, muscolatura e sistema immunitario nel tempo.
+          </p>
+          <p style="margin-top:1rem;">
+            Nel nostro allevamento <strong>non utilizziamo crocchette industriali</strong> né per gli adulti
+            né per i cuccioli. Dopo anni di esperienza sul campo abbiamo scelto un'alimentazione
+            naturale basata su carne fresca di alta qualità, pressatura a freddo ed equilibrio
+            minerale — perché i risultati parlano da soli.
+          </p>
+          <div class="alim-hero-quote">
+            <strong>Il cibo che mangia il tuo cane può essere la più sana e potente forma di medicina,
+            o la più lenta forma di veleno.</strong><br>
+            Noi abbiamo scelto la medicina.
+          </div>
+        </div>
+        <div class="alim-img-col">
+          <img src="images/alimentazione/dobermann-alimentazione-naturale.jpg"
+               alt="Dobermann con alimentazione naturale — Di Casa Fox"
+               loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATISTICHE ===== -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="stats-row reveal">
+        <div class="stat-box">
+          <span class="stat-num">70–85%</span>
+          <span class="stat-label">Percentuale di carne vera per pasto</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">0</span>
+          <span class="stat-label">Conservanti chimici e additivi artificiali</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">30+</span>
+          <span class="stat-label">Anni di esperienza in nutrizione canina</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PERCHÉ NO CROCCHETTE ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Il Problema</span>
+        <h2>Perché le crocchette industriali non bastano</h2>
+        <div class="section-divider"></div>
+        <p style="color:var(--color-gray);max-width:680px;margin:0 auto;">
+          Numerosi studi dimostrano come un'alimentazione industriale a lungo termine possa
+          compromettere la salute del cane, in particolare in razze atletiche come il Dobermann.
+        </p>
+      </div>
+
+      <div class="comparison-wrap reveal">
+        <div class="comparison-col bad">
+          <h4>Crocchette Industriali</h4>
+          <ul>
+            <li>Cereali come primo ingrediente (mais, frumento, glutine)</li>
+            <li>Scarti di macellazione non idonei al consumo umano</li>
+            <li>Conservanti chimici e antiossidanti CE</li>
+            <li>Cotto ad alte temperature: proteine denaturate</li>
+            <li>Percentuale di carne reale spesso inferiore al 4%</li>
+            <li>Coloranti e aromatizzanti artificiali</li>
+            <li>Favorisce disbiosi intestinale, allergie, dermatiti</li>
+            <li>Tartaro, alito pesante, feci abbondanti e molli</li>
+          </ul>
+        </div>
+        <div class="comparison-col good">
+          <h4>Alimentazione Naturale</h4>
+          <ul>
+            <li>70–85% di vera carne per consumo umano</li>
+            <li>Pressata a freddo: nutrienti intatti e biodisponibili</li>
+            <li>Zero conservanti, zero additivi chimici, zero OGM</li>
+            <li>Equilibrio minerale con alghe micronizzate</li>
+            <li>Microbiota intestinale sano e sistema immunitario forte</li>
+            <li>Pelo lucido, denti puliti, alito fresco</li>
+            <li>Muscolatura più sviluppata e articolazioni protette</li>
+            <li>Meno visite veterinarie, vita più lunga e sana</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="alim-hero-quote reveal" style="margin-top:2.5rem;">
+        Il cane possiede ancora il <strong>98% del DNA del lupo</strong>: è un carnivoro per natura.
+        Un'alimentazione ricca di cereali e scarti industriali non rispetta la sua fisiologia
+        e indebolisce progressivamente le sue difese immunitarie.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COSA UTILIZZIAMO ===== -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="alim-two-col reveal">
+        <div class="alim-img-col">
+          <img src="images/alimentazione/cibo-naturale-carne.webp"
+               alt="Cibo naturale pressato a freddo per cani — alta percentuale di carne"
+               loading="lazy">
+        </div>
+        <div class="alim-text-col">
+          <span class="subtitle">La Nostra Scelta</span>
+          <h2 style="color:var(--color-white-pure);margin-bottom:1.2rem;">Cibo umido pastorizzato a basse temperature</h2>
+          <div class="section-divider" style="margin:0 0 1.5rem;"></div>
+          <p>
+            Per i nostri Dobermann adulti e per i cuccioli utilizziamo un <strong>alimento umido
+            pastorizzato a basse temperature</strong> con altissima percentuale di carne (70–85%),
+            zero conservanti chimici e un esclusivo equilibrio minerale garantito da alghe micronizzate.
+          </p>
+          <p style="margin-top:1rem;">
+            Questo tipo di alimento è paragonabile per qualità a una dieta crudista, ma con la
+            praticità di un prodotto pronto all'uso. È l'unico prodotto al mondo con equilibrio
+            minerale completo, senza additivi, senza OGM, senza steroidi anabolizzanti né ormoni
+            di sintesi.
+          </p>
+          <p style="margin-top:1rem;">
+            Collaboriamo con <strong>Reico Vital-Systeme</strong>, azienda tedesca leader in Europa
+            nell'alimentazione naturale per cani e gatti, il cui approccio si basa sul rispetto
+            della fisiologia della specie e sulla qualità delle materie prime.
+          </p>
+          <div style="margin-top:1.5rem;">
+            <a href="https://www.ilgustodellequilibrio.it/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              Scopri i Prodotti Reico
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BENEFICI CONCRETI ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">I Risultati</span>
+        <h2>Cosa cambia con l'alimentazione naturale</h2>
+        <div class="section-divider"></div>
+        <p style="color:var(--color-gray);max-width:620px;margin:0 auto;">
+          Dopo anni di osservazione diretta sui nostri Dobermann, i miglioramenti sono evidenti
+          e documentabili. Questi sono i risultati che vediamo ogni giorno.
+        </p>
+      </div>
+
+      <div class="results-list reveal">
+        <div class="result-item">
+          <span class="result-icon">✨</span>
+          <span>Pelo lucido, sano e brillante</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🦷</span>
+          <span>Niente tartaro, denti puliti naturalmente</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">💪</span>
+          <span>Muscolatura più sviluppata e tonica</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🦴</span>
+          <span>Articolazioni protette, tendini più forti</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🛡️</span>
+          <span>Sistema immunitario più forte</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🌿</span>
+          <span>Nessun odore sgradevole</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">💩</span>
+          <span>Feci ridotte, compatte e non molli</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🐛</span>
+          <span>Meno parassiti intestinali</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">📉</span>
+          <span>Ridotto rischio di torsione gastrica</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🏥</span>
+          <span>Meno visite veterinarie nel tempo</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">🌱</span>
+          <span>Crescita più lenta e naturale nei cuccioli</span>
+        </div>
+        <div class="result-item">
+          <span class="result-icon">❤️</span>
+          <span>Vita più lunga e di qualità superiore</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOBERMANN E ALIMENTAZIONE ===== -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Il Dobermann</span>
+        <h2>Esigenze nutrizionali specifiche della razza</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="benefits-grid reveal">
+        <div class="benefit-card">
+          <span class="benefit-icon">🏃</span>
+          <h4>Energia e Prestazioni</h4>
+          <p>Il Dobermann è un cane da lavoro ad alta energia. Ha bisogno di proteine nobili di origine animale per sostenere l'attività fisica, l'addestramento e le competizioni sportive.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🦴</span>
+          <h4>Struttura Ossea e Articolare</h4>
+          <p>La conformazione atletica del Dobermann richiede un corretto apporto di calcio, fosforo e minerali in equilibrio per prevenire displasie e problemi articolari, specialmente durante la crescita.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">❤️</span>
+          <h4>Salute Cardiaca</h4>
+          <p>Il Dobermann è predisposto a cardiomiopatie. Un'alimentazione ricca di taurina, L-carnitina e acidi grassi omega-3 supporta la funzione cardiaca e riduce i fattori di rischio infiammatori.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🧬</span>
+          <h4>Microbiota Intestinale</h4>
+          <p>Un intestino sano è la base di tutto. L'equilibrio minerale garantito dalle alghe micronizzate rafforza il microbiota, migliora l'assorbimento dei nutrienti e potenzia le difese immunitarie.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🐾</span>
+          <h4>Cuccioli in Crescita</h4>
+          <p>I cuccioli di Dobermann crescono velocemente. Un'alimentazione naturale garantisce una crescita più lenta e fisiologica, riducendo il rischio di problemi scheletrici tipici delle razze grandi.</p>
+        </div>
+        <div class="benefit-card">
+          <span class="benefit-icon">🌟</span>
+          <h4>Longevità e Qualità della Vita</h4>
+          <p>I nostri Dobermann alimentati naturalmente mostrano un invecchiamento più sereno, con meno patologie croniche, più vitalità e una qualità della vita superiore negli anni.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LE DUE STRADE ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="subtitle">Come Iniziare</span>
+        <h2>Due percorsi per nutrire il tuo Dobermann</h2>
+        <div class="section-divider"></div>
+        <p style="color:var(--color-gray);max-width:620px;margin:0 auto;">
+          Non esiste un'unica strada: ogni cane e ogni famiglia è diversa.
+          Ecco le due opzioni che consigliamo, entrambe valide e supportate dalla nostra esperienza.
+        </p>
+      </div>
+
+      <div class="comparison-wrap reveal" style="margin-top:2.5rem;">
+        <div class="benefit-card" style="border-color:rgba(139,0,0,0.35);">
+          <span class="benefit-icon">🥩</span>
+          <h4 style="color:var(--color-copper);">Opzione 1 — Cibo Naturale Pronto</h4>
+          <p style="margin-bottom:1rem;">
+            Per chi ha poco tempo ma vuole il meglio per il proprio cane. Alimento umido
+            pastorizzato a basse temperature con 70–85% di carne, zero additivi e equilibrio
+            minerale completo. Pratico, bilanciato, sicuro.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-gray);">
+            Ideale per: famiglie con poco tempo, cuccioli appena adottati, transizione
+            dalle crocchette, cani anziani o con problemi digestivi.
+          </p>
+        </div>
+        <div class="benefit-card" style="border-color:rgba(139,0,0,0.35);">
+          <span class="benefit-icon">🔬</span>
+          <h4 style="color:var(--color-copper);">Opzione 2 — Dieta Crudista Personalizzata</h4>
+          <p style="margin-bottom:1rem;">
+            Per chi vuole portare l'alimentazione del proprio Dobermann al massimo livello.
+            Una dieta BARF personalizzata, costruita con il supporto di un nutrizionista
+            specializzato, calibrata sulle esigenze specifiche del singolo soggetto.
+          </p>
+          <p style="font-size:0.85rem;color:var(--color-gray);">
+            Ideale per: cani sportivi, soggetti da esposizione, cani con patologie specifiche,
+            proprietari motivati e con tempo da dedicare alla preparazione.
+          </p>
+        </div>
+      </div>
+
+      <div class="alim-hero-quote reveal" style="margin-top:2.5rem;">
+        In entrambi i casi, <strong>siamo a disposizione per guidarti nella transizione</strong>
+        e rispondere a ogni domanda sull'alimentazione del tuo Dobermann.
+        Contattaci per una consulenza personalizzata gratuita.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA REICO + CONTATTI ===== -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="alim-cta-box reveal">
+        <h3>Vuoi saperne di più?</h3>
+        <p>
+          Siamo partner Reico Vital-Systeme, azienda tedesca leader in Europa nell'alimentazione
+          naturale per cani e gatti. Visita il nostro sito dedicato o contattaci direttamente
+          per una consulenza nutrizionale personalizzata, gratuita e senza impegno.
+        </p>
+        <div class="btn-group">
+          <a href="https://www.ilgustodellequilibrio.it/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            Scopri i Prodotti Reico
+          </a>
+          <a href="contatti.html" class="btn btn-outline">
+            Richiedi Consulenza
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SEZIONE REICO VITAL-SYSTEME ===== -->
+  <section class="section reico-section" id="reico">
+    <div class="container">
+      <div class="reico-inner reveal">
+        <div class="reico-logo-col">
+          <a href="https://www.ilgustodellequilibrio.it/" target="_blank" rel="noopener noreferrer" aria-label="Scopri Reico Vital-Systeme">
+            <img src="images/logo/logo-reico.png" alt="Partner Reico Vital-Systeme" class="reico-logo" width="280" height="129">
+          </a>
+        </div>
+        <div class="reico-text-col">
+          <p class="section-label">Partnership</p>
+          <h2>Partner Reico Vital-Systeme</h2>
+          <p>Siamo partner <strong>Reico Vital-Systeme</strong>, azienda tedesca specializzata in alimentazione naturale ed equilibrata per cani e gatti. Attraverso il nostro sito dedicato puoi scoprire prodotti, filosofia e consulenza nutrizionale per garantire al tuo cane tutto ciò di cui ha bisogno.</p>
+          <a href="https://www.ilgustodellequilibrio.it/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Scopri Reico</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html">
+            <img src="images/logo/logo-dicasafox.png?v=3" alt="Di Casa Fox Dobermann" width="220" height="60">
+          </a>
+          <p>Allevamento Dobermann con affisso ENCI/FCI riconosciuto. Passione, selezione e professionalità dal 1993 a Cagno (CO), Lombardia.</p>
+          <div class="mt-sm">
+            <span class="enci-badge">ENCI</span>
+            <span class="enci-badge" style="margin-left:0.3rem;">FCI</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigazione</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="allevamento.html">Allevamento</a></li>
+            <li><a href="dobermann.html">Il Dobermann</a></li>
+            <li><a href="i-nostri-dobermann.html">I Nostri Dobermann</a></li>
+            <li><a href="cuccioli.html">Cuccioli</a></li>
+            <li><a href="addestramento.html">Addestramento</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="alimentazione.html">Alimentazione</a></li>
+            <li><a href="contatti.html">Contatti</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Servizi</h4>
+          <ul>
+            <li><a href="cuccioli.html">Cuccioli con Pedigree</a></li>
+            <li><a href="allevamento.html">Selezione Genetica</a></li>
+            <li><a href="addestramento.html">Educazione Base</a></li>
+            <li><a href="addestramento.html">Preparazione ZTP</a></li>
+            <li><a href="addestramento.html">Utilità e Difesa</a></li>
+            <li><a href="alimentazione.html">Alimentazione Naturale</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contatti</h4>
+          <p>📍 Via San Giorgio 16<br>22070 Cagno (CO)</p>
+          <p>📞 <a href="tel:+393332654996">+39 333 265 4996</a></p>
+          <p>📞 <a href="tel:+393462197878">+39 346 219 7878</a></p>
+          <p>✉️ <a href="mailto:stefanosardelli2@gmail.com">stefanosardelli2@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Allevamento Di Casa Fox Dobermann — Stefano Sardelli. Tutti i diritti riservati.</p>
+        <p><a href="contatti.html#privacy-policy">Privacy Policy</a> &nbsp;|&nbsp; <a href="contatti.html#privacy-policy">Cookie Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTop" aria-label="Torna in cima">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18">
+      <path d="M12 19V5M5 12l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

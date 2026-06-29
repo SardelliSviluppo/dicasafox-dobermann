@@ -1,0 +1,822 @@
+{
+  "maschi": [
+    {
+      "name": "Ace",
+      "slug": "ace",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/ace/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/ace/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ace/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/ace/thumbs/foto_02.jpg"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Ade Di Casa fox",
+      "slug": "ade-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/ade-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ade-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ade-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ade-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ade-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ade-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_06.jpg"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "name": "Battista Di Casa Fox",
+      "slug": "battista-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_09.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_10.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_10.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_11.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_11.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_12.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_12.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_13.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_13.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_14.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_14.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_15.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_15.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_16.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_16.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_17.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_17.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_18.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_18.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/battista-di-casa-fox/foto_19.jpg",
+          "thumb": "images/dobermann/maschi/battista-di-casa-fox/thumbs/foto_19.jpg"
+        }
+      ],
+      "count": 19
+    },
+    {
+      "name": "Edegar Di Casa Fox",
+      "slug": "edegar-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/edegar-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/edegar-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/edegar-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/edegar-di-casa-fox/thumbs/foto_02.jpg"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Ermes Di Casa Fox",
+      "slug": "ermes-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/ermes-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_07.jpg"
+        }
+      ],
+      "count": 7
+    },
+    {
+      "name": "FireFox",
+      "slug": "firefox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/firefox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/firefox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/firefox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/firefox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/firefox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/firefox/thumbs/foto_03.jpg"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Hero di Casa Fox",
+      "slug": "hero-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_09.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_10.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_10.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_11.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_11.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_12.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_12.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_13.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_13.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_14.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_14.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_15.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_15.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_16.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_16.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_17.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_17.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_18.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_18.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/hero-di-casa-fox/foto_19.jpg",
+          "thumb": "images/dobermann/maschi/hero-di-casa-fox/thumbs/foto_19.jpg"
+        }
+      ],
+      "count": 19
+    },
+    {
+      "name": "Horus Di Casa Fox",
+      "slug": "horus-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/horus-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/horus-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/horus-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/horus-di-casa-fox/thumbs/foto_02.jpg"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Iron Di Casa Fox",
+      "slug": "iron-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/iron-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/maschi/iron-di-casa-fox/thumbs/foto_09.jpg"
+        }
+      ],
+      "count": 9
+    },
+    {
+      "name": "King Artur Di Casa Fox",
+      "slug": "king-artur-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/king-artur-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/king-artur-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/king-artur-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/king-artur-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/king-artur-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/king-artur-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/king-artur-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/king-artur-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/king-artur-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/king-artur-di-casa-fox/thumbs/foto_05.jpg"
+        }
+      ],
+      "count": 5
+    },
+    {
+      "name": "Renoir Di Casa Fox",
+      "slug": "renoir-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/renoir-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/renoir-di-casa-fox/thumbs/foto_01.jpg"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "Rhuy Di Casa Fox",
+      "slug": "rhuy-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/rhuy-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/rhuy-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/rhuy-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/rhuy-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/rhuy-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/rhuy-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/rhuy-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/rhuy-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/rhuy-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/rhuy-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/rhuy-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/maschi/rhuy-di-casa-fox/thumbs/foto_06.jpg"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "name": "Thiago Di Casa Fox",
+      "slug": "thiago-di-casa-fox",
+      "gender": "masch",
+      "photos": [
+        {
+          "full": "images/dobermann/maschi/thiago-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/thiago-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/thiago-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/thiago-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/maschi/thiago-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_05.jpg"
+        }
+      ],
+      "count": 5
+    }
+  ],
+  "femmine": [
+    {
+      "name": "Allison Di Casa Fox",
+      "slug": "allison-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/allison-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/allison-di-casa-fox/thumbs/foto_01.jpg"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "name": "Blacky Spirit Di Casa Fox",
+      "slug": "blacky-spirit-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_06.jpg"
+        }
+      ],
+      "count": 6
+    },
+    {
+      "name": "Elisir Di Casa Fox",
+      "slug": "elisir-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/elisir-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/elisir-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/elisir-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/elisir-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/elisir-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/elisir-di-casa-fox/thumbs/foto_03.jpg"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Ester  Di Casa Fox",
+      "slug": "ester-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/ester-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/ester-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/ester-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/ester-di-casa-fox/thumbs/foto_02.jpg"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "name": "Hareta Di Casa Fox",
+      "slug": "hareta-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/hareta-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/hareta-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/hareta-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/hareta-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/hareta-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/hareta-di-casa-fox/thumbs/foto_03.jpg"
+        }
+      ],
+      "count": 3
+    },
+    {
+      "name": "Holly Di Casa Fox",
+      "slug": "holly-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_09.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_10.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_10.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_11.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_11.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_12.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_12.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_13.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_13.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_14.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_14.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_15.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_15.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/holly-di-casa-fox/foto_16.jpg",
+          "thumb": "images/dobermann/femmine/holly-di-casa-fox/thumbs/foto_16.jpg"
+        }
+      ],
+      "count": 16
+    },
+    {
+      "name": "Janila Black Di Casa Fox",
+      "slug": "janila-black-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_09.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/janila-black-di-casa-fox/foto_10.jpg",
+          "thumb": "images/dobermann/femmine/janila-black-di-casa-fox/thumbs/foto_10.jpg"
+        }
+      ],
+      "count": 10
+    },
+    {
+      "name": "Kali Di Casa Fox",
+      "slug": "kali-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_09.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kali-di-casa-fox/foto_10.jpg",
+          "thumb": "images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_10.jpg"
+        }
+      ],
+      "count": 10
+    },
+    {
+      "name": "Kora Di Casa Fox",
+      "slug": "kora-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_04.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_05.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_05.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_06.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_06.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_07.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_07.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_08.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_08.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_09.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_09.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_10.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_10.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_11.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_11.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_12.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_12.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/kora-di-casa-fox/foto_13.jpg",
+          "thumb": "images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_13.jpg"
+        }
+      ],
+      "count": 13
+    },
+    {
+      "name": "Reja Di Casa Fox",
+      "slug": "reja-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/reja-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/reja-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/reja-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/reja-di-casa-fox/thumbs/foto_02.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/reja-di-casa-fox/foto_03.jpg",
+          "thumb": "images/dobermann/femmine/reja-di-casa-fox/thumbs/foto_03.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/reja-di-casa-fox/foto_04.jpg",
+          "thumb": "images/dobermann/femmine/reja-di-casa-fox/thumbs/foto_04.jpg"
+        }
+      ],
+      "count": 4
+    },
+    {
+      "name": "Tayss Di Casa Fox",
+      "slug": "tayss-di-casa-fox",
+      "gender": "femmin",
+      "photos": [
+        {
+          "full": "images/dobermann/femmine/tayss-di-casa-fox/foto_01.jpg",
+          "thumb": "images/dobermann/femmine/tayss-di-casa-fox/thumbs/foto_01.jpg"
+        },
+        {
+          "full": "images/dobermann/femmine/tayss-di-casa-fox/foto_02.jpg",
+          "thumb": "images/dobermann/femmine/tayss-di-casa-fox/thumbs/foto_02.jpg"
+        }
+      ],
+      "count": 2
+    }
+  ]
+}

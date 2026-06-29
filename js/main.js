@@ -98,32 +98,9 @@ if (scrollTopBtn) {
 }
 
 // ===================================================
-// GALLERY FILTER SYSTEM
+// GALLERY FILTER SYSTEM — inizializzato in DOMContentLoaded
 // ===================================================
-const filterBtns  = document.querySelectorAll('.filter-btn');
-const galleryGrid = document.getElementById('galleryGrid');
-
-if (filterBtns.length && galleryGrid) {
-  filterBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      // Update active state
-      filterBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-
-      const filter = btn.dataset.filter;
-      const items  = galleryGrid.querySelectorAll('.gallery-item, .gallery-placeholder-item');
-
-      items.forEach(item => {
-        const cat = item.dataset.category || '';
-        const show = filter === 'all' || cat === filter;
-        item.style.display = show ? '' : 'none';
-        if (show) {
-          item.style.animation = 'fadeIn 0.4s ease both';
-        }
-      });
-    });
-  });
-}
+// (la logica filtri è gestita da initGallery() più in basso)
 
 // ===================================================
 // LIGHTBOX
@@ -264,11 +241,57 @@ document.querySelectorAll('[data-target]').forEach(el => counterObserver.observe
  *   { src: 'images/gallery/proprietari/nome.jpg', alt: '...', title: '...', category: 'proprietari' }
  */
 const GALLERY_DATA = [
-  // Allevamento
-  // { src: 'images/gallery/allevamento/nome.jpg', alt: 'Allevamento Di Casa Fox', title: 'Struttura allevamento', category: 'allevamento' },
+  // Allevamento (13 foto)
+  { src: 'images/gallery/allevamento/foto_01.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_02.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_03.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_04.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_05.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_06.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_07.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_08.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_09.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_10.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_11.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_12.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
+  { src: 'images/gallery/allevamento/foto_13.jpg', alt: 'Allevamento Di Casa Fox', title: 'Allevamento', category: 'allevamento' },
 
-  // Proprietari e Famiglie
-  // { src: 'images/gallery/proprietari/nome.jpg', alt: 'Proprietario con Dobermann', title: 'Nome famiglia', category: 'proprietari' },
+  // Proprietari e Famiglie (35 foto)
+  { src: 'images/gallery/proprietari/foto_01.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_02.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_03.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_04.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_05.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_06.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_07.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_08.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_09.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_10.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_11.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_12.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_13.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_14.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_15.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_16.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_17.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_18.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_19.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_20.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_21.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_22.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_23.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_24.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_25.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_26.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_27.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_28.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_29.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_30.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_31.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_32.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_33.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_34.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
+  { src: 'images/gallery/proprietari/foto_35.jpg', alt: 'Proprietario con Dobermann Di Casa Fox', title: 'Proprietari e Famiglie', category: 'proprietari' },
 ];
 
 /**
@@ -315,23 +338,67 @@ const CATEGORY_ICONS = {
   eventi:      '🥇',
 };
 
-// Generic render function — works for both pages
-function renderGalleryData(data, categories, filter) {
-  if (!galleryGrid) return;
+// renderGalleryData rimossa — sostituita da renderGallery() più in basso
 
+// ===================================================
+// GALLERY INIT — avvolto in DOMContentLoaded per garantire
+// che galleryGrid e filterBtns siano presenti nel DOM
+// ===================================================
+document.addEventListener('DOMContentLoaded', function initGallery() {
+  const grid    = document.getElementById('galleryGrid');
+  const btns    = document.querySelectorAll('.filter-btn');
+  const page    = window.location.pathname.split('/').pop() || 'index.html';
+
+  // Solo sulla pagina gallery.html (non su i-nostri-dobermann.html)
+  if (!grid || page === 'i-nostri-dobermann.html') return;
+
+  const galleryCategories = ['allevamento', 'proprietari'];
+
+  // Leggi eventuale ?cat= dall'URL
+  const urlParams = new URLSearchParams(window.location.search);
+  const preFilter = urlParams.get('cat') || 'all';
+
+  // Imposta il pulsante attivo in base al parametro URL
+  btns.forEach(b => {
+    b.classList.toggle('active', b.dataset.filter === preFilter ||
+      (preFilter === 'all' && b.dataset.filter === 'all'));
+  });
+
+  // Render iniziale
+  renderGallery(grid, GALLERY_DATA, galleryCategories, preFilter);
+
+  // Listener filtri
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderGallery(grid, GALLERY_DATA, galleryCategories, btn.dataset.filter);
+      // Aggiorna URL senza reload
+      const url = new URL(window.location);
+      if (btn.dataset.filter === 'all') {
+        url.searchParams.delete('cat');
+      } else {
+        url.searchParams.set('cat', btn.dataset.filter);
+      }
+      history.replaceState(null, '', url);
+    });
+  });
+});
+
+// Funzione di rendering gallery (usata da initGallery)
+function renderGallery(grid, data, categories, filter) {
   const items = filter === 'all'
     ? data
     : data.filter(item => item.category === filter);
 
-  const catsToShow = filter === 'all' ? categories : [filter];
+  grid.innerHTML = '';
 
-  galleryGrid.innerHTML = '';
-
-  // Real images
   items.forEach(item => {
     const div = document.createElement('div');
     div.className = 'gallery-item';
     div.dataset.category = item.category;
+    div.setAttribute('role', 'button');
+    div.setAttribute('tabindex', '0');
     div.innerHTML = `
       <img src="${item.src}" alt="${item.alt}" loading="lazy">
       <div class="gallery-item-overlay">
@@ -340,70 +407,39 @@ function renderGalleryData(data, categories, filter) {
           <span>${CATEGORY_LABELS[item.category] || item.category}</span>
         </div>
       </div>`;
-    galleryGrid.appendChild(div);
     const img = div.querySelector('img');
     div.addEventListener('click', () => openLightbox(img.src, img.alt));
-    div.setAttribute('role', 'button');
-    div.setAttribute('tabindex', '0');
+    div.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') openLightbox(img.src, img.alt);
+    });
+    grid.appendChild(div);
   });
 
-  // Placeholder cards for empty categories
-  catsToShow.forEach(cat => {
-    const catItems = data.filter(i => i.category === cat);
-    if (catItems.length === 0) {
-      const div = document.createElement('div');
-      div.className = 'gallery-placeholder-item';
-      div.dataset.category = cat;
-      div.innerHTML = `
-        <div class="ph-icon">${CATEGORY_ICONS[cat] || '📷'}</div>
-        <strong style="color:#C0C0C0;font-family:var(--font-heading)">${CATEGORY_LABELS[cat] || cat}</strong>
-        <p style="font-size:0.75rem;color:var(--color-gray)">Immagini in arrivo</p>`;
-      galleryGrid.appendChild(div);
-    }
+  // Nessun placeholder: se non ci sono foto la griglia rimane vuota
+}
+
+/* ============================================================
+   ACCORDION STANDARD FCI
+   ============================================================ */
+(function initFciAccordion() {
+  document.addEventListener('DOMContentLoaded', function() {
+    const toggles = document.querySelectorAll('.fci-toggle');
+    toggles.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        const body = btn.nextElementSibling;
+        const isOpen = btn.getAttribute('aria-expanded') === 'true';
+        // Chiudi tutti gli altri (comportamento accordion)
+        toggles.forEach(function(other) {
+          if (other !== btn) {
+            other.setAttribute('aria-expanded', 'false');
+            const otherBody = other.nextElementSibling;
+            if (otherBody) otherBody.classList.remove('open');
+          }
+        });
+        // Apri/chiudi quello cliccato
+        btn.setAttribute('aria-expanded', String(!isOpen));
+        if (body) body.classList.toggle('open', !isOpen);
+      });
+    });
   });
-}
-
-// Detect which page we are on and init accordingly
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
-
-if (galleryGrid) {
-  // Read optional ?cat= query param to pre-filter on load
-  const urlParams = new URLSearchParams(window.location.search);
-  const preFilter = urlParams.get('cat') || 'all';
-
-  if (currentPage === 'i-nostri-dobermann.html') {
-    // --- I NOSTRI DOBERMANN PAGE ---
-    const dobermannCategories = ['maschi', 'femmine', 'campioni', 'eventi'];
-    renderGalleryData(DOBERMANN_DATA, dobermannCategories, preFilter);
-
-    filterBtns.forEach(btn => {
-      // Highlight pre-selected filter button
-      if (btn.dataset.filter === preFilter) {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-      }
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        renderGalleryData(DOBERMANN_DATA, dobermannCategories, btn.dataset.filter);
-      });
-    });
-
-  } else {
-    // --- GALLERY PAGE ---
-    const galleryCategories = ['allevamento', 'proprietari'];
-    renderGalleryData(GALLERY_DATA, galleryCategories, preFilter);
-
-    filterBtns.forEach(btn => {
-      if (btn.dataset.filter === preFilter) {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-      }
-      btn.addEventListener('click', () => {
-        filterBtns.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        renderGalleryData(GALLERY_DATA, galleryCategories, btn.dataset.filter);
-      });
-    });
-  }
-}
+})();

@@ -1821,3 +1821,201 @@ p {
     letter-spacing: 0.02em;
   }
 }
+
+/* ============================================================
+   ACCORDION STANDARD FCI
+   ============================================================ */
+.fci-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+}
+
+.fci-item {
+  border: 1px solid rgba(184,115,51,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.02);
+  transition: border-color 0.3s ease;
+}
+
+.fci-item:hover { border-color: rgba(139,0,0,0.45); }
+.fci-item--squalifica { border-color: rgba(139,0,0,0.35); }
+
+.fci-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.4rem;
+  background: rgba(0,0,0,0.3);
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.25s ease;
+}
+
+.fci-toggle:hover,
+.fci-toggle[aria-expanded="true"] { background: rgba(139,0,0,0.15); }
+
+.fci-num {
+  font-family: 'Cinzel', serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-copper);
+  letter-spacing: 0.1em;
+  min-width: 2rem;
+  opacity: 0.85;
+}
+
+.fci-title {
+  flex: 1;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-white-pure);
+  letter-spacing: 0.02em;
+}
+
+.fci-arrow {
+  font-size: 0.7rem;
+  color: var(--color-copper);
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.fci-toggle[aria-expanded="true"] .fci-arrow { transform: rotate(180deg); }
+
+.fci-body {
+  display: none;
+  padding: 1.2rem 1.4rem 1.4rem;
+  border-top: 1px solid rgba(184,115,51,0.15);
+  background: rgba(0,0,0,0.15);
+}
+
+.fci-body.open {
+  display: block;
+  animation: fciSlideDown 0.3s ease;
+}
+
+@keyframes fciSlideDown {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fci-body p {
+  color: var(--color-gray-light, #ccc);
+  font-size: 0.93rem;
+  line-height: 1.75;
+  margin-bottom: 0.6rem;
+}
+
+.fci-body p:last-child { margin-bottom: 0; }
+
+.fci-sub {
+  margin-bottom: 1.1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.fci-sub:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+
+.fci-sub h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-copper);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.fci-body .breed-table { width: 100%; margin-top: 0.5rem; }
+
+@media (max-width: 600px) {
+  .fci-toggle { padding: 0.85rem 1rem; gap: 0.7rem; }
+  .fci-title { font-size: 0.9rem; }
+  .fci-body { padding: 1rem; }
+}
+
+/* ============================================================
+   FILTRI 7 CATEGORIE — I NOSTRI DOBERMANN
+   ============================================================ */
+.dogs-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.dogs-filter-btn {
+  padding: 0.55rem 1.1rem;
+  border: 1.5px solid rgba(139,0,0,0.4);
+  background: transparent;
+  color: var(--color-gray, #c0c0c0);
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+.dogs-filter-btn:hover {
+  border-color: #8B0000;
+  color: #fff;
+  background: rgba(139,0,0,0.15);
+}
+
+.dogs-filter-btn.active {
+  background: #8B0000;
+  border-color: #8B0000;
+  color: #fff;
+  box-shadow: 0 2px 12px rgba(139,0,0,0.35);
+}
+
+/* Card vuota — categoria senza contenuti */
+.dog-card--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 220px;
+  background: rgba(255,255,255,0.03);
+  border: 1.5px dashed rgba(139,0,0,0.3);
+  border-radius: 14px;
+}
+
+.dog-empty-placeholder {
+  text-align: center;
+  padding: 2rem;
+}
+
+.dog-empty-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.75rem;
+  opacity: 0.5;
+}
+
+.dog-empty-label {
+  color: var(--color-gray, #c0c0c0);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.dog-empty-sub {
+  color: rgba(192,192,192,0.5);
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .dogs-filter-btn {
+    font-size: 0.75rem;
+    padding: 0.45rem 0.85rem;
+  }
+}
