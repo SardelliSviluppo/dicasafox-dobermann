@@ -35,7 +35,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "Ade Di Casa Fox", gender: "maschio", category: "maschi",
+    name: "Ubaldo Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: Array.from({length: 6}, (_, i) => ({
       full:  `images/dobermann/maschi/ade-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/ade-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
@@ -123,13 +123,6 @@ const MASCHI = [
     photos: Array.from({length: 10}, (_, i) => ({
       full:  `images/dobermann/maschi/thiago-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
-    }))
-  },
-  {
-    name: "Ubaldo Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
-    photos: Array.from({length: 1}, (_, i) => ({
-      full:  `images/dobermann/maschi/ubaldo-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
-      thumb: `images/dobermann/maschi/ubaldo-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
     }))
   },
 ];
