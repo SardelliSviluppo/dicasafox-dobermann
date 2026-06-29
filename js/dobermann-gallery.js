@@ -56,7 +56,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "Ermes Di Casa Fox", gender: "maschio", category: "maschi", campione: true,
+    name: "Ermes Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: Array.from({length: 7}, (_, i) => ({
       full:  `images/dobermann/maschi/ermes-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/ermes-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

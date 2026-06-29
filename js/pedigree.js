@@ -1076,6 +1076,107 @@ discendenti: [],
 
   }, // fine Ubaldo Di Casa Fox
 
+  // ============================================================
+  // ERMES DI CASA FOX
+  // ============================================================
+  'Ermes Di Casa Fox': {
+
+    anagrafica: {
+      nome:         'Ermes Di Casa Fox',
+      roi:          'LO1416769',
+      razza:        'Dobermann',
+      mantello:     'Nero focato',
+      sesso:        'Maschio',
+      dataNascita:  '28 novembre 2013',
+      allevatore:   'Allevamento Di Casa Fox',
+      proprietario: 'Creatini Giovanni',
+      microchip:    '380260002167009',
+      tatuaggio:    ''
+    },
+
+    avvenimenti: [
+      { data: '7 marzo 2015',   tipo: 'CONTROLLO RADIOGRAFICO',       descrizione: 'Displasia anca HD.A (0)' },
+      { data: '5 luglio 2016',  tipo: 'DEPOSITO CAMPIONE BIOLOGICO',  descrizione: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+
+    risultati: [],
+
+    titoli: {
+      nazionali: [
+        { data: '9 giugno 2017', titolo: 'Campione Italiano di Bellezza' }
+      ],
+      internazionali: [],
+      speciali: []
+    },
+
+    discendenti: [],
+
+    pedigree: {
+      soggetto: { nome: 'Ermes Di Casa Fox', roi: 'LO1416769', titoli: 'CH IT', sesso: 'm' },
+
+      padre: {
+        nome: 'Xavi Del Monte Aspro', roi: 'LO1256670', sesso: 'm',
+        padre: {
+          nome: 'Dante Delle Querce Nere CH ITA', roi: 'LO09129658', sesso: 'm',
+          padre: {
+            nome: 'Pathos Delle Querce Nere CH', roi: 'LO0547687', sesso: 'm',
+            padre: { nome: 'Urbano Del Diamante Nero CH INT ITA', roi: 'LO0453422', sesso: 'm' },
+            madre: { nome: 'Ninette Delle Sinvessa',               roi: 'LO02103523', sesso: 'f' }
+          },
+          madre: {
+            nome: "Ca' Stellamaris Corinne", roi: 'LO065810', sesso: 'f',
+            padre: { nome: 'Leolevante Del Riobianco', roi: 'LO03110870', sesso: 'm' },
+            madre: { nome: 'Antares',                  roi: 'LO0128313',  sesso: 'f' }
+          }
+        },
+        madre: {
+          nome: 'Mora Del Monte Aspro', roi: 'LO0754123', sesso: 'f',
+          padre: {
+            nome: 'Valiantvaldes Del Citone', roi: 'LO0528317', sesso: 'm',
+            padre: { nome: 'Gelo Robis Golden CH RU IPO 3', roi: 'RKF1052860',  sesso: 'm' },
+            madre: { nome: 'Queenbee Del Citone',            roi: 'LO01118231', sesso: 'f' }
+          },
+          madre: {
+            nome: 'Lola Della Sinvessa', roi: 'LO0187611', sesso: 'f',
+            padre: { nome: 'Nitro Del Rio Bianco AIAD DV IDC SG BDJSG', roi: 'LO9914550', sesso: 'm' },
+            madre: { nome: 'Cocacola Della Sinvessa',                   roi: 'LO9892667', sesso: 'f' }
+          }
+        }
+      },
+
+      madre: {
+        nome: 'Schanel Di Casa Fox', roi: 'LO1163698', sesso: 'f',
+        padre: {
+          nome: 'Hero Di Casa Fox HD0', roi: 'LO08100422', sesso: 'm',
+          padre: {
+            nome: 'Zedor Del Nasi INTCH HD0 PHPV/HC0 RD0', roi: 'SLRD002747/JR700549', sesso: 'm',
+            padre: { nome: 'Baron Nike Renewal CH YU CACIB INTCH', roi: 'JR 75450 DOB', sesso: 'm' },
+            madre: { nome: 'Akuna-Matata De Grande Vinko CH RUS',  roi: 'SLR 002731',   sesso: 'f' }
+          },
+          madre: {
+            nome: 'Elisir Di Casa Fox HD0', roi: 'LO0593231', sesso: 'f',
+            padre: { nome: 'Battista Di Casa Fox CH I CH A.I.A.D ZTP 1', roi: 'LO0366679',  sesso: 'm' },
+            madre: { nome: 'Everzigova Di Poggiopiano HD-A CH',           roi: 'LO02140939', sesso: 'f' }
+          }
+        },
+        madre: {
+          nome: 'Irha Di Casa Fox', roi: 'LO08117811', sesso: 'f',
+          padre: {
+            nome: 'Grant Di Villa Conte CH I ZTP HD-A', roi: 'LO0078427', sesso: 'm',
+            padre: { nome: 'Nitro Del Rio Bianco AIAD DV IDC SG BDJSG', roi: 'LO9914550', sesso: 'm' },
+            madre: { nome: 'Petra Di Villa Conte HD-B',                  roi: 'LO9897701', sesso: 'f' }
+          },
+          madre: {
+            nome: 'Endora Di Casa Fox HD-A', roi: 'LO0593230', sesso: 'f',
+            padre: { nome: 'Battista Di Casa Fox CH I CH A.I.A.D ZTP 1', roi: 'LO0366679',  sesso: 'm' },
+            madre: { nome: 'Everzigova Di Poggiopiano HD-A CH',           roi: 'LO02140939', sesso: 'f' }
+          }
+        }
+      }
+    }
+
+  }, // fine Ermes Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
