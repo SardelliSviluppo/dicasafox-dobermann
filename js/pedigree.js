@@ -1220,6 +1220,127 @@ discendenti: [],
         classifica: '2\u00b0 classificato',
         certificati: '',
         giudice: 'Pezzano Pietro Gino'
+      },
+      {
+        data: '1 agosto 2009',
+        evento: 'European Dobermann Trophy',
+        localita: 'Austria',
+        giornata: '01.08.2009',
+        sottoprova: 'Classe Juniores',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0 European Jugen Trophy Winner',
+        certificati: '',
+        giudice: 'N. Daube \u00b7 E. Szokol'
+      },
+      {
+        data: '11 luglio 2009',
+        evento: 'Raduno Vergiate 2009',
+        localita: 'Vergiate',
+        giornata: '11.07.2009',
+        sottoprova: 'Speciale Intermedia Class',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0 \u00b7 Ris. C.A.C.',
+        certificati: 'Ris. C.A.C.',
+        giudice: 'Pezzano'
+      },
+      {
+        data: '21 giugno 2009',
+        evento: 'Campionato Sociale 2009',
+        localita: '',
+        giornata: '21.06.2009',
+        sottoprova: 'Classe Giovani',
+        qualifica: 'Eccellente',
+        classifica: '2\u00b0',
+        certificati: '',
+        giudice: 'Wiblishauser \u00b7 Pezzano \u00b7 E. Szokol'
+      },
+      {
+        data: '24 maggio 2009',
+        evento: 'Expo Internazionale di San Marino 2009',
+        localita: 'San Marino',
+        giornata: '24.05.2009',
+        sottoprova: 'Young Class',
+        qualifica: 'Eccellente',
+        classifica: '2\u00b0',
+        certificati: '',
+        giudice: ''
+      },
+      {
+        data: '10 maggio 2009',
+        evento: 'Expo Nazionale Pisa 2009',
+        localita: 'Pisa',
+        giornata: '10.05.2009',
+        sottoprova: 'Speciale Young Class',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0 \u00b7 Miglior Giovane Maschio',
+        certificati: '',
+        giudice: 'N. Corsini B.'
+      },
+      {
+        data: '3 maggio 2009',
+        evento: 'Expo Nazionale di Grosseto 2009',
+        localita: 'Grosseto',
+        giornata: '03.05.2009',
+        sottoprova: 'Young Class',
+        qualifica: 'Molto Buono',
+        classifica: '1\u00b0',
+        certificati: '',
+        giudice: ''
+      },
+      {
+        data: '26 aprile 2009',
+        evento: 'Expo Internazionale di Livorno 2009',
+        localita: 'Livorno',
+        giornata: '26.04.2009',
+        sottoprova: 'Young Class \u00b7 3\u00b0 Raggruppamento Giovani',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0 \u00b7 B.O.B.',
+        certificati: 'B.O.B.',
+        giudice: ''
+      },
+      {
+        data: '8 gennaio 2009',
+        evento: 'Test PHTVL/PHPV',
+        localita: '',
+        giornata: '08.01.2009',
+        sottoprova: '',
+        qualifica: 'Free',
+        classifica: 'PHTVL/PHPV Free',
+        certificati: '',
+        giudice: ''
+      },
+      {
+        data: '4 ottobre 2008',
+        evento: 'European Dog Show Budapest 2008',
+        localita: 'Budapest',
+        giornata: '04.10.2008',
+        sottoprova: 'Classe Junior',
+        qualifica: 'Eccellente',
+        classifica: '4\u00b0',
+        certificati: '',
+        giudice: ''
+      },
+      {
+        data: '3 settembre 2008',
+        evento: 'Trofeo Liguria 2008',
+        localita: 'Liguria',
+        giornata: '03.09.2008',
+        sottoprova: 'Classe Juniores',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0 Miglior Juniores',
+        certificati: '',
+        giudice: 'E. Szokol'
+      },
+      {
+        data: '5 giugno 2008',
+        evento: 'Campionato A.I.A.D. 2008',
+        localita: '',
+        giornata: '05.06.2008',
+        sottoprova: 'Classe Baby',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0',
+        certificati: '',
+        giudice: 'Pezzano'
       }
     ],
 
