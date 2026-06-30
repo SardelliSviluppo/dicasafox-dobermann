@@ -1169,6 +1169,336 @@ discendenti: [],
 
   }, // fine Ermes Di Casa Fox
 
+  // ============================================================
+  // IRON DI CASA FOX
+  // ============================================================
+  'Iron Di Casa Fox': {
+
+    anagrafica: {
+      nome:         'Iron Di Casa Fox ZTP 1-B, HD-A, IPO 1, DNA',
+      roi:          'LO08117806',
+      razza:        'Dobermann',
+      mantello:     'Nero focato',
+      sesso:        'Maschio',
+      nascita:      '4 gennaio 2008',
+      allevatore:   'Allevamento Di Casa Fox',
+      proprietario: 'Kedzierska Jowita',
+      microchip:    '981100000509138',
+      tatuaggio:    '',
+      stato:        ''
+    },
+
+    titoli: [],
+
+    avvenimenti: [
+      {
+        data: '10 dicembre 2012',
+        descrizione: 'Deposito campione biologico — Laboratorio Biotecnologie Genetiche dell\u2019Universit\u00e0 di Pisa',
+        luogo: ''
+      }
+    ],
+
+    risultati: [
+      {
+        data: '31 gennaio 2016',
+        evento: 'Raduno Nazionale',
+        localita: 'Campiglia Marittima (LI)',
+        giornata: '31 gennaio 2016',
+        sottoprova: 'Nr. catalogo: 85',
+        qualifica: 'Eccellente',
+        classifica: '1\u00b0 classificato',
+        certificati: '',
+        giudice: 'Polifrone Attilio'
+      },
+      {
+        data: '25 gennaio 2015',
+        evento: 'Raduno Nazionale',
+        localita: 'Campiglia Marittima (LI)',
+        giornata: '25 gennaio 2015',
+        sottoprova: 'Nr. catalogo: 78',
+        qualifica: 'Eccellente',
+        classifica: '2\u00b0 classificato',
+        certificati: '',
+        giudice: 'Pezzano Pietro Gino'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '7 ottobre 2009',
+        cuccioli: [
+          { roi: 'LO10127406', nome: 'Giuda Benhur Di Baia Nera', sesso: 'm' }
+        ]
+      },
+      {
+        data: '10 febbraio 2010',
+        cuccioli: [
+          { roi: 'LO10149690', nome: 'Ufana Ursalina De Grande Vinko', sesso: 'f' }
+        ]
+      },
+      {
+        data: '25 maggio 2010',
+        cuccioli: [
+          { roi: 'LO10113704', nome: 'Pamela Di Casa Fox',      sesso: 'f' },
+          { roi: 'LO10113702', nome: 'Petra Di Casa Fox',       sesso: 'f' },
+          { roi: 'LO10113699', nome: 'Puma Di Casa Fox',        sesso: 'f' },
+          { roi: 'LO10113705', nome: 'Penny Black Di Casa Fox', sesso: 'f' },
+          { roi: 'LO10113695', nome: 'Pancho Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO10113697', nome: 'Penelope Di Casa Fox',    sesso: 'f' }
+        ]
+      },
+      {
+        data: '21 novembre 2011',
+        cuccioli: [
+          { roi: 'LO1225196', nome: 'Giada Di Casa Gaia',  sesso: 'f' },
+          { roi: 'LO1225194', nome: 'Guapa Di Casa Gaia',  sesso: 'f' },
+          { roi: 'LO1225195', nome: 'Gamon Di Casa Gaia',  sesso: 'm' }
+        ]
+      },
+      {
+        data: '2 giugno 2012',
+        cuccioli: [
+          { roi: 'LO1276368', nome: "Gladio Dell'Orgoglio Nero",     sesso: 'm' },
+          { roi: 'LO1276370', nome: "Glamour Dell'Orgoglio Nero",    sesso: 'f' },
+          { roi: 'LO1276371', nome: "Ginevra Dell'Orgoglio Nero",    sesso: 'f' },
+          { roi: 'LO1276367', nome: "Gregory Dell'Orgoglio Nero",    sesso: 'm' },
+          { roi: 'LO1276375', nome: "Guendalina Dell'Orgoglio Nero", sesso: 'f' },
+          { roi: 'LO1276369', nome: "Gemma Dell'Orgoglio Nero",      sesso: 'f' }
+        ]
+      },
+      {
+        data: '3 ottobre 2012',
+        cuccioli: [
+          { roi: 'LO12162082', nome: "Berry Di Tamalu'",  sesso: 'f' },
+          { roi: 'LO12162081', nome: "Biuty Di Tamalu'",  sesso: 'f' }
+        ]
+      },
+      {
+        data: '14 ottobre 2012',
+        cuccioli: [
+          { roi: 'LO12163522', nome: 'Pimpa Yuma Dei Nobili Nati',   sesso: 'f' },
+          { roi: 'LO12163520', nome: 'Pachille Dei Nobili Nati',     sesso: 'm' },
+          { roi: 'LO12159794', nome: 'Zamira Di Casa Fox',           sesso: 'f' },
+          { roi: 'LO12163511', nome: 'Phanter Dei Nobili Nati',      sesso: 'm' },
+          { roi: 'LO12163523', nome: 'Peperina Pippa Dei Nobili Nati', sesso: 'f' },
+          { roi: 'LO12163517', nome: 'Parsi Dei Nobili Nati',        sesso: 'm' },
+          { roi: 'LO12159792', nome: 'Zell Di Casa Fox',             sesso: 'f' },
+          { roi: 'LO12159786', nome: 'Zico Di Casa Fox',             sesso: 'm' },
+          { roi: 'LO12163515', nome: 'Puch Dei Nobili Nati',         sesso: 'm' },
+          { roi: 'LO12159789', nome: 'Zorro Di Casa Fox',            sesso: 'm' },
+          { roi: 'LO12159787', nome: 'Zeus Di Casa Fox',             sesso: 'm' }
+        ]
+      },
+      {
+        data: '6 novembre 2012',
+        cuccioli: [
+          { roi: 'LO137114', nome: 'Daskarera Aishaladyluna', sesso: 'f' },
+          { roi: 'LO137112', nome: 'Anais',                   sesso: 'f' },
+          { roi: 'LO137109', nome: 'Airin',                   sesso: 'f' }
+        ]
+      },
+      {
+        data: '11 novembre 2012',
+        cuccioli: [
+          { roi: 'LO12156719', nome: "Icaro Dell'Orgoglio Nero",    sesso: 'm' },
+          { roi: 'LO12156730', nome: "Iary Dell'Orgoglio Nero",     sesso: 'm' },
+          { roi: 'LO12156736', nome: "Ivonne Dell'Orgoglio Nero",   sesso: 'f' },
+          { roi: 'LO12156723', nome: "Igor Dell'Orgoglio Nero",     sesso: 'm' },
+          { roi: 'LO12156728', nome: "Ivo Dell'Orgoglio Nero",      sesso: 'm' },
+          { roi: 'LO12156725', nome: "Icy Dell'Orgoglio Nero",      sesso: 'm' },
+          { roi: 'LO12156724', nome: "Ivory Dell'Orgoglio Nero",    sesso: 'm' },
+          { roi: 'LO12156737', nome: "Isabelle Dell'Orgoglio Nero", sesso: 'f' },
+          { roi: 'LO12156716', nome: "Indio Dell'Orgoglio Nero",    sesso: 'm' },
+          { roi: 'LO12156733', nome: "Ingrid Dell'Orgoglio Nero",   sesso: 'f' }
+        ]
+      },
+      {
+        data: '1 dicembre 2012',
+        cuccioli: [
+          { roi: 'LO1324573', nome: 'Iury Della Piancarda',    sesso: 'm' },
+          { roi: 'LO1324574', nome: 'Ice Della Piancarda',     sesso: 'm' },
+          { roi: 'LO1324580', nome: 'Ilaki Della Piancarda',   sesso: 'm' },
+          { roi: 'LO1324569', nome: 'Ilane Della Piancarda',   sesso: 'm' },
+          { roi: 'LO1324575', nome: 'Imera Della Piancarda',   sesso: 'f' },
+          { roi: 'LO1324577', nome: 'Iris Della Piancarda',    sesso: 'f' },
+          { roi: 'LO1324565', nome: 'Iron Della Piancarda',    sesso: 'm' },
+          { roi: 'LO1324576', nome: 'Ira Della Piancarda',     sesso: 'f' },
+          { roi: 'LO1324568', nome: 'Iceberg Della Piancarda', sesso: 'm' },
+          { roi: 'LO1324596', nome: 'Ilona Della Piancarda',   sesso: 'f' },
+          { roi: 'LO1324590', nome: 'Ivone Della Piancarda',   sesso: 'f' },
+          { roi: 'LO1324572', nome: 'Igor Della Piancarda',    sesso: 'm' }
+        ]
+      },
+      {
+        data: '27 dicembre 2012',
+        cuccioli: [
+          { roi: 'LO1333305', nome: 'Pandora Del Cesenate', sesso: 'f' },
+          { roi: 'LO1333308', nome: 'Patrick Del Cesenate', sesso: 'm' },
+          { roi: 'LO1333304', nome: 'Pilar Del Cesenate',   sesso: 'f' },
+          { roi: 'LO1333306', nome: 'Paco Del Cesenate',    sesso: 'm' }
+        ]
+      },
+      {
+        data: '7 gennaio 2013',
+        cuccioli: [
+          { roi: 'LO1311494', nome: "Kenia Dell'Orgoglio Nero",      sesso: 'f' },
+          { roi: 'LO1311479', nome: "Kaiser Iron Dell'Orgoglio Nero", sesso: 'm' },
+          { roi: 'LO1311480', nome: "Kiram Dago Dell'Orgoglio Nero", sesso: 'm' },
+          { roi: 'LO1311490', nome: "Kosmos Dell'Orgoglio Nero",     sesso: 'm' },
+          { roi: 'LO1311486', nome: "Konan Dell'Orgoglio Nero",      sesso: 'm' },
+          { roi: 'LO1311485', nome: "Kuma Dell'Orgoglio Nero",       sesso: 'm' },
+          { roi: 'LO1311493', nome: "Kaya Dell'Orgoglio Nero",       sesso: 'f' },
+          { roi: 'LO1311483', nome: "Kendo Dell'Orgoglio Nero",      sesso: 'm' },
+          { roi: 'LO1311488', nome: "Kronos Dell'Orgoglio Nero",     sesso: 'm' },
+          { roi: 'LO1311482', nome: "King Rocco Dell'Orgoglio Nero", sesso: 'm' },
+          { roi: 'LO1311491', nome: "Kiwi Dell'Orgoglio Nero",       sesso: 'm' },
+          { roi: 'LO1311492', nome: "Kelly Dell'Orgoglio Nero",      sesso: 'f' }
+        ]
+      },
+      {
+        data: '20 febbraio 2013',
+        cuccioli: [
+          { roi: 'LO1356326', nome: 'Einar Campagnanensis', sesso: 'm' }
+        ]
+      },
+      {
+        data: '13 marzo 2013',
+        cuccioli: [
+          { roi: 'LO1370405', nome: 'Sansone', sesso: 'm' },
+          { roi: 'LO1370404', nome: 'Vlad',    sesso: 'm' }
+        ]
+      },
+      {
+        data: '18 maggio 2013',
+        cuccioli: [
+          { roi: 'LO13107087', nome: 'Bach-Alifax Della Collina Degli Ulivi',   sesso: 'm' },
+          { roi: 'LO13107081', nome: 'Biorka-Kaska Della Collina Degli Ulivi',  sesso: 'f' },
+          { roi: 'LO13107083', nome: 'Bayron-Jivago Della Collina Degli Ulivi', sesso: 'm' },
+          { roi: 'LO13107084', nome: 'Byblos-Bri Jon Della Collina Degli Ulivi', sesso: 'm' },
+          { roi: 'LO13107086', nome: 'Blink-Oderik Della Collina Degli Ulivi',  sesso: 'm' },
+          { roi: 'LO13107080', nome: 'Beky-Jey Della Collina Degli Ulivi',      sesso: 'f' },
+          { roi: 'LO13107090', nome: 'Bairon-Boomer Della Collina Degli Ulivi', sesso: 'm' },
+          { roi: 'LO13107082', nome: 'Baron-Hide Della Collina Degli Ulivi',    sesso: 'm' },
+          { roi: 'LO13107074', nome: 'Betsy-Jane Della Collina Degli Ulivi',    sesso: 'f' },
+          { roi: 'LO13107085', nome: 'Blade-Grey Della Collina Degli Ulivi',    sesso: 'm' }
+        ]
+      },
+      {
+        data: '25 novembre 2013',
+        cuccioli: [
+          { roi: 'LO1423174', nome: 'Irha Campagnanensis',  sesso: 'f' },
+          { roi: 'LO1423169', nome: 'Iron Campagnanensis',  sesso: 'm' },
+          { roi: 'LO1423173', nome: 'I-Roy Campagnanensis', sesso: 'm' }
+        ]
+      },
+      {
+        data: '20 ottobre 2014',
+        cuccioli: [
+          { roi: 'LO14176969', nome: 'Black Kosmos Jose',  sesso: 'm' },
+          { roi: 'LO14176970', nome: 'Black Kosmos Juan',  sesso: 'm' },
+          { roi: 'LO14176972', nome: 'Black Kosmos Julia', sesso: 'f' },
+          { roi: 'LO14176973', nome: 'Black Kosmos Jamie', sesso: 'f' }
+        ]
+      },
+      {
+        data: '19 marzo 2015',
+        cuccioli: [
+          { roi: 'LO1576249', nome: 'Tequila Del Cesenate',                sesso: 'f' },
+          { roi: 'LO1576256', nome: 'Tamara Del Cesenate',                 sesso: 'f' },
+          { roi: 'LO1576260', nome: 'Thomas Del Cesenate',                 sesso: 'm' },
+          { roi: 'LO1576254', nome: 'Tasia Del Cesenate',                  sesso: 'f' },
+          { roi: 'LO1577107', nome: 'Apocalisse Della Nuova Villa Valori', sesso: 'm' },
+          { roi: 'LO1577112', nome: 'Adelante Antifa Della Nuova Villa Valori', sesso: 'f' },
+          { roi: 'LO1577120', nome: 'Aethan Della Nuova Villa Valori',     sesso: 'm' },
+          { roi: 'LO1576245', nome: 'Tosca Del Cesenate',                  sesso: 'f' },
+          { roi: 'LO1576258', nome: 'Tyson Del Cesenate',                  sesso: 'm' },
+          { roi: 'LO1577114', nome: 'Avana Della Nuova Villa Valori',      sesso: 'f' }
+        ]
+      },
+      {
+        data: '1 maggio 2015',
+        cuccioli: [
+          { roi: 'LO15129820', nome: 'Maya',  sesso: 'f' },
+          { roi: 'LO15129825', nome: 'Lara',  sesso: 'f' },
+          { roi: 'LO15128014', nome: 'Lex',   sesso: 'm' },
+          { roi: 'LO15128109', nome: 'Max',   sesso: 'm' },
+          { roi: 'LO15127919', nome: 'Aron',  sesso: 'm' },
+          { roi: 'LO15129823', nome: 'Sophia', sesso: 'f' },
+          { roi: 'LO15129819', nome: 'Kira',  sesso: 'f' },
+          { roi: 'LO15128104', nome: 'Athos', sesso: 'm' },
+          { roi: 'LO15128110', nome: 'Leon',  sesso: 'm' },
+          { roi: 'LO15127914', nome: 'Gamon', sesso: 'm' },
+          { roi: 'LO15128101', nome: 'Thor',  sesso: 'm' },
+          { roi: 'LO15129817', nome: 'Ira',   sesso: 'f' },
+          { roi: 'LO15127912', nome: 'Moon',  sesso: 'f' },
+          { roi: 'LO15128106', nome: 'Tyson', sesso: 'm' },
+          { roi: 'LO15127909', nome: 'Crono', sesso: 'm' }
+        ]
+      },
+      {
+        data: '25 giugno 2015',
+        cuccioli: [
+          { roi: 'LO15133185', nome: 'King Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO15133199', nome: 'Kassandra Di Casa Fox',      sesso: 'f' },
+          { roi: 'LO15133194', nome: 'Kenya Di Casa Fox',          sesso: 'f' },
+          { roi: 'LO15133192', nome: 'King Yago Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO15133177', nome: 'Kronos Di Casa Fox',         sesso: 'm' },
+          { roi: 'LO15133214', nome: 'Kristas Di Casa Fox',        sesso: 'f' },
+          { roi: 'LO15133222', nome: 'Kalifornia Joy Di Casa Fox', sesso: 'f' },
+          { roi: 'LO15133178', nome: 'Klay Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO15133201', nome: 'Kahalo Frida Di Casa Fox',   sesso: 'f' },
+          { roi: 'LO15133183', nome: 'King Amos Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO15133203', nome: 'Keyra Di Casa Fox',          sesso: 'f' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Iron Di Casa Fox ZTP 1-B, HD-A, IPO 1, DNA', roi: 'LO08117806', titoli: 'ZTP 1-B \u00b7 HD-A \u00b7 IPO 1 \u00b7 DNA', sesso: 'm' },
+
+      padre: { nome: 'Grant Di Villa Conte',       roi: 'LO0078427',  titoli: 'CH I \u00b7 ZTP \u00b7 HD-A', sesso: 'm' },
+      madre: { nome: 'Endora Di Casa Fox',          roi: 'LO0593230',  titoli: 'HD-A',                       sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Nitro Del Rio Bianco',          roi: 'LO9914550',  titoli: 'AIAD \u00b7 DV \u00b7 IDC SG', sesso: 'm' },
+        mp: { nome: 'Petra Di Villa Conte',          roi: 'LO9897701',  titoli: 'HD-B',                         sesso: 'f' },
+        pm: { nome: 'Battista Di Casa Fox',          roi: 'LO0366679',  titoli: 'CH I \u00b7 CH A.I.A.D. \u00b7 ZTP', sesso: 'm' },
+        mm: { nome: 'Everzigova Di Poggiopiano',     roi: 'LO02140939', titoli: 'HD-A \u00b7 CH',               sesso: 'f' },
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Nilo Del Rio Bianco',          roi: 'DS132577',     titoli: 'CH',                         sesso: 'm' },
+        mpp: { nome: 'Farah Del Riobianco',          roi: 'DS115088',     titoli: '',                           sesso: 'f' },
+        pmp: { nome: 'Graaf Vito V. Neerlands Stam', roi: 'NHSB2033689',  titoli: 'CH NED \u00b7 INT',          sesso: 'm' },
+        mmp: { nome: 'Morgana Di Villa Conte',       roi: 'DS145366',     titoli: '',                           sesso: 'f' },
+        ppm: { nome: 'Victor Di Casa Balestrieri',   roi: 'LO9928601',    titoli: 'HD1 \u00b7 CH',              sesso: 'm' },
+        mpm: { nome: 'Allison',                      roi: 'LO0060631',    titoli: '',                           sesso: 'f' },
+        pmm: { nome: 'Quillanqasim Del Citone',      roi: 'LO01118239',   titoli: '',                           sesso: 'm' },
+        mmm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802',   titoli: '',                           sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Nero Del Diamante Nero',      roi: 'DS108119',     titoli: 'CH',                         sesso: 'm' },
+        mppp: { nome: 'Athena Del Riobianco',        roi: 'DS105249',     titoli: '',                           sesso: 'f' },
+        pmpp: { nome: 'Graaf Quirinus V. Neerlands Stam', roi: 'ZZ6768370', titoli: 'NHSB',                    sesso: 'm' },
+        mmpp: { nome: 'Sophie Del Riobianco',        roi: 'DS092935',     titoli: 'CH',                         sesso: 'f' },
+        ppmp: { nome: 'Baron Bryan Vom Harrosberg',  roi: 'ZZ6952400',    titoli: 'NHSB',                       sesso: 'm' },
+        mpmp: { nome: 'Gravin Isis V. Neerlands Stam', roi: 'NHSB1797306', titoli: '',                          sesso: 'f' },
+        pmmp: { nome: 'Larson Royal-Bell',           roi: 'ZZ8581370',    titoli: 'CH I',                       sesso: 'm' },
+        mmmp: { nome: 'Mery Di Villa Conte',         roi: 'DS118857',     titoli: '',                           sesso: 'f' },
+        pppm: { nome: 'Cock Di Casa Balestrieri',    roi: '117189',       titoli: '',                           sesso: 'm' },
+        mppm: { nome: 'Elli Di Casa Balestrieri',    roi: 'DS137259',     titoli: '',                           sesso: 'f' },
+        pmpm: { nome: 'Firefox',                     roi: 'DS126736',     titoli: '',                           sesso: 'm' },
+        mmpm: { nome: 'Ladyhawk Del Montaldo',       roi: 'DS177173',     titoli: '',                           sesso: 'f' },
+        ppmm: { nome: 'Tigr Iz Slavnoi Stai',        roi: 'RKF0031707',   titoli: 'RUS \u00b7 CL CH',           sesso: 'm' },
+        mpmm: { nome: 'Katrinakristal Del Citone',   roi: 'LO9971414',    titoli: '',                           sesso: 'f' },
+        pmmm: { nome: 'Alfa Adelante Del Citone',    roi: 'DS144314',     titoli: 'BD \u00b7 DV \u00b7 EUR IDC', sesso: 'm' },
+        mmmm: { nome: 'Ghislaineginevra Di Acquanegra', roi: 'DS127799',  titoli: '',                           sesso: 'f' },
+      },
+    },
+
+  }, // fine Iron Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
