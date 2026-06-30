@@ -188,7 +188,7 @@ const FEMMINE = [
     }))
   },
   {
-    name: "Kora Di Casa Fox", gender: "femmina", category: "femmine", campione: true,
+    name: "Kora Di Casa Fox", gender: "femmina", category: "femmine", campione: true, hasPedigree: true,
     photos: Array.from({length: 13}, (_, i) => ({
       full:  `images/dobermann/femmine/kora-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/femmine/kora-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

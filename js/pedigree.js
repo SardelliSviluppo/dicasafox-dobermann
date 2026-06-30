@@ -1620,6 +1620,136 @@ discendenti: [],
 
   }, // fine Iron Di Casa Fox
 
+  // ============================================================
+  // KORA DI CASA FOX
+  // ============================================================
+  'Kora Di Casa Fox': {
+
+    anagrafica: {
+      nome:         'Kora Di Casa Fox',
+      roi:          'LO08135900',
+      razza:        'Dobermann',
+      mantello:     'Nero focato',
+      sesso:        'Femmina',
+      nascita:      '7 aprile 2008',
+      allevatore:   'Allevamento Di Casa Fox',
+      proprietario: 'Pucci Dario',
+      microchip:    '981100000520136',
+      tatuaggio:    '',
+      stato:        ''
+    },
+
+    titoli: [],
+
+    avvenimenti: [
+      {
+        data: '7 maggio 2010',
+        descrizione: 'Deposito campione biologico \u2014 Laboratorio Biotecnologie Genetiche dell\u2019Universit\u00e0 di Pisa',
+        luogo: ''
+      }
+    ],
+
+    risultati: [
+      {
+        data: '15 aprile 2012',
+        evento: 'Esposizione Internazionale',
+        localita: 'Livorno (LI)',
+        giornata: '15.04.2012',
+        sottoprova: 'Nr. catalogo: 71 \u00b7 Classe Lavoro',
+        qualifica: 'Eccellente',
+        classifica: '1\u00aa classificata',
+        certificati: 'CAC/R. CACIB',
+        giudice: 'Matakovic Boyan'
+      },
+      {
+        data: '14 aprile 2012',
+        evento: 'Esposizione Internazionale',
+        localita: 'Livorno (LI)',
+        giornata: '14.04.2012',
+        sottoprova: 'Nr. catalogo: 80 \u00b7 Classe Lavoro',
+        qualifica: 'Molto Buono',
+        classifica: '1\u00aa classificata',
+        certificati: '',
+        giudice: 'Perosino Guido'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '28 agosto 2010',
+        figli: [
+          { roi: 'LO10189950', nome: 'Quentin Di Casa Fox',  sesso: 'm' },
+          { roi: 'LO10189942', nome: 'Quick Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO10189980', nome: 'Ozoe Di Casa Fox',     sesso: 'f' },
+          { roi: 'LO10189977', nome: 'Quara Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO10189964', nome: 'Quinto Di Casa Fox',   sesso: 'm' },
+          { roi: 'LO10189940', nome: 'Qyankora Di Casa Fox', sesso: 'm' },
+          { roi: 'LO10189978', nome: 'Querida Di Casa Fox',  sesso: 'f' },
+          { roi: 'LO10189976', nome: 'Quanita Di Casa Fox',  sesso: 'f' }
+        ]
+      },
+      {
+        data: '28 settembre 2013',
+        figli: [
+          { roi: 'LO142421', nome: 'Duffy Di Casa Fox',       sesso: 'f' },
+          { roi: 'LO142412', nome: 'Dylan Dog Di Casa Fox',   sesso: 'm' },
+          { roi: 'LO142408', nome: 'Dandy Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO142417', nome: 'Dante Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO142438', nome: 'Dafne Di Casa Fox',       sesso: 'f' },
+          { roi: 'LO142410', nome: 'Donnie Darko Di Casa Fox', sesso: 'm' },
+          { roi: 'LO142440', nome: 'Dakota Di Casa Fox',      sesso: 'f' },
+          { roi: 'LO142419', nome: 'Dolly Pop Di Casa Fox',   sesso: 'f' },
+          { roi: 'LO142429', nome: 'Demy Di Casa Fox',        sesso: 'f' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Kora Di Casa Fox', roi: 'LO08135900', titoli: '', sesso: 'f' },
+
+      padre: { nome: 'Zordan Zewi Del Citone', roi: 'LO0530944', titoli: 'IDCSG \u00b7 AIADSG \u00b7 WS', sesso: 'm' },
+      madre: { nome: 'Ester Di Casa Fox',      roi: 'LO0593234', titoli: '',                              sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Gino Gomez Del Citone',    roi: 'LO9842928',    titoli: 'FH1 \u00b7 Camp. Mond.',       sesso: 'm' },
+        mp: { nome: 'Giada Di Villa Conte',     roi: 'LO0078451',    titoli: 'CH',                          sesso: 'f' },
+        pm: { nome: 'Battista Di Casa Fox',     roi: 'LO0366679',    titoli: 'CH I \u00b7 CH A.I.A.D. \u00b7 ZTP', sesso: 'm' },
+        mm: { nome: 'Everzigova Di Poggiopiano', roi: 'LO02140939',  titoli: 'HD-A \u00b7 CH',               sesso: 'f' },
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Astor Del Citone',             roi: 'DS144318',     titoli: 'ZTP \u00b7 SCHH3 \u00b7 HD0 \u00b7 IPO1', sesso: 'm' },
+        mpp: { nome: 'Arielle D\u2019Amour Del Citone', roi: 'DS144317', titoli: 'BDSG \u00b7 DVSG \u00b7 EU',  sesso: 'f' },
+        pmp: { nome: 'Nitro Del Rio Bianco',         roi: 'LO9914550',    titoli: 'AIAD \u00b7 DV \u00b7 IDC SG \u00b7 BDJSG', sesso: 'm' },
+        mmp: { nome: 'Petra Di Villa Conte',         roi: 'LO9897701',    titoli: 'HD-B',                    sesso: 'f' },
+        ppm: { nome: 'Victor Di Casa Balestrieri',   roi: 'LO9928601',    titoli: 'HD1 \u00b7 CH',            sesso: 'm' },
+        mpm: { nome: 'Allison',                      roi: 'LO0060631',    titoli: '',                        sesso: 'f' },
+        pmm: { nome: 'Quillanqasim Del Citone',      roi: 'LO01118239',   titoli: '',                        sesso: 'm' },
+        mmm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802',   titoli: '',                        sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Prinz Vom Norden Stamm',      roi: 'DS091001',     titoli: 'CH IT \u00b7 CH AIAD \u00b7 INT', sesso: 'm' },
+        mppp: { nome: 'Tequillamali Del Citone',     roi: 'DS106530',     titoli: 'BDSG \u00b7 DVSG \u00b7 IDCSG', sesso: 'f' },
+        pmpp: { nome: 'Prinz Vom Norden Stamm',      roi: 'DS091001',     titoli: 'CH IT \u00b7 CH AIAD \u00b7 INT', sesso: 'm' },
+        mmpp: { nome: 'Tequillamali Del Citone',     roi: 'DS106530',     titoli: 'BDSG \u00b7 DVSG \u00b7 IDCSG', sesso: 'f' },
+        ppmp: { nome: 'Nilo Del Rio Bianco',         roi: 'DS132577',     titoli: 'CH',                      sesso: 'm' },
+        mpmp: { nome: 'Farah Del Riobianco',         roi: 'DS115088',     titoli: '',                        sesso: 'f' },
+        pmmp: { nome: 'Graaf Vito V. Neerlands Stam', roi: 'NHSB2033689', titoli: 'CH NED \u00b7 INT',        sesso: 'm' },
+        mmmp: { nome: 'Morgana Di Villa Conte',      roi: 'DS145366',     titoli: '',                        sesso: 'f' },
+        pppm: { nome: 'Cock Di Casa Balestrieri',    roi: '117189',       titoli: '',                        sesso: 'm' },
+        mppm: { nome: 'Elli Di Casa Balestrieri',    roi: 'DS137259',     titoli: '',                        sesso: 'f' },
+        pmpm: { nome: 'Firefox',                     roi: 'DS126736',     titoli: '',                        sesso: 'm' },
+        mmpm: { nome: 'Ladyhawk Del Montaldo',       roi: 'DS177173',     titoli: '',                        sesso: 'f' },
+        ppmm: { nome: 'Tigr Iz Slavnoi Stai',        roi: 'RKF0031707',   titoli: 'RUS \u00b7 CL CH',        sesso: 'm' },
+        mpmm: { nome: 'Katrinakristal Del Citone',   roi: 'LO9971414',    titoli: '',                        sesso: 'f' },
+        pmmm: { nome: 'Alfa Adelante Del Citone',    roi: 'DS144314',     titoli: 'BD \u00b7 DV \u00b7 EUR IDC', sesso: 'm' },
+        mmmm: { nome: 'Ghislaineginevra Di Acquanegra', roi: 'DS127799',  titoli: '',                        sesso: 'f' },
+      },
+    },
+
+  }, // fine Kora Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
