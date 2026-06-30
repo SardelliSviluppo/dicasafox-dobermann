@@ -1639,7 +1639,18 @@ discendenti: [],
       stato:        ''
     },
 
-    titoli: [],
+    titoli: [
+      { titolo: 'Salute: HDA',                                              data: '' },
+      { titolo: 'ECO CARDIO negativo',                                       data: '16 aprile 2012' },
+      { titolo: 'PHTVL/PHPV 1',                                             data: '' },
+      { titolo: 'VW Carrier',                                               data: '' },
+      { titolo: 'EchoCardio Doppler negativo',                              data: '2014' },
+      { titolo: 'ZTP Germany 1\u00b0 MB',                                   data: '' },
+      { titolo: 'K\u00f6rung 2012 Germany 2B MB',                           data: '2012' },
+      { titolo: 'K\u00f6rung ZVA 2014 Germany 2A MB',                       data: '2014' },
+      { titolo: 'Working Cert \u2014 Internationale EXPO Livorno Working Class 1\u00b0 MB', data: '' },
+      { titolo: 'Working Cert \u2014 Internazionale EXPO Pisa Working Class 1\u00b0 Ecc Res. CACIB', data: '' }
+    ],
 
     avvenimenti: [
       {
