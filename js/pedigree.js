@@ -1226,19 +1226,19 @@ discendenti: [],
     discendenti: [
       {
         data: '7 ottobre 2009',
-        cuccioli: [
+        figli: [
           { roi: 'LO10127406', nome: 'Giuda Benhur Di Baia Nera', sesso: 'm' }
         ]
       },
       {
         data: '10 febbraio 2010',
-        cuccioli: [
+        figli: [
           { roi: 'LO10149690', nome: 'Ufana Ursalina De Grande Vinko', sesso: 'f' }
         ]
       },
       {
         data: '25 maggio 2010',
-        cuccioli: [
+        figli: [
           { roi: 'LO10113704', nome: 'Pamela Di Casa Fox',      sesso: 'f' },
           { roi: 'LO10113702', nome: 'Petra Di Casa Fox',       sesso: 'f' },
           { roi: 'LO10113699', nome: 'Puma Di Casa Fox',        sesso: 'f' },
@@ -1249,7 +1249,7 @@ discendenti: [],
       },
       {
         data: '21 novembre 2011',
-        cuccioli: [
+        figli: [
           { roi: 'LO1225196', nome: 'Giada Di Casa Gaia',  sesso: 'f' },
           { roi: 'LO1225194', nome: 'Guapa Di Casa Gaia',  sesso: 'f' },
           { roi: 'LO1225195', nome: 'Gamon Di Casa Gaia',  sesso: 'm' }
@@ -1257,7 +1257,7 @@ discendenti: [],
       },
       {
         data: '2 giugno 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO1276368', nome: "Gladio Dell'Orgoglio Nero",     sesso: 'm' },
           { roi: 'LO1276370', nome: "Glamour Dell'Orgoglio Nero",    sesso: 'f' },
           { roi: 'LO1276371', nome: "Ginevra Dell'Orgoglio Nero",    sesso: 'f' },
@@ -1268,14 +1268,14 @@ discendenti: [],
       },
       {
         data: '3 ottobre 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO12162082', nome: "Berry Di Tamalu'",  sesso: 'f' },
           { roi: 'LO12162081', nome: "Biuty Di Tamalu'",  sesso: 'f' }
         ]
       },
       {
         data: '14 ottobre 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO12163522', nome: 'Pimpa Yuma Dei Nobili Nati',   sesso: 'f' },
           { roi: 'LO12163520', nome: 'Pachille Dei Nobili Nati',     sesso: 'm' },
           { roi: 'LO12159794', nome: 'Zamira Di Casa Fox',           sesso: 'f' },
@@ -1291,7 +1291,7 @@ discendenti: [],
       },
       {
         data: '6 novembre 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO137114', nome: 'Daskarera Aishaladyluna', sesso: 'f' },
           { roi: 'LO137112', nome: 'Anais',                   sesso: 'f' },
           { roi: 'LO137109', nome: 'Airin',                   sesso: 'f' }
@@ -1299,7 +1299,7 @@ discendenti: [],
       },
       {
         data: '11 novembre 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO12156719', nome: "Icaro Dell'Orgoglio Nero",    sesso: 'm' },
           { roi: 'LO12156730', nome: "Iary Dell'Orgoglio Nero",     sesso: 'm' },
           { roi: 'LO12156736', nome: "Ivonne Dell'Orgoglio Nero",   sesso: 'f' },
@@ -1314,7 +1314,7 @@ discendenti: [],
       },
       {
         data: '1 dicembre 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO1324573', nome: 'Iury Della Piancarda',    sesso: 'm' },
           { roi: 'LO1324574', nome: 'Ice Della Piancarda',     sesso: 'm' },
           { roi: 'LO1324580', nome: 'Ilaki Della Piancarda',   sesso: 'm' },
@@ -1331,7 +1331,7 @@ discendenti: [],
       },
       {
         data: '27 dicembre 2012',
-        cuccioli: [
+        figli: [
           { roi: 'LO1333305', nome: 'Pandora Del Cesenate', sesso: 'f' },
           { roi: 'LO1333308', nome: 'Patrick Del Cesenate', sesso: 'm' },
           { roi: 'LO1333304', nome: 'Pilar Del Cesenate',   sesso: 'f' },
@@ -1340,7 +1340,7 @@ discendenti: [],
       },
       {
         data: '7 gennaio 2013',
-        cuccioli: [
+        figli: [
           { roi: 'LO1311494', nome: "Kenia Dell'Orgoglio Nero",      sesso: 'f' },
           { roi: 'LO1311479', nome: "Kaiser Iron Dell'Orgoglio Nero", sesso: 'm' },
           { roi: 'LO1311480', nome: "Kiram Dago Dell'Orgoglio Nero", sesso: 'm' },
@@ -1357,20 +1357,20 @@ discendenti: [],
       },
       {
         data: '20 febbraio 2013',
-        cuccioli: [
+        figli: [
           { roi: 'LO1356326', nome: 'Einar Campagnanensis', sesso: 'm' }
         ]
       },
       {
         data: '13 marzo 2013',
-        cuccioli: [
+        figli: [
           { roi: 'LO1370405', nome: 'Sansone', sesso: 'm' },
           { roi: 'LO1370404', nome: 'Vlad',    sesso: 'm' }
         ]
       },
       {
         data: '18 maggio 2013',
-        cuccioli: [
+        figli: [
           { roi: 'LO13107087', nome: 'Bach-Alifax Della Collina Degli Ulivi',   sesso: 'm' },
           { roi: 'LO13107081', nome: 'Biorka-Kaska Della Collina Degli Ulivi',  sesso: 'f' },
           { roi: 'LO13107083', nome: 'Bayron-Jivago Della Collina Degli Ulivi', sesso: 'm' },
@@ -1385,7 +1385,7 @@ discendenti: [],
       },
       {
         data: '25 novembre 2013',
-        cuccioli: [
+        figli: [
           { roi: 'LO1423174', nome: 'Irha Campagnanensis',  sesso: 'f' },
           { roi: 'LO1423169', nome: 'Iron Campagnanensis',  sesso: 'm' },
           { roi: 'LO1423173', nome: 'I-Roy Campagnanensis', sesso: 'm' }
@@ -1393,7 +1393,7 @@ discendenti: [],
       },
       {
         data: '20 ottobre 2014',
-        cuccioli: [
+        figli: [
           { roi: 'LO14176969', nome: 'Black Kosmos Jose',  sesso: 'm' },
           { roi: 'LO14176970', nome: 'Black Kosmos Juan',  sesso: 'm' },
           { roi: 'LO14176972', nome: 'Black Kosmos Julia', sesso: 'f' },
@@ -1402,7 +1402,7 @@ discendenti: [],
       },
       {
         data: '19 marzo 2015',
-        cuccioli: [
+        figli: [
           { roi: 'LO1576249', nome: 'Tequila Del Cesenate',                sesso: 'f' },
           { roi: 'LO1576256', nome: 'Tamara Del Cesenate',                 sesso: 'f' },
           { roi: 'LO1576260', nome: 'Thomas Del Cesenate',                 sesso: 'm' },
@@ -1417,7 +1417,7 @@ discendenti: [],
       },
       {
         data: '1 maggio 2015',
-        cuccioli: [
+        figli: [
           { roi: 'LO15129820', nome: 'Maya',  sesso: 'f' },
           { roi: 'LO15129825', nome: 'Lara',  sesso: 'f' },
           { roi: 'LO15128014', nome: 'Lex',   sesso: 'm' },
@@ -1437,7 +1437,7 @@ discendenti: [],
       },
       {
         data: '25 giugno 2015',
-        cuccioli: [
+        figli: [
           { roi: 'LO15133185', nome: 'King Di Casa Fox',           sesso: 'm' },
           { roi: 'LO15133199', nome: 'Kassandra Di Casa Fox',      sesso: 'f' },
           { roi: 'LO15133194', nome: 'Kenya Di Casa Fox',          sesso: 'f' },
