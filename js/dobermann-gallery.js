@@ -98,7 +98,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "Renoir Di Casa Fox", gender: "maschio", category: "maschi",
+    name: "Renoir Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: [{
       full:  "images/dobermann/maschi/renoir-di-casa-fox/foto_01.jpg",
       thumb: "images/dobermann/maschi/renoir-di-casa-fox/thumbs/foto_01.jpg"

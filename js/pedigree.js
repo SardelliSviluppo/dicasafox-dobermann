@@ -1915,6 +1915,98 @@ discendenti: [],
 
   }, // fine Edgar Di Casa Fox
 
+  // ============================================================
+  // RENOIR DI CASA FOX
+  // ============================================================
+  'Renoir Di Casa Fox': {
+
+    anagrafica: {
+      nome:         'Renoir Di Casa Fox',
+      roi:          'LO10189982',
+      razza:        'Dobermann',
+      mantello:     'Nero focato',
+      sesso:        'Maschio',
+      nascita:      '15 settembre 2010',
+      allevatore:   'Allevamento Di Casa Fox',
+      proprietario: 'Platone Domenico',
+      microchip:    '380260080066668',
+      tatuaggio:    '',
+      stato:        ''
+    },
+
+    titoli: [],
+
+    avvenimenti: [
+      { data: '12 gennaio 2012',  tipo: 'Controllo radiografico',      descrizione: 'Displasia anca HD.A (0)',                 luogo: '' },
+      { data: '21 marzo 2014',    tipo: 'Deposito campione biologico', descrizione: 'Laboratorio Vetogene - ENCI Servizi',       luogo: '' },
+    ],
+
+    risultati: [
+      { data: '22 novembre 2014',           tipo: 'Esposizione Internazionale', luogo: 'Latina (LT)',              classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '5 ottobre 2014',             tipo: 'Raduno Nazionale',           luogo: 'Mondragone (CE)',          classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '31 maggio - 1 giugno 2014',  tipo: 'Raduno Nazionale',           luogo: 'Montelibretti (RM)',       classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '27 ottobre 2013',            tipo: 'Raduno Nazionale',           luogo: 'Mondragone (CE)',          classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '8 - 9 giugno 2013',          tipo: 'Raduno Nazionale',           luogo: 'Montelibretti (RM)',       classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '5 maggio 2013',              tipo: 'Esposizione Internazionale', luogo: 'Ercolano (NA)',            classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '4 maggio 2013',              tipo: 'Esposizione Internazionale', luogo: 'Ercolano (NA)',            classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '27 gennaio 2013',            tipo: 'Raduno Nazionale',           luogo: 'Campiglia Marittima (LI)', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '14 - 16 settembre 2012',     tipo: 'Raduno Nazionale',           luogo: 'Tesero (TN)',              classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '16 giugno 2012',             tipo: 'Esposizione Internazionale', luogo: 'Terni (TR)',               classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '20 maggio 2012',             tipo: 'Esposizione Nazionale',      luogo: 'Telese Terme (BN)',        classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '6 maggio 2012',              tipo: 'Esposizione Internazionale', luogo: 'Ercolano (NA)',            classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '16 ottobre 2011',            tipo: 'Esposizione Internazionale', luogo: 'Campobasso (CB)',          classe: '', qualifica: '', classifica: '', certificati: '', giudice: '' },
+      { data: '',                           tipo: 'Prove di utilit\u00e0 e difesa', luogo: '',                   classe: '', qualifica: 'ZTP 1A', classifica: '', certificati: '', giudice: '' },
+      { data: '',                           tipo: 'Prove di utilit\u00e0 e difesa', luogo: '',                   classe: '', qualifica: 'ENCI 2', classifica: '', certificati: '', giudice: '' },
+    ],
+
+    discendenti: [],
+
+    pedigree: {
+      soggetto: { nome: 'Renoir Di Casa Fox', roi: 'LO10189982', titoli: '', sesso: 'm' },
+
+      padre: { nome: 'Hero Di Casa Fox',          roi: 'LO08100422', titoli: 'HD0',                sesso: 'm' },
+      madre: { nome: 'Reginaquanita Di Prisconte', roi: 'LO0875964',  titoli: '',                   sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Zedor Del Nasi',              roi: 'SLRD002747/JR700549', titoli: 'INTCH \u00b7 HD0 \u00b7 PHPV \u00b7 HC0 \u00b7 RD0 \u00b7 P', sesso: 'm' },
+        mp: { nome: 'Elisir Di Casa Fox',          roi: 'LO0593231',           titoli: 'HD0',                sesso: 'f' },
+        pm: { nome: 'Pathos Delle Querce Nere',    roi: 'LO0547687',           titoli: 'CH',                 sesso: 'm' },
+        mm: { nome: 'Ully Di Prisconte',           roi: 'LO0518840',           titoli: 'HDA',                sesso: 'f' },
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Baron Nike Renewal',         roi: 'JR 75450 DOB',  titoli: 'CH YU \u00b7 CACIB \u00b7 INTCH', sesso: 'm' },
+        mpp: { nome: 'Akuna-Matata De Grande Vinko', roi: 'SLR 002731',  titoli: 'CH RUS',             sesso: 'f' },
+        pmp: { nome: 'Battista Di Casa Fox',       roi: 'LO0366679',     titoli: 'CH I \u00b7 CH A.I.A.D. \u00b7 ZTP', sesso: 'm' },
+        mmp: { nome: 'Everzigova Di Poggiopiano',  roi: 'LO02140939',    titoli: 'HD-A \u00b7 CH',     sesso: 'f' },
+        ppm: { nome: 'Urbano Del Diamante Nero',   roi: 'LO0453422',     titoli: 'CH INT \u00b7 ITA',  sesso: 'm' },
+        mpm: { nome: 'Ninette Delle Sinvessa',     roi: 'LO02103523',    titoli: '',                   sesso: 'f' },
+        pmm: { nome: 'Heartless Di Prisconte',     roi: 'LO0261637',     titoli: 'ZTP \u00b7 HDA',    sesso: 'm' },
+        mmm: { nome: 'Enoir Di Prisconte',         roi: 'LO9892496',     titoli: '',                   sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Prinz Vom Norden Stamm',    roi: 'DS091001',      titoli: 'CH IT \u00b7 CH AIAD \u00b7 INT',  sesso: 'm' },
+        mppp: { nome: 'Borana Sawages',            roi: 'JR 71417 DOB',  titoli: 'CAC \u00b7 CACIB \u00b7 BOB \u00b7 PRM', sesso: 'f' },
+        pmpp: { nome: 'Tigr Iz Slavnoi Stai',      roi: 'RKF 0031707',   titoli: 'CH RUS',             sesso: 'm' },
+        mmpp: { nome: 'Ak-Yar Andromeda',          roi: 'UKU 004311/97', titoli: 'CH RUS \u00b7 IPO I', sesso: 'f' },
+        ppmp: { nome: 'Victor Di Casa Balestrieri', roi: 'LO9928601',    titoli: 'HD1 \u00b7 CH',      sesso: 'm' },
+        mpmp: { nome: 'Allison',                   roi: 'LO0060631',     titoli: '',                   sesso: 'f' },
+        pmmp: { nome: 'Quillanqasim Del Citone',   roi: 'LO01118239',    titoli: '',                   sesso: 'm' },
+        mmmp: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802', titoli: '',                   sesso: 'f' },
+        pppm: { nome: 'Victor Vito Del Rio Bianco', roi: 'LO0168484',    titoli: 'CH \u00b7 HD0',     sesso: 'm' },
+        mppm: { nome: 'Indiana Del Diamante Nero', roi: 'LO0052352',     titoli: 'CH',                 sesso: 'f' },
+        pmpm: { nome: 'Quillanqasim Del Citone',   roi: 'LO01118239',    titoli: '',                   sesso: 'm' },
+        mmpm: { nome: 'Cocacola Della Sinvessa',   roi: 'LO9892667',     titoli: '',                   sesso: 'f' },
+        ppmm: { nome: 'Gino Gomez Del Citone',     roi: 'LO9842928',     titoli: 'FH1 \u00b7 CAMPMOND F', sesso: 'm' },
+        mpmm: { nome: 'Oregina Di Prisconte',      roi: 'LO0034701',     titoli: 'CH',                 sesso: 'f' },
+        pmmm: { nome: 'Graaf Vito V. Neerlands Stam', roi: 'NHSB2033689', titoli: 'CH NED \u00b7 INT', sesso: 'm' },
+        mmmm: { nome: 'Rea Di Prisconte',          roi: 'DS165936',      titoli: '',                   sesso: 'f' },
+      },
+    },
+
+  }, // fine Renoir Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
