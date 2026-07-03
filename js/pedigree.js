@@ -1773,10 +1773,13 @@ discendenti: [],
       mantello:     'Black&Tan',
       sesso:        'Maschio',
       nascita:      '7 febbraio 1993',
+      luogo:        'Italia',
       allevatore:   'Luca Gori',
+      kennel:       'Della Fortezza Vecchia',
       proprietario: '',
       microchip:    '',
       tatuaggio:    '',
+      organizzazione: 'FCI',
       stato:        ''
     },
 
@@ -1793,7 +1796,49 @@ discendenti: [],
     risultati:   [],
     discendenti: [],
 
-    pedigree: null,
+    pedigree: {
+      soggetto: { nome: 'FireFox', roi: 'DS126736', titoli: 'Ch. IT \u00b7 Sieger AIAD 1996', sesso: 'm' },
+
+      padre: { nome: 'Orson V. Roveline',  roi: '',          titoli: '', sesso: 'm' },
+      madre: { nome: 'Daron',              roi: '',          titoli: '', sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Fela V. Franckenhorst',      roi: '', titoli: '', sesso: 'm' },
+        mp: { nome: 'Lema V. Roveline',           roi: '', titoli: '', sesso: 'f' },
+        pm: { nome: 'Iron Di Campovalano',        roi: 'DS099535', titoli: '', sesso: 'm' },
+        mm: { nome: 'Nat V. Roveline',            roi: '', titoli: '', sesso: 'f' },
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Vincent V. Franckenhorst',  roi: '', titoli: '', sesso: 'm' },
+        mpp: { nome: 'Pompie Dutch Dewi',         roi: '', titoli: '', sesso: 'f' },
+        pmp: { nome: 'Baron Bryan V. Harro\u2019s Berg', roi: '', titoli: '', sesso: 'm' },
+        mmp: { nome: 'Jenna V. Roveline',         roi: '', titoli: '', sesso: 'f' },
+        ppm: { nome: 'Merak Di Campovalano',      roi: '', titoli: '', sesso: 'm' },
+        mpm: { nome: 'Tula Dei Nobili Nati',      roi: 'DS080580', titoli: '', sesso: 'f' },
+        pmm: { nome: 'Lucifer V. Roveline',       roi: '', titoli: '', sesso: 'm' },
+        mmm: { nome: 'Schutz Gina',               roi: '', titoli: '', sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Nimrod-Hilo V. Franckenhorst', roi: '', titoli: '', sesso: 'm' },
+        mppp: { nome: 'Medina Dei Piani Di Praglia',  roi: '', titoli: '', sesso: 'f' },
+        pmpp: { nome: 'Salvador V. Franckenhorst',    roi: '', titoli: '', sesso: 'm' },
+        mmpp: { nome: 'Pompie Alcyone',               roi: '', titoli: '', sesso: 'f' },
+        ppmp: { nome: 'Baron Cesar V. Rensloo',       roi: '', titoli: '', sesso: 'm' },
+        mpmp: { nome: 'Vitesse V. Franckenhorst',     roi: '', titoli: '', sesso: 'f' },
+        pmmp: { nome: 'Hertog Alpha V. Le Dobry',     roi: '', titoli: '', sesso: 'm' },
+        mmmp: { nome: 'Hattie V. Roveline',           roi: '', titoli: '', sesso: 'f' },
+        pppm: { nome: 'Eltaipan Di Campovalano',      roi: '', titoli: '', sesso: 'm' },
+        mppm: { nome: 'Zuma Di Campovalano',          roi: 'DS076528', titoli: '', sesso: 'f' },
+        pmpm: { nome: 'Quinn Dei Nobili Nati',        roi: '', titoli: '', sesso: 'm' },
+        mmpm: { nome: 'Fashion Dei Nobili Nati',      roi: '', titoli: '', sesso: 'f' },
+        ppmm: { nome: 'Baron Bryan V. Harro\u2019s Berg', roi: '', titoli: '', sesso: 'm' },
+        mpmm: { nome: 'Jenna V. Roveline',            roi: '', titoli: '', sesso: 'f' },
+        pmmm: { nome: 'Kazou-Kher V. Roveline',       roi: '', titoli: '', sesso: 'm' },
+        mmmm: { nome: 'Jenna V. Roveline',            roi: '', titoli: '', sesso: 'f' },
+      },
+    },
 
   }, // fine FireFox
 
