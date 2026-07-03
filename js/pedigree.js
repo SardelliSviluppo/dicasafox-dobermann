@@ -374,7 +374,7 @@ discendenti: [],
         pppm: { nome: 'Cock Di Casa Balestrieri',      roi: '117189',        titoli: '',                         sesso: 'm' },
         mppm: { nome: 'Elli Di Casa Balestrieri',      roi: 'DS137259',      titoli: '',                         sesso: 'f' },
         // Discendenti di Allison
-        pmpm: { nome: 'Firefox',                       roi: 'DS126736',      titoli: '',                         sesso: 'm' },
+        pmpm: { nome: 'Firefox',                       roi: 'DS126736',      titoli: 'Ch. IT · Sieger AIAD 1996',                         sesso: 'm' },
         mmpm: { nome: 'Ladyhawk Del Montaldo',         roi: 'DS177173',      titoli: '',                         sesso: 'f' },
         // Discendenti di Quillanqasim
         ppmm: { nome: 'Tigr Iz Slavnoi Stai',          roi: 'RKF0031707',    titoli: 'CH RUS · CL CH',           sesso: 'm' },
@@ -714,7 +714,7 @@ discendenti: [],
       nonni: {
         pp: { nome: 'Cock Di Casa Balestrieri', roi: '117189',    titoli: '',  sesso: 'm' },
         mp: { nome: 'Elli Di Casa Balestrieri', roi: 'DS137259',  titoli: '',  sesso: 'f' },
-        pm: { nome: 'Firefox',                  roi: 'DS126736',  titoli: '',  sesso: 'm' },
+        pm: { nome: 'Firefox',                  roi: 'DS126736',  titoli: 'Ch. IT · Sieger AIAD 1996',  sesso: 'm' },
         mm: { nome: 'Ladyhawk Del Montaldo',    roi: 'DS177173',  titoli: '',  sesso: 'f' },
       },
 
@@ -725,7 +725,7 @@ discendenti: [],
         mmp: { nome: 'Verena',                  roi: 'DS087904',  titoli: '',             sesso: 'f' },
         ppm: { nome: 'Orson Van Roveline',      roi: 'DS113204',  titoli: '',             sesso: 'm' },
         mpm: { nome: 'Daron',                   roi: 'DS107341',  titoli: '',             sesso: 'm' },
-        pmm: { nome: 'Firefox',                 roi: 'DS126736',  titoli: '',             sesso: 'm' },
+        pmm: { nome: 'Firefox',                 roi: 'DS126736',  titoli: 'Ch. IT · Sieger AIAD 1996',             sesso: 'm' },
         mmm: { nome: 'Erica Del Montaldo',      roi: 'DS126792',  titoli: '',             sesso: 'f' },
       },
 
@@ -908,13 +908,13 @@ discendenti: [],
     pedigree: {
       soggetto: { nome: 'Ace', roi: 'LO0060616', titoli: 'CH IT', sesso: 'm' },
 
-      padre: { nome: 'Firefox',            roi: 'DS126736',  titoli: '',  sesso: 'm' },
+      padre: { nome: 'Firefox',            roi: 'DS126736',  titoli: 'Ch. IT · Sieger AIAD 1996',  sesso: 'm' },
       madre: { nome: 'Ladyhawk Del Montaldo', roi: 'DS177173', titoli: '', sesso: 'f' },
 
       nonni: {
         pp: { nome: 'Orson Van Roveline',      roi: 'DS113204',  titoli: '',  sesso: 'm' },
         mp: { nome: 'Daron',                   roi: 'DS107341',  titoli: '',  sesso: 'f' },
-        pm: { nome: 'Firefox',                 roi: 'DS126736',  titoli: '',  sesso: 'm' },
+        pm: { nome: 'Firefox',                 roi: 'DS126736',  titoli: 'Ch. IT · Sieger AIAD 1996',  sesso: 'm' },
         mm: { nome: 'Erica Del Montaldo',      roi: 'DS126792',  titoli: '',  sesso: 'f' },
       },
 
@@ -1609,7 +1609,7 @@ discendenti: [],
         mmmp: { nome: 'Mery Di Villa Conte',         roi: 'DS118857',     titoli: '',                           sesso: 'f' },
         pppm: { nome: 'Cock Di Casa Balestrieri',    roi: '117189',       titoli: '',                           sesso: 'm' },
         mppm: { nome: 'Elli Di Casa Balestrieri',    roi: 'DS137259',     titoli: '',                           sesso: 'f' },
-        pmpm: { nome: 'Firefox',                     roi: 'DS126736',     titoli: '',                           sesso: 'm' },
+        pmpm: { nome: 'Firefox',                     roi: 'DS126736',     titoli: 'Ch. IT · Sieger AIAD 1996',                           sesso: 'm' },
         mmpm: { nome: 'Ladyhawk Del Montaldo',       roi: 'DS177173',     titoli: '',                           sesso: 'f' },
         ppmm: { nome: 'Tigr Iz Slavnoi Stai',        roi: 'RKF0031707',   titoli: 'RUS \u00b7 CL CH',           sesso: 'm' },
         mpmm: { nome: 'Katrinakristal Del Citone',   roi: 'LO9971414',    titoli: '',                           sesso: 'f' },
@@ -1750,7 +1750,7 @@ discendenti: [],
         mmmp: { nome: 'Morgana Di Villa Conte',      roi: 'DS145366',     titoli: '',                        sesso: 'f' },
         pppm: { nome: 'Cock Di Casa Balestrieri',    roi: '117189',       titoli: '',                        sesso: 'm' },
         mppm: { nome: 'Elli Di Casa Balestrieri',    roi: 'DS137259',     titoli: '',                        sesso: 'f' },
-        pmpm: { nome: 'Firefox',                     roi: 'DS126736',     titoli: '',                        sesso: 'm' },
+        pmpm: { nome: 'Firefox',                     roi: 'DS126736',     titoli: 'Ch. IT · Sieger AIAD 1996',                        sesso: 'm' },
         mmpm: { nome: 'Ladyhawk Del Montaldo',       roi: 'DS177173',     titoli: '',                        sesso: 'f' },
         ppmm: { nome: 'Tigr Iz Slavnoi Stai',        roi: 'RKF0031707',   titoli: 'RUS \u00b7 CL CH',        sesso: 'm' },
         mpmm: { nome: 'Katrinakristal Del Citone',   roi: 'LO9971414',    titoli: '',                        sesso: 'f' },
@@ -1760,6 +1760,40 @@ discendenti: [],
     },
 
   }, // fine Kora Di Casa Fox
+
+  // ============================================================
+  // FIREFOX
+  // ============================================================
+  'Firefox': {
+
+    anagrafica: {
+      nome:         'Firefox',
+      roi:          'DS126736',
+      razza:        'Dobermann',
+      mantello:     '',
+      sesso:        'Maschio',
+      nascita:      '',
+      allevatore:   '',
+      proprietario: '',
+      microchip:    '',
+      tatuaggio:    '',
+      stato:        ''
+    },
+
+    titoli: [
+      { titolo: 'Ch. Italiano',                                data: '' },
+      { titolo: 'Sieger AIAD 1996',                            data: '1996' },
+      { titolo: 'DV Germania \u2014 1\u00b0 Classificato Classe Libera',    data: '' },
+      { titolo: 'DV Germania \u2014 1\u00b0 Classificato Classe Campioni',  data: '' }
+    ],
+
+    avvenimenti: [],
+    risultati:   [],
+    discendenti: [],
+
+    pedigree: null,
+
+  }, // fine Firefox
 
 }; // fine DOG_DB
 
