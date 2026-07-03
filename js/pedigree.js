@@ -1764,16 +1764,16 @@ discendenti: [],
   // ============================================================
   // FIREFOX
   // ============================================================
-  'Firefox': {
+  'FireFox': {
 
     anagrafica: {
-      nome:         'Firefox',
+      nome:         'FireFox',
       roi:          'DS126736',
       razza:        'Dobermann',
-      mantello:     '',
+      mantello:     'Black&Tan',
       sesso:        'Maschio',
-      nascita:      '',
-      allevatore:   '',
+      nascita:      '7 febbraio 1993',
+      allevatore:   'Luca Gori',
       proprietario: '',
       microchip:    '',
       tatuaggio:    '',
@@ -1781,19 +1781,21 @@ discendenti: [],
     },
 
     titoli: [
-      { titolo: 'Ch. Italiano',                                data: '' },
-      { titolo: 'Sieger AIAD 1996',                            data: '1996' },
+      { titolo: 'Ch. Italiano',                                          data: '' },
+      { titolo: 'Sieger AIAD 1996',                                      data: '1996' },
       { titolo: 'DV Germania \u2014 1\u00b0 Classificato Classe Libera',    data: '' },
       { titolo: 'DV Germania \u2014 1\u00b0 Classificato Classe Campioni',  data: '' }
     ],
 
-    avvenimenti: [],
+    avvenimenti: [
+      { data: '', descrizione: 'HD A', luogo: '' }
+    ],
     risultati:   [],
     discendenti: [],
 
     pedigree: null,
 
-  }, // fine Firefox
+  }, // fine FireFox
 
 }; // fine DOG_DB
 

@@ -63,7 +63,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "FireFox", gender: "maschio", category: "maschi", campione: true,
+    name: "FireFox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: Array.from({length: 3}, (_, i) => ({
       full:  `images/dobermann/maschi/firefox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/firefox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
