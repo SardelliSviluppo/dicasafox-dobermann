@@ -1842,6 +1842,79 @@ discendenti: [],
 
   }, // fine FireFox
 
+  // ============================================================
+  // EDGAR DI CASA FOX
+  // ============================================================
+  'Edgar Di Casa Fox': {
+
+    anagrafica: {
+      nome:         'Edgar Di Casa Fox',
+      roi:          'LO0593229',
+      razza:        'Dobermann',
+      mantello:     'Nero focato',
+      sesso:        'Maschio',
+      nascita:      '18 ottobre 2004',
+      allevatore:   'Allevamento Di Casa Fox',
+      proprietario: 'Allevamento Di Casa Fox',
+      microchip:    '',
+      tatuaggio:    '4SRD5',
+      stato:        ''
+    },
+
+    titoli: [
+      { data: '', titolo: 'Miglior ZTP 1A Ecc. Genova' }
+    ],
+
+    avvenimenti: [],
+    risultati:   [],
+    discendenti: [],
+
+    pedigree: {
+      soggetto: { nome: 'Edgar Di Casa Fox', roi: 'LO0593229', titoli: 'ZTP 1A', sesso: 'm' },
+
+      padre: { nome: 'Battista Di Casa Fox', roi: 'LO0366679', titoli: 'CH I \u00b7 CH A.I.A.D. \u00b7 ZTP', sesso: 'm' },
+      madre: { nome: 'Everzigova Di Poggiopiano', roi: 'LO02140939', titoli: 'HD-A \u00b7 CH', sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Victor Di Casa Balestrieri', roi: 'LO9928601',  titoli: 'HD1 \u00b7 CH',  sesso: 'm' },
+        mp: { nome: 'Allison',                   roi: 'LO0060631',  titoli: '',              sesso: 'f' },
+        pm: { nome: 'Quillanqasim Del Citone',   roi: 'LO01118239', titoli: '',              sesso: 'm' },
+        mm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802', titoli: '',           sesso: 'f' },
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Cock Di Casa Balestrieri',     roi: '117189',       titoli: '',                            sesso: 'm' },
+        mpp: { nome: 'Elli Di Casa Balestrieri',     roi: 'DS137259',     titoli: '',                            sesso: 'f' },
+        pmp: { nome: 'FireFox',                      roi: 'DS126736',     titoli: 'Ch. IT \u00b7 Sieger AIAD 1996', sesso: 'm' },
+        mmp: { nome: 'Ladyhawk Del Montaldo',        roi: 'DS177173',     titoli: '',                            sesso: 'f' },
+        ppm: { nome: 'Tigr Iz Slavnoi Stai',         roi: 'RKF0031707',   titoli: 'RUS \u00b7 CL CH',             sesso: 'm' },
+        mpm: { nome: 'Katrinakristal Del Citone',    roi: 'LO9971414',    titoli: '',                            sesso: 'f' },
+        pmm: { nome: 'Alfa Adelante Del Citone',     roi: 'DS144314',     titoli: 'BD \u00b7 DV \u00b7 EUR IDC',   sesso: 'm' },
+        mmm: { nome: 'Ghislaineginevra Di Acquanegra', roi: 'DS127799',   titoli: '',                            sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Gamon De Campovalano',         roi: '0977477',      titoli: 'CH \u00b7 SCHH1',             sesso: 'm' },
+        mppp: { nome: 'Verena',                       roi: 'DS087904',     titoli: '',                            sesso: 'f' },
+        pmpp: { nome: 'Gamon Di Campovalano',         roi: 'DS097477',     titoli: 'CH MOND \u00b7 J CH J I',      sesso: 'm' },
+        mmpp: { nome: 'Verena',                       roi: 'DS087904',     titoli: '',                            sesso: 'f' },
+        ppmp: { nome: 'Orson Van Roveline',           roi: 'DS113204',     titoli: '',                            sesso: 'm' },
+        mpmp: { nome: 'Daron',                        roi: 'DS107341',     titoli: '',                            sesso: 'f' },
+        pmmp: { nome: 'FireFox',                      roi: 'DS126736',     titoli: 'Ch. IT \u00b7 Sieger AIAD 1996', sesso: 'm' },
+        mmmp: { nome: 'Erica Del Montaldo',           roi: 'DS126792',     titoli: '',                            sesso: 'f' },
+        pppm: { nome: 'Ugor Di Villa Conte',          roi: 'DS127362',     titoli: 'CH ZTP \u00b7 INT \u00b7 IT \u00b7 LUX', sesso: 'm' },
+        mppm: { nome: 'Indira V. D. Rauberhohle',    roi: 'RKF0018800',   titoli: 'CH',                          sesso: 'f' },
+        pmpm: { nome: 'Astor Del Citone',             roi: 'DS144318',     titoli: 'ZTP \u00b7 SCHH3 \u00b7 HD0 \u00b7 IPO1', sesso: 'm' },
+        mmpm: { nome: 'Crystalconny Del Citone',      roi: 'DS161428',     titoli: '',                            sesso: 'f' },
+        ppmm: { nome: 'Prinz Vom Norden Stamm',       roi: 'DS091001',     titoli: 'CH IT \u00b7 CH AIAD \u00b7 INT',  sesso: 'm' },
+        mpmm: { nome: 'Tequilamali Del Citone',       roi: 'DS106530',     titoli: 'BDSG \u00b7 DVSG \u00b7 IDCSG',   sesso: 'f' },
+        pmmm: { nome: 'Rhesa Vom Franckenhorst',      roi: 'DS097852',     titoli: '',                            sesso: 'm' },
+        mmmm: { nome: 'Sierra Vom Franckenhorst',     roi: 'DS120218',     titoli: '',                            sesso: 'f' },
+      },
+    },
+
+  }, // fine Edgar Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
