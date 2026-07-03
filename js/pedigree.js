@@ -1934,7 +1934,10 @@ discendenti: [],
       stato:        ''
     },
 
-    titoli: [],
+    titoli: [
+      { data: '27 - 28 settembre 2014', titolo: 'Brevetto ENCI 2 - Qualifica B - Castellammare di Stabia (NA) - Giudice Marocchi Silvia' },
+      { data: '21 - 22 marzo 2014',     titolo: 'Brevetto ENCI 2 - Qualifica Squalificato - Cecina (LI) - Giudice Marocchi Silvia' },
+    ],
 
     avvenimenti: [
       { data: '12 gennaio 2012',  tipo: 'Controllo radiografico',      descrizione: 'Displasia anca HD.A (0)',                 luogo: '' },
@@ -1942,7 +1945,6 @@ discendenti: [],
     ],
 
     risultati: [
-      // — ESPOSIZIONI —
       { data: '22 novembre 2014',          evento: 'Esposizione Internazionale', localita: 'Latina (LT)',              giornata: '22 novembre 2014',          sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
       { data: '5 ottobre 2014',            evento: 'Raduno Nazionale',           localita: 'Mondragone (CE)',          giornata: '5 ottobre 2014',            sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
       { data: '31 maggio - 1 giugno 2014', evento: 'Raduno Nazionale',           localita: 'Montelibretti (RM)',       giornata: '31 maggio - 1 giugno 2014', sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
@@ -1956,31 +1958,6 @@ discendenti: [],
       { data: '20 maggio 2012',            evento: 'Esposizione Nazionale',      localita: 'Telese Terme (BN)',        giornata: '20 maggio 2012',            sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
       { data: '6 maggio 2012',             evento: 'Esposizione Internazionale', localita: 'Ercolano (NA)',            giornata: '6 maggio 2012',             sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
       { data: '16 ottobre 2011',           evento: 'Esposizione Internazionale', localita: 'Campobasso (CB)',          giornata: '16 ottobre 2011',           sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
-      // — PROVE —
-      {
-        data:       '27 - 28 settembre 2014',
-        evento:     'Prove di utilit\u00e0 e difesa',
-        localita:   'Castellammare di Stabia (NA)',
-        giornata:   '27 settembre 2014',
-        sottoprova: 'Brevetto ENCI 2',
-        qualifica:  'B',
-        classifica: '',
-        certificati: '',
-        giudice:    'Marocchi Silvia',
-        tipo:       'prova',
-      },
-      {
-        data:       '21 - 22 marzo 2014',
-        evento:     'Prove di utilit\u00e0 e difesa',
-        localita:   'Cecina (LI)',
-        giornata:   '22 marzo 2014',
-        sottoprova: 'Brevetto ENCI 2',
-        qualifica:  'Squalificato',
-        classifica: '',
-        certificati: '',
-        giudice:    'Marocchi Silvia',
-        tipo:       'prova',
-      },
     ],
 
     discendenti: [],
