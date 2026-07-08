@@ -91,7 +91,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "Wollas Di Casa Fox", gender: "maschio", category: "maschi",
+    name: "Wollas Di Casa Fox", gender: "maschio", category: "maschi", hasPedigree: true,
     photos: Array.from({length: 5}, (_, i) => ({
       full:  `images/dobermann/maschi/wollas-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/wollas-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

@@ -2199,6 +2199,109 @@ discendenti: [],
 
   }, // fine King Arthur Di Casa Fox
 
+  'Wollas Di Casa Fox': {
+    anagrafica: {
+      nome:        'Wollas Di Casa Fox',
+      roi:         'LO1266670',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Maschio',
+      nascita:     '23 aprile 2012',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '380260000629085',
+      tatuaggio:   '',
+      stato:       ''
+    },
+
+    titoli: [
+      { data: '3 maggio 2014', titolo: 'ZTP 1B Eccellente' }
+    ],
+
+    avvenimenti: [
+      {
+        data:        '25 maggio 2013',
+        tipo:        'Controllo radiografico',
+        descrizione: 'Controllo radiografico',
+        luogo:       'Displasia anca HD.A (0)'
+      }
+    ],
+
+    risultati: [
+      {
+        data:       '4 maggio 2014',
+        evento:     'Raduno Nazionale',
+        localita:   'Padova (PD)',
+        giornata:   '4 maggio 2014',
+        sottoprova: 'Nr. catalogo: 36 · Classe Libera',
+        qualifica:  'Eccellente',
+        classifica: '',
+        certificati:'',
+        giudice:    'Daube Norbert',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '3 maggio 2014',
+        evento:     'Prove di utilità e difesa',
+        localita:   'Mestre',
+        giornata:   '3 maggio 2014',
+        sottoprova: 'ZTP',
+        qualifica:  '1B - Eccellente',
+        classifica: '',
+        certificati:'',
+        giudice:    'Daube Norbert',
+        tipo:       'prova'
+      }
+    ],
+
+    discendenti: [],
+
+    pedigree: {
+      soggetto: { nome: 'Wollas Di Casa Fox', roi: 'LO1266670', titoli: '', sesso: 'm' },
+
+      padre: { nome: 'Tahi-Reme Max Roch',  roi: 'JR 705798 DOB', titoli: 'TAHI-REME MAX ROCH SRBCH BICH INTCH AI...', sesso: 'm' },
+      madre: { nome: 'Holly Di Casa Fox',   roi: 'LO08100447',    titoli: '',                                          sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Pride Of Russia Ferro',  roi: 'RKF 2122671',         titoli: 'CH INT CH RUS RO M...', sesso: 'm' },
+        mp: { nome: 'Tahi-Reme Giniti C.I.B.',roi: 'MET/DOB.5799/04',     titoli: 'C.I.B. CH H GRCH H', sesso: 'f' },
+        pm: { nome: 'Zedor Del Nasi',         roi: 'SLRD002747/JR700549', titoli: 'INTCH,HD0,PHPV/HC0,RD0,P...', sesso: 'm' },
+        mm: { nome: 'Elisir Di Casa Fox',     roi: 'LO0593231',            titoli: 'HD0',                  sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Urbano Del Diamante Nero',  roi: 'LO0453422',    titoli: 'CH INT ITA',              sesso: 'm' },
+        mpp: { nome: 'Sharon Iz Zoosfery',        roi: 'RKF 1534782',  titoli: 'CH INT RUS GRAND RK...', sesso: 'f' },
+        pmp: { nome: 'Gino Gomez Del Citone',     roi: 'LO9842928',    titoli: 'FH1- CAMP.MOND F...',    sesso: 'm' },
+        mmp: { nome: 'Tahi-Reme Triniti',         roi: 'MET.DOB.4103/01', titoli: 'JCH HR, SR, CH HR, SR, EW...', sesso: 'f' },
+        ppm: { nome: 'Baron Nike Renewal',        roi: 'JR 75450 DOB', titoli: 'CH YU CACIB INTCH',      sesso: 'm' },
+        mpm: { nome: 'Akuna-Matata De Grande Vinko', roi: 'SLR 002731', titoli: 'CH RUS',                 sesso: 'f' },
+        pmm: { nome: 'Battista Di Casa Fox',      roi: 'LO0366679',    titoli: 'CH I, CH A.I.A.D, ZTP 1-...', sesso: 'm' },
+        mmm: { nome: 'Everzigova Di Poggiopiano', roi: 'LO02140939',   titoli: 'HD-A CH',                 sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Victor Vito Del Rio Bianco',   roi: 'LO0168484',    titoli: 'CH HD0',              sesso: 'm' },
+        mppp: { nome: 'Indiana Del Diamante Nero',    roi: 'LO0052352',    titoli: 'CH',                  sesso: 'f' },
+        pmpp: { nome: 'Pimm\'s Number One Iz Doma Domeni', roi: 'RKF1322940', titoli: 'CH J ...',        sesso: 'm' },
+        mmpp: { nome: 'Mo De Stang-Zu',               roi: 'LOF056858',    titoli: 'CH INT RUS RKF UKR EST LA...', sesso: 'f' },
+        ppmp: { nome: 'Astor Del Citone',             roi: 'DS144318',     titoli: 'ZTP SCHH3 HD0 ZTP IPO1', sesso: 'm' },
+        mpmp: { nome: 'Arielle D\'Amour Del Citone',  roi: 'DS144317',     titoli: 'BDSG DVSG EU...',     sesso: 'f' },
+        pmmp: { nome: 'Victor Di Casa Balestrieri',   roi: 'LO9928601',    titoli: 'HD1CH',               sesso: 'm' },
+        mmmp: { nome: 'Tahi-Reme Ibiza',              roi: '6/98',         titoli: 'HCH BOB 4CAC RCAC MKSZ ...', sesso: 'f' },
+        pppm: { nome: 'Prinz Vom Norden Stamm',       roi: 'DS091001',     titoli: 'CH IT CH AIAD IN...', sesso: 'm' },
+        mppm: { nome: 'Borana Sawages',               roi: 'JR 71417 DOB', titoli: 'CAC CACIB BOB PRM',   sesso: 'f' },
+        pmpm: { nome: 'Tigr Iz Slavnoi Stai',         roi: 'RKF 0031707',  titoli: 'CH RUS CH',           sesso: 'm' },
+        mmpm: { nome: 'Ak-Yar Andromeda',             roi: 'UKU 004311/97', titoli: 'CH RUS IPO I',       sesso: 'f' },
+        ppmm: { nome: 'Victor Di Casa Balestrieri',   roi: 'LO9928601',    titoli: 'HD1CH',               sesso: 'm' },
+        mpmm: { nome: 'Allison',                      roi: 'LO00060631',   titoli: '',                    sesso: 'f' },
+        pmmm: { nome: 'Quillanqasim Del Citone',      roi: 'LO001118239',  titoli: '',                    sesso: 'm' },
+        mmmm: { nome: 'Brigittebardot Di Poggiopiano',roi: 'LO9966802',    titoli: '',                    sesso: 'f' }
+      }
+    }
+
+  }, // fine Wollas Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
