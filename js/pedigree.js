@@ -2677,6 +2677,132 @@ discendenti: [],
 
   }, // fine Allison
 
+  'Bleky Spirit Di Casa Fox': {
+    anagrafica: {
+      nome:        'Bleky Spirit Di Casa Fox',
+      roi:         'LO13143719',
+      razza:       'Dobermann',
+      mantello:    'Marrone focato',
+      sesso:       'Femmina',
+      nascita:     '4 settembre 2013',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '380260002176319',
+      tatuaggio:   '',
+      stato:       ''
+    },
+
+    titoli: [
+      { data: '2 novembre 2016', titolo: 'Campione Italiano di Bellezza' },
+      { data: '',                titolo: 'Ch. AIAD' }
+    ],
+
+    avvenimenti: [
+      { data: '24 maggio 2015',    descrizione: 'ZTP',                        luogo: '' },
+      { data: '22 novembre 2015',  descrizione: 'Brevetto 2',                 luogo: '' },
+      { data: '25 novembre 2014',  descrizione: 'Controllo radiografico',     luogo: 'Displasia anca HD.A (0)' },
+      { data: '5 settembre 2016',  descrizione: 'Deposito campione biologico',luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+
+    risultati: [
+      { data: '25 febbraio 2018',      evento: 'Raduno Nazionale',          localita: 'Campi Bisenzio (FI)',         giornata: '25 febbraio 2018',      sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '1 ottobre 2017',        evento: 'Raduno Nazionale',          localita: 'Cardano Al Campo (VA)',       giornata: '1 ottobre 2017',        sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '30 aprile 2017',        evento: 'Raduno Nazionale',          localita: 'Camposampiero (PD)',          giornata: '30 aprile 2017',        sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '17 - 18 settembre 2016',evento: 'Raduno Nazionale',          localita: 'Cavallese (TN)',              giornata: '17 - 18 settembre 2016',sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '10 luglio 2016',        evento: 'Raduno Nazionale',          localita: 'Laveno-Mombello (VA)',        giornata: '10 luglio 2016',        sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '25 aprile 2016',        evento: 'Raduno Nazionale',          localita: 'Camposampiero (PD)',          giornata: '25 aprile 2016',        sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '20 marzo 2016',         evento: 'Esposizione Internazionale',localita: "Reggio nell'Emilia (RE)",    giornata: '20 marzo 2016',         sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '19 marzo 2016',         evento: 'Esposizione Internazionale',localita: "Reggio nell'Emilia (RE)",    giornata: '19 marzo 2016',         sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '18 marzo 2016',         evento: 'Esposizione Internazionale',localita: "Reggio nell'Emilia (RE)",    giornata: '18 marzo 2016',         sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '31 gennaio 2016',       evento: 'Raduno Nazionale',          localita: 'Campiglia Marittima (LI)',    giornata: '31 gennaio 2016',       sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '5 ottobre 2014',        evento: 'Raduno Nazionale',          localita: 'Mondragone (CE)',             giornata: '5 ottobre 2014',        sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '29 giugno 2014',        evento: 'Raduno Nazionale',          localita: 'Bernate Ticino (MI)',         giornata: '29 giugno 2014',        sottoprova: '', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '21 - 22 novembre 2015', evento: 'Prove di utilità e difesa', localita: 'Pomezia (RM)',               giornata: '22 novembre 2015',      sottoprova: 'Brevetto ENCI 2', numeroCatalogo: '', classe: '', qualifica: 'MB',              classifica: '', certificati: '', giudice: 'Grosso Clemente Giorgio', tipo: 'prova' },
+      { data: '25 aprile 2015',        evento: 'Prove di utilità e difesa', localita: 'Favaro Veneto',              giornata: '25 aprile 2015',        sottoprova: 'ZTP',           numeroCatalogo: '', classe: '', qualifica: '1A - Eccellente',  classifica: '', certificati: '', giudice: 'Daube Norbert',          tipo: 'prova' }
+    ],
+
+    discendenti: [
+      {
+        data: '25 giugno 2015',
+        figli: [
+          { roi: 'LO15133185', nome: 'King Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO15133199', nome: 'Kassandra Di Casa Fox',      sesso: 'f' },
+          { roi: 'LO15133194', nome: 'Kenya Di Casa Fox',          sesso: 'f' },
+          { roi: 'LO15133192', nome: 'King Yago Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO15133177', nome: 'Kronos Di Casa Fox',         sesso: 'm' },
+          { roi: 'LO15133214', nome: 'Kristas Di Casa Fox',        sesso: 'f' },
+          { roi: 'LO15133222', nome: 'Kalifornia Joy Di Casa Fox', sesso: 'f' },
+          { roi: 'LO15133183', nome: 'King Amos Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO15133203', nome: 'Keyra Di Casa Fox',          sesso: 'f' },
+          { roi: 'LO15133178', nome: 'Klay Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO15133201', nome: 'Kahalo Frida Di Casa Fox',   sesso: 'f' }
+        ]
+      },
+      {
+        data: '22 novembre 2016',
+        figli: [
+          { roi: 'LO1723809', nome: 'Quentin Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO1723823', nome: 'Q-Tip Di Casa Fox',         sesso: 'm' },
+          { roi: 'LO1723757', nome: 'Quintilio Di Casa Fox',     sesso: 'm' },
+          { roi: 'LO1723830', nome: 'Quiz Di Casa Fox',          sesso: 'm' },
+          { roi: 'LO1723796', nome: 'Quirino Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO1723826', nome: 'Quad Di Casa Fox',          sesso: 'm' },
+          { roi: 'LO1723836', nome: 'Quira Di Casa Fox',         sesso: 'f' },
+          { roi: 'LO1723909', nome: 'Quorry Di Casa Fox',        sesso: 'f' },
+          { roi: 'LO1723783', nome: 'Quastor Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO1723788', nome: 'Quicky Di Casa Fox',        sesso: 'm' },
+          { roi: 'LO1723780', nome: 'Quintus Zeno Di Casa Fox',  sesso: 'm' },
+          { roi: 'LO1723786', nome: 'Quantas Di Casa Fox',       sesso: 'm' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Bleky Spirit Di Casa Fox', roi: 'LO13143719', titoli: '', sesso: 'f' },
+
+      padre: { nome: 'Alea By The Sea',  roi: 'WS29892705', titoli: 'CH INT AZ MO BH', sesso: 'm' },
+      madre: { nome: 'Emily',            roi: 'LO1072227',  titoli: '',                sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Trotyl De Black Shadow', roi: 'WS15354101',          titoli: 'CH US',   sesso: 'm' },
+        mp: { nome: 'Betelges Sienna',        roi: 'WS28327501',          titoli: '',        sesso: 'f' },
+        pm: { nome: 'Hero Di Casa Fox',       roi: 'LO08100422',          titoli: 'HD0',     sesso: 'm' },
+        mm: { nome: 'Brenda',                 roi: 'LO0719008',           titoli: '',        sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Inaqui De Black Shadow',      roi: 'WS14985401',           titoli: 'CH',  sesso: 'm' },
+        mpp: { nome: 'Jessy De Vulcano',            roi: 'FCA27561',             titoli: '',    sesso: 'f' },
+        pmp: { nome: 'Zedor Del Nasi',              roi: 'SLRD002747/JR700549',  titoli: 'INTCH,HD0,PHPV/HC0,RD0,P...', sesso: 'm' },
+        mmp: { nome: 'Holly Del Nasi',              roi: 'JR700360',             titoli: 'CAC HD-B ZTP', sesso: 'f' },
+        ppm: { nome: 'Zedor Del Nasi',              roi: 'SLRD002747/JR700549',  titoli: 'INTCH,HD0,PHPV/HC0,RD0,P...', sesso: 'm' },
+        mpm: { nome: 'Elisir Di Casa Fox',          roi: 'LO0593231',            titoli: 'HD0', sesso: 'f' },
+        pmm: { nome: 'Ferrofarah-Gomez Di Campovalano', roi: 'LO0278726',        titoli: 'RCAC ...', sesso: 'm' },
+        mmm: { nome: 'Nice Campagnanensis',         roi: 'LO0413269',            titoli: '',    sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Nello\'s Lex Luthor',           roi: 'FCA/24953',      titoli: 'CH',              sesso: 'm' },
+        mppp: { nome: 'Cindy De Black Shadow',         roi: 'FCA26005',       titoli: '',                sesso: 'f' },
+        pmpp: { nome: 'Marienburg\'s Argus Wind Magic', roi: 'CBKC GPB/94/00',titoli: '',                sesso: 'm' },
+        mmpp: { nome: 'Cora Mia De Vulcano',           roi: 'FCA24718',       titoli: '',                sesso: 'f' },
+        ppmp: { nome: 'Baron Nike Renewal',            roi: 'JR 75450 DOB',   titoli: 'CH YU CACIB INTCH',sesso: 'm' },
+        mpmp: { nome: 'Akuna-Matata De Grande Vinko',  roi: 'SLR 002731',     titoli: 'CH RUS',          sesso: 'f' },
+        pmmp: { nome: 'Embargo Betelges',              roi: '79884DOB',       titoli: 'Bob',             sesso: 'm' },
+        mmmp: { nome: 'Wallis Niki Of Tanderberg',     roi: 'JR 77899 DOB',   titoli: 'IPO1 CAC CACIB',  sesso: 'f' },
+        pppm: { nome: 'Baron Nike Renewal',            roi: 'JR 75450 DOB',   titoli: 'CH YU CACIB INTCH',sesso: 'm' },
+        mppm: { nome: 'Akuna-Matata De Grande Vinko',  roi: 'SLR 002731',     titoli: 'CH RUS',          sesso: 'f' },
+        pmpm: { nome: 'Battista Di Casa Fox',          roi: 'LO0366679',      titoli: 'CH I, CH A.I.A.D, ZTP 1-A, HD-A', sesso: 'm' },
+        mmpm: { nome: 'Everzigova Di Poggiopiano',     roi: 'LO02140939',     titoli: 'HD-A CH',         sesso: 'f' },
+        ppmm: { nome: 'Gino Gomez Del Citone',         roi: 'LO9842928',      titoli: 'FH1- CAMP.MOND F...', sesso: 'm' },
+        mpmm: { nome: 'Farah Di Campovalano',          roi: 'LO98116856',     titoli: 'CH',              sesso: 'f' },
+        pmmm: { nome: 'Gemini Ginga House',            roi: 'JRSP78549DOB',   titoli: '',                sesso: 'm' },
+        mmmm: { nome: 'Nensis Campagna Nensis',        roi: 'LO9816214',      titoli: '',                sesso: 'f' }
+      }
+    }
+
+  }, // fine Bleky Spirit Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)

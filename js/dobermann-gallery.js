@@ -139,7 +139,7 @@ const FEMMINE = [
     }]
   },
   {
-    name: "Blacky Spirit Di Casa Fox", gender: "femmina", category: "femmine", campione: true,
+    name: "Bleky Spirit Di Casa Fox", gender: "femmina", category: "femmine", campione: true, hasPedigree: true,
     photos: Array.from({length: 6}, (_, i) => ({
       full:  `images/dobermann/femmine/blacky-spirit-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/femmine/blacky-spirit-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
