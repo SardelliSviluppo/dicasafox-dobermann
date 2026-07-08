@@ -84,7 +84,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "King Artur Di Casa Fox", gender: "maschio", category: "maschi", campione: true,
+    name: "King Arthur Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: Array.from({length: 5}, (_, i) => ({
       full:  `images/dobermann/maschi/king-artur-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/king-artur-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

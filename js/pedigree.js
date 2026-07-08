@@ -2094,6 +2094,111 @@ discendenti: [],
 
   }, // fine Horus Di Casa Fox
 
+  'King Arthur Di Casa Fox': {
+    anagrafica: {
+      nome:        'King Arthur Di Casa Fox',
+      roi:         'LO08135892',
+      razza:       'Dobermann',
+      mantello:    'Marrone focato',
+      sesso:       'Maschio',
+      nascita:     '7 aprile 2008',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Ghirardi Pierina',
+      microchip:   '981100000515492',
+      tatuaggio:   '',
+      stato:       ''
+    },
+
+    titoli: [
+      { data: '9 maggio 2012',  titolo: 'Campione Italiano di Bellezza' },
+      { data: '7 agosto 2013',  titolo: 'Campione Internazionale di Bellezza' },
+      { data: '',               titolo: 'ZTP 1A Eccellente' }
+    ],
+
+    avvenimenti: [
+      {
+        data:        '4 maggio 2010',
+        tipo:        'Deposito campione biologico',
+        descrizione: 'Deposito campione biologico',
+        luogo:       'Laboratorio Vetogene - ENCI Servizi'
+      }
+    ],
+
+    risultati: [
+      { data: '26 gennaio 2014',        evento: 'Raduno Nazionale',          localita: 'Campiglia Marittima (LI)', giornata: '26 gennaio 2014',        sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '12 gennaio 2014',        evento: 'Esposizione Internazionale', localita: 'Rho (MI)',                 giornata: '12 gennaio 2014',        sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '14 agosto 2013',         evento: 'Esposizione Internazionale', localita: "Gradisca d'Isonzo (GO)",  giornata: '14 agosto 2013',         sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '27 aprile 2013',         evento: 'Esposizione Internazionale', localita: 'Lucca (LU)',               giornata: '27 aprile 2013',         sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '27 gennaio 2013',        evento: 'Raduno Nazionale',          localita: 'Campiglia Marittima (LI)', giornata: '27 gennaio 2013',        sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '19 - 20 gennaio 2013',   evento: 'Esposizione Internazionale', localita: 'Padova (PD)',              giornata: '19 - 20 gennaio 2013',   sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '14 - 16 settembre 2012', evento: 'Raduno Nazionale',          localita: 'Tesero (TN)',              giornata: '14 - 16 settembre 2012', sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '17 - 18 agosto 2012',    evento: 'Esposizione Internazionale', localita: 'Gorizia (GO)',             giornata: '17 - 18 agosto 2012',    sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '17 settembre 2011',      evento: 'Esposizione Internazionale', localita: 'Trieste (TS)',             giornata: '17 settembre 2011',      sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '18 - 19 giugno 2011',    evento: 'Esposizione Internazionale', localita: 'Orvieto (TR)',             giornata: '18 - 19 giugno 2011',    sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '21 - 22 maggio 2011',    evento: 'Esposizione Internazionale', localita: 'Firenze (FI)',             giornata: '21 - 22 maggio 2011',    sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '22 agosto 2010',         evento: 'Esposizione Nazionale',     localita: 'Sacile (PN)',              giornata: '22 agosto 2010',         sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '14 agosto 2010',         evento: 'Esposizione Nazionale',     localita: "Gradisca d'Isonzo (GO)",  giornata: '14 agosto 2010',         sottoprova: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' }
+    ],
+
+    discendenti: [
+      {
+        data: '28 novembre 2010',
+        figli: [
+          { roi: 'LO11122406', nome: 'Hacker', sesso: 'm' },
+          { roi: 'LO11122428', nome: 'Hans',   sesso: 'm' },
+          { roi: 'LO11122398', nome: 'Halos',  sesso: 'm' },
+          { roi: 'LO11122393', nome: 'Hunter', sesso: 'm' },
+          { roi: 'LO11122390', nome: 'Heaven', sesso: 'f' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'King Arthur Di Casa Fox', roi: 'LO08135892', titoli: 'Ch. IT Ch. INT', sesso: 'm' },
+
+      padre: { nome: 'Zordan Zewi Del Citone',   roi: 'LO0530944',    titoli: 'IDCSG AIADSG WS...', sesso: 'm' },
+      madre: { nome: 'Ester Di Casa Fox',         roi: 'LO0593234',    titoli: '',                   sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Gino Gomez Del Citone',    roi: 'LO9842928',    titoli: 'FH1- CAMP.MOND F...', sesso: 'm' },
+        mp: { nome: 'Giada Di Villa Conte',      roi: 'LO00078451',   titoli: 'CH',                  sesso: 'f' },
+        pm: { nome: 'Battista Di Casa Fox',      roi: 'LO0366679',    titoli: 'CH I, CH A.I.A.D, ZTP 1-...', sesso: 'm' },
+        mm: { nome: 'Everzigova Di Poggiopiano', roi: 'LO02140939',   titoli: 'HD-A CH',             sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Astor Del Citone',          roi: 'DS144318',     titoli: 'ZTP SCHH3 HD0 ZTP IPO1', sesso: 'm' },
+        mpp: { nome: 'Arielle D\'Amour Del Citone', roi: 'DS144317',  titoli: 'BDSG DVSG EU...',     sesso: 'f' },
+        pmp: { nome: 'Nitro Del Rio Bianco',      roi: 'LO9914550',    titoli: 'AIAD DV IDC SG BDJSG...', sesso: 'm' },
+        mmp: { nome: 'Petra Di Villa Conte',      roi: 'LO9897701',    titoli: 'HD-B',                sesso: 'f' },
+        ppm: { nome: 'Victor Di Casa Balestrieri',roi: 'LO9928601',    titoli: 'HD1CH',               sesso: 'm' },
+        mpm: { nome: 'Allison',                   roi: 'LO00060631',   titoli: '',                    sesso: 'f' },
+        pmm: { nome: 'Quillanqasim Del Citone',   roi: 'LO001118239',  titoli: '',                    sesso: 'm' },
+        mmm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802', titoli: '',                   sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Prinz Vom Norden Stamm',     roi: 'DS091001',   titoli: 'CH IT CH AIAD IN...', sesso: 'm' },
+        mppp: { nome: 'Tequilamali Del Citone',     roi: 'DS106530',   titoli: 'BDSG DVSG IDCSG ...', sesso: 'f' },
+        pmpp: { nome: 'Prinz Vom Norden Stamm',     roi: 'DS091001',   titoli: 'CH IT CH AIAD IN...', sesso: 'm' },
+        mmpp: { nome: 'Tequilamali Del Citone',     roi: 'DS106530',   titoli: 'BDSG DVSG IDCSG ...', sesso: 'f' },
+        ppmp: { nome: 'Nilo Del Rio Bianco',        roi: 'DS132577',   titoli: 'CH',                  sesso: 'm' },
+        mpmp: { nome: 'Farah Del Riobianco',        roi: 'DS115088',   titoli: '',                    sesso: 'f' },
+        pmmp: { nome: 'Graaf Vito V. Neerlands Stam', roi: 'NHSB2033689', titoli: 'CH NED INT ...',  sesso: 'm' },
+        mmmp: { nome: 'Morgana Di Villa Conte',     roi: 'DS145366',   titoli: '',                    sesso: 'f' },
+        pppm: { nome: 'Cock Di Casa Balestrieri',   roi: '117189',     titoli: '',                    sesso: 'm' },
+        mppm: { nome: 'Elli Di Casa Balestrieri',   roi: 'DS137259',   titoli: '',                    sesso: 'f' },
+        pmpm: { nome: 'FireFox',                    roi: 'DS126736',   titoli: '',                    sesso: 'm' },
+        mmpm: { nome: 'Ladyhawk Del Montaldo',      roi: 'DS177173',   titoli: '',                    sesso: 'f' },
+        ppmm: { nome: 'Tigr Iz Slavnoi Stai',       roi: 'RKF0031707', titoli: 'RUS&CL CH',           sesso: 'm' },
+        mpmm: { nome: 'Katrinakristal Del Citone',  roi: 'LO9971414',  titoli: '',                    sesso: 'f' },
+        pmmm: { nome: 'Alfa Adelante Del Citone',   roi: 'DS144314',   titoli: 'BD DV EUR IDC-S...',  sesso: 'm' },
+        mmmm: { nome: 'Ghislain E Ginevra Di Acquanegra', roi: 'DS127799', titoli: '',                sesso: 'f' }
+      }
+    }
+
+  }, // fine King Arthur Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
