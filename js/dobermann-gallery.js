@@ -132,7 +132,7 @@ const MASCHI = [
 // ============================================================
 const FEMMINE = [
   {
-    name: "Allison Di Casa Fox", gender: "femmina", category: "femmine",
+    name: "Allison", gender: "femmina", category: "femmine", hasPedigree: true,
     photos: [{
       full:  "images/dobermann/femmine/allison-di-casa-fox/foto_01.jpg",
       thumb: "images/dobermann/femmine/allison-di-casa-fox/thumbs/foto_01.jpg"

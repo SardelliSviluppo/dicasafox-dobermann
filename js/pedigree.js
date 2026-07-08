@@ -2579,6 +2579,104 @@ discendenti: [],
 
   }, // fine Thiago Di Casa Fox
 
+  'Allison': {
+    anagrafica: {
+      nome:        'Allison',
+      roi:         'LO0060631',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Femmina',
+      nascita:     '18 gennaio 2000',
+      allevatore:  'Sardelli Stefano',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '',
+      tatuaggio:   'OL145',
+      stato:       ''
+    },
+
+    titoli: [],
+
+    avvenimenti: [
+      {
+        data:        '20 settembre 2003',
+        descrizione: 'Deposito campione biologico',
+        luogo:       'Laboratorio Vetogene - ENCI Servizi'
+      }
+    ],
+
+    risultati: [],
+
+    discendenti: [
+      {
+        data: '8 dicembre 2002',
+        figli: [
+          { roi: 'LO0366682', nome: 'Byron Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO0366681', nome: 'Boss Di Casa Fox',     sesso: 'm' },
+          { roi: 'LO0366679', nome: 'Battista Di Casa Fox', sesso: 'm' },
+          { roi: 'LO0366680', nome: 'Bingo Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO0366685', nome: 'Benjamin Di Casa Fox', sesso: 'm' },
+          { roi: 'LO0366683', nome: 'Blackmoon Di Casa Fox',sesso: 'm' },
+          { roi: 'LO0366684', nome: 'Baywolf Di Casa Fox',  sesso: 'm' }
+        ]
+      },
+      {
+        data: '9 febbraio 2006',
+        figli: [
+          { roi: 'LO0658874', nome: 'Gillyflower Di Casa Fox', sesso: 'f' },
+          { roi: 'LO0658871', nome: 'Geronimo Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO0658872', nome: 'Goldengirl Di Casa Fox',  sesso: 'f' },
+          { roi: 'LO0658873', nome: 'Greta Di Casa Fox',       sesso: 'f' },
+          { roi: 'LO0658869', nome: 'Gandalf Di Casa Fox',     sesso: 'm' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Allison', roi: 'LO0060631', titoli: '', sesso: 'f' },
+
+      padre: { nome: 'FireFox',               roi: 'DS126736',  titoli: '',  sesso: 'm' },
+      madre: { nome: 'Ladyhawk Del Montaldo', roi: 'DS177173',  titoli: '',  sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Orson Van Roveline', roi: 'DS113204',          titoli: '', sesso: 'm' },
+        mp: { nome: 'Daron',              roi: 'DS107341',          titoli: '', sesso: 'f' },
+        pm: { nome: 'FireFox',            roi: 'DS126736',          titoli: '', sesso: 'm' },
+        mm: { nome: 'Erica Del Montaldo', roi: 'DS126792',          titoli: '', sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Fela Vom Franckenhorst',     roi: 'ZZ7739430', titoli: '', sesso: 'm' },
+        mpp: { nome: 'Lema Van Roveline',          roi: 'ZZ7739460', titoli: 'LOSH 571108 SCHH1 CH ...', sesso: 'f' },
+        pmp: { nome: 'Iron Di Campovalano',        roi: 'DS099535',  titoli: '', sesso: 'm' },
+        mmp: { nome: 'Nat Van Roveline',           roi: 'DS105571',  titoli: '', sesso: 'f' },
+        ppm: { nome: 'Orson Van Roveline',         roi: 'DS113204',  titoli: '', sesso: 'm' },
+        mpm: { nome: 'Daron',                      roi: 'DS107341',  titoli: '', sesso: 'f' },
+        pmm: { nome: 'Gamon Di Campovalano',       roi: 'DS097477',  titoli: 'CHMOND J CH J I...', sesso: 'm' },
+        mmm: { nome: 'Sissi Dei Nobili Nati',      roi: 'DS101317',  titoli: '', sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Vincent V. Franckenhorst',   roi: 'ZZ7739410', titoli: 'NHSB 1103033',      sesso: 'm' },
+        mppp: { nome: 'Pompie Dutch Dewi',          roi: 'ZZ7739420', titoli: 'KCREG 4005405',     sesso: 'f' },
+        pmpp: { nome: 'Baron Bryan V. Harrosberg',  roi: 'ZZ7739440', titoli: 'NHSB 141975...',    sesso: 'm' },
+        mmpp: { nome: 'Jenna Van Roveline',         roi: 'ZZ7739450', titoli: 'LOSH 534808',       sesso: 'f' },
+        ppmp: { nome: 'Merak Di Campovalano',       roi: 'DS0983190', titoli: 'CH',                sesso: 'm' },
+        mpmp: { nome: 'Tula Dei Nobili Nati',       roi: 'DS080580',  titoli: '',                  sesso: 'f' },
+        pmmp: { nome: 'Lucifer Van Roveline',       roi: 'ZZ7418130', titoli: 'LOSH 571105',       sesso: 'm' },
+        mmmp: { nome: 'Shutz Gina',                 roi: 'ZZ7418160', titoli: 'KCREG N 5201706N04',sesso: 'f' },
+        pppm: { nome: 'Fela Vom Franckenhorst',     roi: 'ZZ7739430', titoli: 'NHSB-1427508 C...', sesso: 'm' },
+        mppm: { nome: 'Lema Van Roveline',          roi: 'ZZ7739460', titoli: 'LOSH 571108 SCHH1 CH ...', sesso: 'f' },
+        pmpm: { nome: 'Iron Di Campovalano',        roi: 'DS099535',  titoli: '',                  sesso: 'm' },
+        mmpm: { nome: 'Nat Van Roveline',           roi: 'DS105571',  titoli: '',                  sesso: 'f' },
+        ppmm: { nome: 'Graaf Quirinus V. Neerlands Stam', roi: 'ZZ6768370', titoli: 'NHSB-1...', sesso: 'm' },
+        mpmm: { nome: 'Mali Di Campovalano',        roi: 'DS083197',  titoli: 'CH',                sesso: 'f' },
+        pmmm: { nome: 'Quinn Dei Nobili Nati',      roi: 'DS071871',  titoli: 'BDSG SCHHIII ITCH IN...', sesso: 'm' },
+        mmmm: { nome: 'Franka Vom Vogelbusch',      roi: 'DS099614',  titoli: '',                  sesso: 'f' }
+      }
+    }
+
+  }, // fine Allison
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
