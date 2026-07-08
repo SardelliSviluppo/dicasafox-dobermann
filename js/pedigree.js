@@ -2302,6 +2302,283 @@ discendenti: [],
 
   }, // fine Wollas Di Casa Fox
 
+  'Thiago Di Casa Fox': {
+    anagrafica: {
+      nome:        'Thiago Di Casa Fox',
+      roi:         'LO1163647',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Maschio',
+      nascita:     '14 marzo 2011',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Ogliormino Vincenzo',
+      microchip:   '380260000490774',
+      tatuaggio:   '',
+      stato:       'Riproduttore selezionato'
+    },
+
+    titoli: [
+      { data: '1 luglio 2014', titolo: 'Campione Italiano di Bellezza' }
+    ],
+
+    avvenimenti: [
+      {
+        data:        '13 aprile 2013',
+        descrizione: 'ZTP',
+        luogo:       ''
+      },
+      {
+        data:        '17 novembre 2013',
+        descrizione: 'Brevetto 2',
+        luogo:       ''
+      },
+      {
+        data:        '9 luglio 2012',
+        descrizione: 'Controllo radiografico',
+        luogo:       'Displasia anca HD.A (0)'
+      },
+      {
+        data:        '17 marzo 2014',
+        descrizione: 'Deposito campione biologico',
+        luogo:       'Laboratorio Vetogene - ENCI Servizi'
+      }
+    ],
+
+    risultati: [
+      {
+        data:       '4 - 5 luglio 2015',
+        evento:     'Raduno Nazionale',
+        localita:   'Montelibretti (RM)',
+        giornata:   '4 - 5 luglio 2015',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '25 gennaio 2015',
+        evento:     'Raduno Nazionale',
+        localita:   'Campiglia Marittima (LI)',
+        giornata:   '25 gennaio 2015',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '29 giugno 2014',
+        evento:     'Raduno Nazionale',
+        localita:   'Bernate Ticino (MI)',
+        giornata:   '29 giugno 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '11 maggio 2014',
+        evento:     'Esposizione Internazionale',
+        localita:   'Campiglia Marittima (LI)',
+        giornata:   '11 maggio 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '10 maggio 2014',
+        evento:     'Esposizione Internazionale',
+        localita:   'Campiglia Marittima (LI)',
+        giornata:   '10 maggio 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '27 aprile 2014',
+        evento:     'Esposizione Nazionale',
+        localita:   'Grosseto (GR)',
+        giornata:   '27 aprile 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '29 - 30 marzo 2014',
+        evento:     'Esposizione Internazionale',
+        localita:   'Padova (PD)',
+        giornata:   '29 - 30 marzo 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '26 gennaio 2014',
+        evento:     'Raduno Nazionale',
+        localita:   'Campiglia Marittima (LI)',
+        giornata:   '26 gennaio 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '12 gennaio 2014',
+        evento:     'Esposizione Internazionale',
+        localita:   'Rho (MI)',
+        giornata:   '12 gennaio 2014',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '8 - 9 giugno 2013',
+        evento:     'Raduno Nazionale',
+        localita:   'Montelibretti (RM)',
+        giornata:   '8 - 9 giugno 2013',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '8 giugno 2013',
+        evento:     'Esposizione Internazionale',
+        localita:   'Pisa (PI)',
+        giornata:   '8 giugno 2013',
+        sottoprova: '',
+        qualifica:  '',
+        classifica: '',
+        certificati:'',
+        giudice:    '',
+        tipo:       'esposizione'
+      },
+      {
+        data:       '16 - 17 novembre 2013',
+        evento:     'Prove di utilit\u00e0 e difesa',
+        localita:   'Cecina (LI)',
+        giornata:   '17 novembre 2013',
+        sottoprova: 'Brevetto ENCI 2',
+        qualifica:  'MB',
+        classifica: '3\u00b0 classificato',
+        certificati:'',
+        giudice:    'Grosso Clemente Giorgio',
+        tipo:       'prova'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '5 settembre 2013',
+        figli: [
+          { roi: 'LO13143740', nome: 'Calipso Di Casa Fox',          sesso: 'f' },
+          { roi: 'LO13143736', nome: 'Cataleya Di Casa Fox',          sesso: 'f' },
+          { roi: 'LO13143726', nome: 'Champion Tyson Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO13143733', nome: 'Cavalier Birillo Di Casa Fox',  sesso: 'm' },
+          { roi: 'LO13143741', nome: 'Cheyenne Di Casa Fox',          sesso: 'f' },
+          { roi: 'LO13143729', nome: 'Carlos Jaco Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO13143727', nome: 'Cicko Di Casa Fox',             sesso: 'm' },
+          { roi: 'LO13143744', nome: 'Cherry Di Casa Fox',            sesso: 'f' },
+          { roi: 'LO13143739', nome: 'Conny Di Casa Fox',             sesso: 'f' }
+        ]
+      },
+      {
+        data: '24 marzo 2014',
+        figli: [
+          { roi: 'LO1472207', nome: 'Floralie Kate Di Casa Fox', sesso: 'f' },
+          { roi: 'LO1472203', nome: 'Frey Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO1472202', nome: 'Fenix Di Casa Fox',          sesso: 'm' },
+          { roi: 'LO1472204', nome: 'Fibi Connie Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO1472208', nome: 'Free Di Casa Fox',           sesso: 'f' }
+        ]
+      },
+      {
+        data: '7 aprile 2014',
+        figli: [
+          { roi: 'LO1493299', nome: 'Benjamin Sisko Del Bosco Delle Piane', sesso: 'm' },
+          { roi: 'LO1493316', nome: 'Blume Del Bosco Delle Piane',          sesso: 'f' },
+          { roi: 'LO1493317', nome: 'Byron Zeus Del Bosco Delle Piane',     sesso: 'm' },
+          { roi: 'LO1493272', nome: 'Barret Chiko Del Bosco Delle Piane',   sesso: 'm' },
+          { roi: 'LO1493276', nome: 'Babe Del Bosco Delle Piane',           sesso: 'f' },
+          { roi: 'LO1493286', nome: 'Brando Del Bosco Delle Piane',         sesso: 'm' },
+          { roi: 'LO1493305', nome: 'Blaze Luna Del Bosco Delle Piane',     sesso: 'f' },
+          { roi: 'LO1493314', nome: 'Big Boss Del Bosco Delle Piane',       sesso: 'm' },
+          { roi: 'LO1493292', nome: 'Blu Aron Del Bosco Delle Piane',       sesso: 'm' },
+          { roi: 'LO1493279', nome: 'B.B. Del Bosco Delle Piane',           sesso: 'f' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Thiago Di Casa Fox', roi: 'LO1163647', titoli: '', sesso: 'm' },
+
+      padre: { nome: 'Urbano Del Diamante Nero', roi: 'LO0453422', titoli: 'CH INT ITA', sesso: 'm' },
+      madre: { nome: 'Holly Di Casa Fox',        roi: 'LO08100447', titoli: '',           sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Victor Vito Del Rio Bianco', roi: 'LO0168484',          titoli: 'CH HD0',                     sesso: 'm' },
+        mp: { nome: 'Indiana Del Diamante Nero',  roi: 'LO0052352',          titoli: 'CH',                         sesso: 'f' },
+        pm: { nome: 'Zedor Del Nasi',             roi: 'SLRD002747/JR700549',titoli: 'INTCH,HD0,PHPV/HC0,RD0,P...', sesso: 'm' },
+        mm: { nome: 'Elisir Di Casa Fox',         roi: 'LO0593231',          titoli: 'HD0',                        sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Moro Del Diamante Nero',       roi: 'LO98134383',   titoli: 'IT CH',                   sesso: 'm' },
+        mpp: { nome: 'Zeni Del Riobianco',           roi: 'DS169167',     titoli: 'IT CH HD0',               sesso: 'f' },
+        pmp: { nome: 'Nitro Del Rio Bianco',         roi: 'LO9914550',    titoli: 'AIAD DV IDC SG BDJSG...', sesso: 'm' },
+        mmp: { nome: 'India Del Diamante Nero',      roi: 'DS149788',     titoli: 'CH',                      sesso: 'f' },
+        ppm: { nome: 'Baron Nike Renewal',           roi: 'JR 75450 DOB', titoli: 'CH YU CACIB INTCH',       sesso: 'm' },
+        mpm: { nome: 'Akuna-Matata De Grande Vinko', roi: 'SLR 002731',   titoli: 'CH RUS',                  sesso: 'f' },
+        pmm: { nome: 'Battista Di Casa Fox',         roi: 'LO0366679',    titoli: 'CH I, CH A.I.A.D, ZTP 1-...', sesso: 'm' },
+        mmm: { nome: 'Everzigova Di Poggiopiano',    roi: 'LO02140939',   titoli: 'HD-A CH',                 sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Indio Del Diamante Nero',       roi: 'DS149786',     titoli: '',                    sesso: 'm' },
+        mppp: { nome: 'Flora Del Diamante Nero',       roi: 'DS096685',     titoli: '',                    sesso: 'f' },
+        pmpp: { nome: 'Napoleone Del Riobianco',       roi: 'DS132576',     titoli: '',                    sesso: 'm' },
+        mmpp: { nome: 'Farah Del Riobianco',           roi: 'DS115088',     titoli: '',                    sesso: 'f' },
+        ppmp: { nome: 'Nilo Del Rio Bianco',           roi: 'DS132577',     titoli: 'CH',                  sesso: 'm' },
+        mpmp: { nome: 'Farah Del Riobianco',           roi: 'DS115088',     titoli: '',                    sesso: 'f' },
+        pmmp: { nome: 'Nero Del Diamante Nero',        roi: 'DS108119',     titoli: 'CH',                  sesso: 'm' },
+        mmmp: { nome: 'Ora Di Stefusto',               roi: 'DS078891',     titoli: '',                    sesso: 'f' },
+        pppm: { nome: 'Prinz Vom Norden Stamm',        roi: 'DS091001',     titoli: 'CH IT CH AIAD IN...', sesso: 'm' },
+        mppm: { nome: 'Borana Sawages',                roi: 'JR 71417 DOB', titoli: 'CAC CACIB BOB PRM',   sesso: 'f' },
+        pmpm: { nome: 'Tigr Iz Slavnoi Stai',          roi: 'RKF 0031707',  titoli: 'CH RUS CH',           sesso: 'm' },
+        mmpm: { nome: 'Ak-Yar Andromeda',              roi: 'UKU 004311/97',titoli: 'CH RUS IPO I',        sesso: 'f' },
+        ppmm: { nome: 'Victor Di Casa Balestrieri',    roi: 'LO9928601',    titoli: 'HD1CH',               sesso: 'm' },
+        mpmm: { nome: 'Allison',                       roi: 'LO00060631',   titoli: '',                    sesso: 'f' },
+        pmmm: { nome: 'Quillanqasim Del Citone',       roi: 'LO001118239',  titoli: '',                    sesso: 'm' },
+        mmmm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802',    titoli: '',                    sesso: 'f' }
+      }
+    }
+
+  }, // fine Thiago Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)

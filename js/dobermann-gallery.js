@@ -112,7 +112,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "Thiago Di Casa Fox", gender: "maschio", category: "maschi", campione: true,
+    name: "Thiago Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: Array.from({length: 10}, (_, i) => ({
       full:  `images/dobermann/maschi/thiago-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/thiago-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
