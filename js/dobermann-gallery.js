@@ -70,7 +70,7 @@ const MASCHI = [
     }))
   },
   {
-    name: "Horus Di Casa Fox", gender: "maschio", category: "maschi",
+    name: "Horus Di Casa Fox", gender: "maschio", category: "maschi", campione: true, hasPedigree: true,
     photos: Array.from({length: 2}, (_, i) => ({
       full:  `images/dobermann/maschi/horus-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/maschi/horus-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`
