@@ -2920,6 +2920,148 @@ discendenti: [],
 
   }, // fine Elisir Di Casa Fox
 
+  'Holly Di Casa Fox': {
+    anagrafica: {
+      nome:        'Holly Di Casa Fox',
+      roi:         'LO08100447',
+      razza:       'Dobermann',
+      mantello:    'Marrone focato',
+      sesso:       'Femmina',
+      nascita:     '10 novembre 2007',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '981100000396571',
+      tatuaggio:   '',
+      stato:       ''
+    },
+
+    titoli: [],
+
+    avvenimenti: [
+      { data: '20 marzo 2010',     descrizione: 'ZTP',                        luogo: '' },
+      { data: '16 settembre 2009', descrizione: 'Controllo radiografico',     luogo: 'Displasia anca HD.B (1)' },
+      { data: '16 aprile 2010',    descrizione: 'Deposito campione biologico', luogo: "Laboratorio Biotecnologie Genetiche dell'Universit\u00e0 di Pisa" }
+    ],
+
+    risultati: [
+      {
+        data: '21 novembre 2010',
+        evento: 'Esposizione Internazionale',
+        localita: 'Sanremo (IM)',
+        giornata: '21 novembre 2010',
+        sottoprova: '',
+        numeroCatalogo: '131',
+        classe: 'Lavoro',
+        qualifica: 'Eccellente',
+        classifica: '1\u00aa classificata',
+        certificati: 'CAC/CACIB',
+        giudice: 'Ceccarelli Maria',
+        tipo: 'esposizione'
+      },
+      {
+        data: '20 novembre 2010',
+        evento: 'Esposizione Internazionale',
+        localita: 'Sanremo (IM)',
+        giornata: '20 novembre 2010',
+        sottoprova: '',
+        numeroCatalogo: '139',
+        classe: 'Lavoro',
+        qualifica: 'Eccellente',
+        classifica: '1\u00aa classificata',
+        certificati: 'CAC/CACIB',
+        giudice: 'Catalan Luis',
+        tipo: 'esposizione'
+      },
+      {
+        data: '25 - 26 aprile 2009',
+        evento: 'Esposizione Internazionale',
+        localita: 'Livorno (LI)',
+        giornata: '25 - 26 aprile 2009',
+        sottoprova: '',
+        numeroCatalogo: '459',
+        classe: 'Intermedia',
+        qualifica: 'Eccellente',
+        classifica: '1\u00aa classificata',
+        certificati: 'CAC/CACIB',
+        giudice: 'Getzinger Doris',
+        tipo: 'esposizione'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '14 marzo 2011',
+        figli: [
+          { roi: 'LO1163673', nome: 'Tresy Di Casa Fox',   sesso: 'f' },
+          { roi: 'LO1163676', nome: 'Tay Di Casa Fox',     sesso: 'f' },
+          { roi: 'LO1163658', nome: 'Tayler Di Casa Fox',  sesso: 'm' },
+          { roi: 'LO1163647', nome: 'Thiago Di Casa Fox',  sesso: 'm' },
+          { roi: 'LO1163662', nome: 'Taiger Di Casa Fox',  sesso: 'm' },
+          { roi: 'LO1163665', nome: 'Thor Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO1163670', nome: 'Tayss Di Casa Fox',   sesso: 'f' }
+        ]
+      },
+      {
+        data: '23 aprile 2012',
+        figli: [
+          { roi: 'LO1266673', nome: 'Welka Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO1266666', nome: 'Wes Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO1266678', nome: 'Wara Di Casa Fox',     sesso: 'f' },
+          { roi: 'LO1266675', nome: 'Wyky Di Casa Fox',     sesso: 'f' },
+          { roi: 'LO1266669', nome: 'Wildfire Di Casa Fox', sesso: 'm' },
+          { roi: 'LO1266677', nome: 'Wena Di Casa Fox',     sesso: 'f' },
+          { roi: 'LO1266680', nome: 'Wedra Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO1266670', nome: 'Wollas Di Casa Fox',   sesso: 'm' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Holly Di Casa Fox', roi: 'LO08100447', titoli: '', sesso: 'f' },
+
+      padre: { nome: 'Zedor Del Nasi',      roi: 'SLRD002747/JR700549', titoli: 'INTCH,HD0,PHPV/HC0,RD0,P...', sesso: 'm' },
+      madre: { nome: 'Elisir Di Casa Fox',  roi: 'LO0593231',            titoli: 'HD0',                        sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Baron Nike Renewal',         roi: 'JR 75450 DOB',  titoli: 'CH YU CACIB INTCH', sesso: 'm' },
+        mp: { nome: 'Akuna-Matata De Grande Vinko',roi: 'SLR 002731',    titoli: 'CH RUS',            sesso: 'f' },
+        pm: { nome: 'Battista Di Casa Fox',        roi: 'LO0366679',     titoli: 'CH I, CH A.I.A.D, ZTP 1-A, HD-A', sesso: 'm' },
+        mm: { nome: 'Everzigova Di Poggiopiano',   roi: 'LO02140939',    titoli: 'HD-A CH',           sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Prinz Vom Norden Stamm',      roi: 'DS091001',     titoli: 'CH IT CH AIAD IN...', sesso: 'm' },
+        mpp: { nome: 'Borana Sawages',              roi: 'JR 71417 DOB', titoli: 'CAC CACIB BOB PRM',  sesso: 'f' },
+        pmp: { nome: 'Tigr Iz Slavnoi Stai',        roi: 'RKF 0031707',  titoli: 'RUS&CL CH',          sesso: 'm' },
+        mmp: { nome: 'Ak-Yar Andromeda',            roi: 'UKU 004311/97',titoli: 'CH RUS IPO I',       sesso: 'f' },
+        ppm: { nome: 'Victor Di Casa Balestrieri',  roi: 'LO9928601',    titoli: 'HD1CH',              sesso: 'm' },
+        mpm: { nome: 'Allison',                     roi: 'LO0060631',    titoli: '',                   sesso: 'f' },
+        pmm: { nome: 'Quillanqasim Del Citone',     roi: 'LO01118239',   titoli: '',                   sesso: 'm' },
+        mmm: { nome: 'Brigittebardot Di Poggiopiano',roi: 'LO9966802',   titoli: '',                   sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Quinn Dei Nobili Nati',       roi: 'DS071871',     titoli: 'BDSG SCHHIII ITCH IN...', sesso: 'm' },
+        mppp: { nome: 'Kastra V. Norden Stamm',      roi: 'ZZ6707440',    titoli: 'SCHH II SCHH3 DZ...',    sesso: 'f' },
+        pmpp: { nome: 'Graaf Festus V. Neerlands Stam',roi: 'ZZ8771380',  titoli: 'CAC CACIB...',           sesso: 'm' },
+        mmpp: { nome: 'Heidy Royal-Bell',            roi: 'ZZ8548770',    titoli: '',                       sesso: 'f' },
+        ppmp: { nome: 'Ugor Di Villa Conte',         roi: 'DS127362',     titoli: 'CH ZTP INT IT LUX CH',   sesso: 'm' },
+        mpmp: { nome: 'Indira V.D. Rauberhohle',     roi: 'DZB111135',    titoli: '',                       sesso: 'f' },
+        pmmp: { nome: 'Larson V. Frankenland',       roi: 'DZB101909',    titoli: 'CH INT CH DE',           sesso: 'm' },
+        mmmp: { nome: 'Ak-Yar Shagrelli',            roi: '000265/01',    titoli: '',                       sesso: 'f' },
+        pppm: { nome: 'Cock Di Casa Balestrieri',    roi: '117189',       titoli: '',                       sesso: 'm' },
+        mppm: { nome: 'Elli Di Casa Balestrieri',    roi: 'DS137259',     titoli: '',                       sesso: 'f' },
+        pmpm: { nome: 'FireFox',                     roi: 'DS126736',     titoli: '',                       sesso: 'm' },
+        mmpm: { nome: 'Ladyhawk Del Montaldo',       roi: 'DS177173',     titoli: '',                       sesso: 'f' },
+        ppmm: { nome: 'Tigr Iz Slavnoi Stai',        roi: 'RKF0031707',   titoli: 'RUS&CL CH',              sesso: 'm' },
+        mpmm: { nome: 'Katrinakristal Del Citone',   roi: 'LO9971414',    titoli: '',                       sesso: 'f' },
+        pmmm: { nome: 'Alfa Adelante Del Citone',    roi: 'DS144314',     titoli: 'BD DV EUR IDC-S...',      sesso: 'm' },
+        mmmm: { nome: 'Ghislaineginevra Di Acquanegra',roi: 'DS127799',   titoli: '',                       sesso: 'f' }
+      }
+    }
+
+  }, // fine Holly Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
