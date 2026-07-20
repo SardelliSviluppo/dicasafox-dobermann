@@ -153,7 +153,7 @@ const FEMMINE = [
     }))
   },
   {
-    name: "Ester Di Casa Fox", gender: "femmina", category: "femmine", campione: true,
+    name: "Ester Di Casa Fox", gender: "femmina", category: "femmine", campione: true, hasPedigree: true,
     photos: Array.from({length: 2}, (_, i) => ({
       full:  `images/dobermann/femmine/ester-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/femmine/ester-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

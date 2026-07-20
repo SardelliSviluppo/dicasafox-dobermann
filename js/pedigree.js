@@ -3131,6 +3131,127 @@ discendenti: [],
 
   }, // fine Harethadi Casa Fox
 
+  'Ester Di Casa Fox': {
+    anagrafica: {
+      nome:        'Ester Di Casa Fox',
+      roi:         'LO0593234',
+      razza:       'Dobermann',
+      mantello:    'Marrone focato',
+      sesso:       'Femmina',
+      nascita:     '18 ottobre 2004',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '',
+      tatuaggio:   '4SRD9',
+      stato:       'Riproduttrice selezionata'
+    },
+
+    titoli: [
+      { data: '21 aprile 2006',  titolo: 'Giovane Promessa ENCI',        categoria: 'nazionali' },
+      { data: '29 gennaio 2007', titolo: 'Campione Italiano di Bellezza', categoria: 'nazionali' }
+    ],
+
+    avvenimenti: [
+      { data: '25 giugno 2006',    descrizione: 'ZTP',                       tipo: 'avvenimento',           luogo: '' },
+      { data: '17 settembre 2006', descrizione: 'Brevetto 2',                tipo: 'avvenimento',           luogo: '' },
+      { data: '17 aprile 2011',    descrizione: 'IPO 1',                     tipo: 'avvenimento',           luogo: '' },
+      { data: '30 novembre 2005',  descrizione: 'Controllo radiografico',    tipo: 'radiografico',          luogo: 'Displasia anca HD.A (0)' },
+      { data: '25 giugno 2006',    descrizione: 'Deposito campione biologico', tipo: 'depositoCampione',    luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+
+    risultati: [
+      {
+        data:            '20 - 21 gennaio 2007',
+        evento:          'Esposizione Internazionale',
+        localita:        'Arezzo (AR)',
+        giornata:        '20 - 21 gennaio 2007',
+        numeroCatalogo:  '717',
+        classe:          'Lavoro',
+        qualifica:       'Eccellente',
+        classifica:      '1ª classificata',
+        certificati:     'CAC/CACIB',
+        giudice:         'Steinbacher Marto',
+        tipo:            'esposizione'
+      },
+      {
+        data:            '18 - 19 novembre 2006',
+        evento:          'Esposizione Internazionale',
+        localita:        'Viterbo (VT)',
+        giornata:        '18 - 19 novembre 2006',
+        numeroCatalogo:  '127',
+        classe:          'Lavoro',
+        qualifica:       'Eccellente',
+        classifica:      '1ª classificata',
+        certificati:     'CAC/CACIB',
+        giudice:         'Alessandri Alfredo',
+        tipo:            'esposizione'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '7 aprile 2008',
+        figli: [
+          { roi: 'LO08135883', nome: 'Kiro Di Casa Fox',            sesso: 'm' },
+          { roi: 'LO08135896', nome: 'Kali Di Casa Fox',            sesso: 'f' },
+          { roi: 'LO08135900', nome: 'Kora Di Casa Fox',            sesso: 'f' },
+          { roi: 'LO08135892', nome: 'King Arthur Di Casa Fox',     sesso: 'm' },
+          { roi: 'LO08135902', nome: 'Kenya Di Casa Fox',           sesso: 'f' },
+          { roi: 'LO08135885', nome: 'Kolaf Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO08135904', nome: 'Kelly Di Casa Fox',           sesso: 'f' },
+          { roi: 'LO08135908', nome: 'Kilauea Di Casa Fox',         sesso: 'f' },
+          { roi: 'LO08135882', nome: 'Key Flender Di Casa Fox',     sesso: 'm' },
+          { roi: 'LO08135894', nome: 'Kaka Di Casa Fox',            sesso: 'm' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Ester Di Casa Fox', roi: 'LO0593234', titoli: '', sesso: 'f' },
+
+      padre: { nome: 'Battista Di Casa Fox',          roi: 'LO0366679',   titoli: 'CH I, CH A.I.A.D, ZTP 1-A, HD-A', sesso: 'm' },
+      madre: { nome: 'Eveerzigova Di Poggiopiano',    roi: 'LO02140939',  titoli: 'HD-A CH',                          sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Victor Di Casa Balestrieri', roi: 'LO9928601',    titoli: 'HD1CH',  sesso: 'm' },
+        mp: { nome: 'Allison',                    roi: 'LO00060631',   titoli: '',       sesso: 'f' },
+        pm: { nome: 'Quillanqasim Del Citone',    roi: 'LO001118239',  titoli: '',       sesso: 'm' },
+        mm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802', titoli: '',       sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Cock Di Casa Balestrieri',       roi: '117189',       titoli: '',                       sesso: 'm' },
+        mpp: { nome: 'Elli Di Casa Balestrieri',       roi: 'DS137259',     titoli: '',                       sesso: 'f' },
+        pmp: { nome: 'FireFox',                        roi: 'DS126736',     titoli: '',                       sesso: 'm' },
+        mmp: { nome: 'Ladyhawk Del Montaldo',          roi: 'DS177173',     titoli: '',                       sesso: 'f' },
+        ppm: { nome: 'Tigr Iz Slavnoi Stai',           roi: 'RKF0031707',   titoli: 'RUS&CL CH',              sesso: 'm' },
+        mpm: { nome: 'Katrinakristal Del Citone',      roi: 'LO9971414',    titoli: '',                       sesso: 'f' },
+        pmm: { nome: 'Alfa Adelante Del Citone',       roi: 'DS144314',     titoli: 'BD DV EUR IDC-S...',     sesso: 'm' },
+        mmm: { nome: 'Ghislaineginevra Di Acquanegra', roi: 'DS127799',     titoli: '',                       sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Gamon De Campovalano',           roi: '0977477',    titoli: 'CH SCHH1',                sesso: 'm' },
+        mppp: { nome: 'Verena',                         roi: 'DS087904',   titoli: '',                        sesso: 'f' },
+        pmpp: { nome: 'Gamon Di Campovalano',           roi: 'DS097477',   titoli: 'CHMOND J CH J ...',       sesso: 'm' },
+        mmpp: { nome: 'Verena',                         roi: 'DS087904',   titoli: '',                        sesso: 'f' },
+        ppmp: { nome: 'Orson Van Roveline',             roi: 'DS113204',   titoli: '',                        sesso: 'm' },
+        mpmp: { nome: 'Daron',                          roi: 'DS107341',   titoli: '',                        sesso: 'f' },
+        pmmp: { nome: 'FireFox',                        roi: 'DS126736',   titoli: '',                        sesso: 'm' },
+        mmmp: { nome: 'Erica Del Montaldo',             roi: 'DS126792',   titoli: '',                        sesso: 'f' },
+        pppm: { nome: 'Ugor Di Villa Conte',            roi: 'DS127362',   titoli: 'CH ZTP INT IT LUX CH',    sesso: 'm' },
+        mppm: { nome: 'Indira V. D. Rauberhohle',       roi: 'RKF0018800', titoli: 'CH',                      sesso: 'f' },
+        pmpm: { nome: 'Astor Del Citone',               roi: 'DS144318',   titoli: 'ZTP SCHH3 HD0 ZTP IPO1', sesso: 'm' },
+        mmpm: { nome: 'Crystalconny Del Citone',        roi: 'DS161428',   titoli: '',                        sesso: 'f' },
+        ppmm: { nome: 'Prinz Vom Norden Stamm',         roi: 'DS091001',   titoli: 'CH IT CH AIAD IN...',     sesso: 'm' },
+        mpmm: { nome: 'Tequilamali Del Citone',         roi: 'DS106530',   titoli: 'BDSG DVSG IDCSG ...',     sesso: 'f' },
+        pmmm: { nome: 'Rhesa Vom Franckenhorst',        roi: 'DS097852',   titoli: '',                        sesso: 'm' },
+        mmmm: { nome: 'Sierra Vom Franckenhorst',       roi: 'DS120218',   titoli: '',                        sesso: 'f' }
+      }
+    }
+
+  }, // fine Ester Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
