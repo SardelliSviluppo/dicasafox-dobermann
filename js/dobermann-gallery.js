@@ -181,7 +181,7 @@ const FEMMINE = [
     }))
   },
   {
-    name: "Kali Di Casa Fox", gender: "femmina", category: "femmine",
+    name: "Kalì Di Casa Fox", gender: "femmina", category: "femmine", hasPedigree: true,
     photos: Array.from({length: 10}, (_, i) => ({
       full:  `images/dobermann/femmine/kali-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/femmine/kali-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

@@ -3252,6 +3252,105 @@ discendenti: [],
 
   }, // fine Ester Di Casa Fox
 
+  'Kalì Di Casa Fox': {
+    anagrafica: {
+      nome:        'Kalì Di Casa Fox',
+      roi:         'LO08135896',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Femmina',
+      nascita:     '7 aprile 2008',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '981100000515948',
+      tatuaggio:   '',
+      stato:       ''
+    },
+
+    titoli: [],
+
+    avvenimenti: [
+      { data: '7 aprile 2008',  descrizione: 'ZTP',                       tipo: 'avvenimento',      luogo: '' },
+      { data: '7 aprile 2009',  descrizione: 'Controllo radiografico',    tipo: 'radiografico',     luogo: 'Displasia anca HD.B (1)' },
+      { data: '31 luglio 2013', descrizione: 'Deposito campione biologico', tipo: 'depositoCampione', luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+
+    risultati: [
+      {
+        data:            '21 - 22 maggio 2011',
+        evento:          'Esposizione Internazionale',
+        localita:        'Firenze (FI)',
+        giornata:        '21 - 22 maggio 2011',
+        numeroCatalogo:  '918',
+        classe:          'Lavoro',
+        qualifica:       'Eccellente',
+        classifica:      '2ª classificata',
+        certificati:     'R. CAC',
+        giudice:         'Nerilli Luigi',
+        tipo:            'esposizione'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '24 settembre 2012',
+        figli: [
+          { roi: 'LO12159782', nome: 'Yamaha Di Casa Fox',  sesso: 'f' },
+          { roi: 'LO12159780', nome: 'Yuba Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO12159784', nome: 'Yena Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO12159778', nome: 'Yansolo Di Casa Fox', sesso: 'm' },
+          { roi: 'LO12159776', nome: 'Yorky Di Casa Fox',   sesso: 'm' },
+          { roi: 'LO12159783', nome: 'Yuma Di Casa Fox',    sesso: 'f' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Kalì Di Casa Fox', roi: 'LO08135896', titoli: '', sesso: 'f' },
+
+      padre: { nome: 'Zordan Zewi Del Citone', roi: 'LO0530944',  titoli: 'IDCSG AIADSG WS...', sesso: 'm' },
+      madre: { nome: 'Ester Di Casa Fox',      roi: 'LO0593234',  titoli: '',                   sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Gino Gomez Del Citone',  roi: 'LO9842928',  titoli: 'FH1 - Camp. Mond F...', sesso: 'm' },
+        mp: { nome: 'Giada Di Villa Conte',   roi: 'LO0078451',  titoli: 'CH',                   sesso: 'f' },
+        pm: { nome: 'Battista Di Casa Fox',   roi: 'LO0366679',  titoli: 'CH I, CH A.I.A.D, ZTP 1-A, HD-A', sesso: 'm' },
+        mm: { nome: 'Eveerzigova Di Poggiopiano', roi: 'LO02140939', titoli: 'HD-A CH',          sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Astor Del Citone',              roi: 'DS144318',    titoli: 'ZTP SCHH3 HD0 ZTP IPO1',  sesso: 'm' },
+        mpp: { nome: 'Arielle D\'Amour Del Citone',   roi: 'DS144317',    titoli: 'BDSG DVSG EU...',         sesso: 'f' },
+        pmp: { nome: 'Nitro Del Rio Bianco',          roi: 'LO9914550',   titoli: 'AIAD DV IDC SG BDJSG...', sesso: 'm' },
+        mmp: { nome: 'Petra Di Villa Conte',          roi: 'LO9897701',   titoli: 'HD-B',                    sesso: 'f' },
+        ppm: { nome: 'Victor Di Casa Balestrieri',    roi: 'LO9928601',   titoli: 'HD1CH',                   sesso: 'm' },
+        mpm: { nome: 'Allison',                       roi: 'LO00060631',  titoli: '',                        sesso: 'f' },
+        pmm: { nome: 'Quillanqasim Del Citone',       roi: 'LO001118239', titoli: '',                        sesso: 'm' },
+        mmm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802',   titoli: '',                        sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Prinz Vom Norden Stamm',         roi: 'DS091001',    titoli: 'CH IT CH AIAD IN...',    sesso: 'm' },
+        mppp: { nome: 'Tequilamali Del Citone',         roi: 'DS106530',    titoli: 'BDSG DVSG IDCSG ...',    sesso: 'f' },
+        pmpp: { nome: 'Prinz Vom Norden Stamm',         roi: 'DS091001',    titoli: 'CH IT CH AIAD IN...',    sesso: 'm' },
+        mmpp: { nome: 'Tequilamali Del Citone',         roi: 'DS106530',    titoli: 'BDSG DVSG IDCSG ...',    sesso: 'f' },
+        ppmp: { nome: 'Nilo Del Rio Bianco',            roi: 'DS132577',    titoli: 'CH',                     sesso: 'm' },
+        mpmp: { nome: 'Farah Del Riobianco',            roi: 'DS115088',    titoli: '',                       sesso: 'f' },
+        pmmp: { nome: 'Graaf Vito V. Neerlands Stam',  roi: 'NHSB2033689', titoli: 'CH NED INT ...',          sesso: 'm' },
+        mmmp: { nome: 'Morgana Di Villa Conte',         roi: 'DS145366',    titoli: '',                       sesso: 'f' },
+        pppm: { nome: 'Cock Di Casa Balestrieri',       roi: '117189',      titoli: '',                       sesso: 'm' },
+        mppm: { nome: 'Elli Di Casa Balestrieri',       roi: 'DS137259',    titoli: '',                       sesso: 'f' },
+        pmpm: { nome: 'FireFox',                        roi: 'DS126736',    titoli: '',                       sesso: 'm' },
+        mmpm: { nome: 'Ladyhawk Del Montaldo',          roi: 'DS177173',    titoli: '',                       sesso: 'f' },
+        ppmm: { nome: 'Tigr Iz Slavnoi Stai',           roi: 'RKF0031707',  titoli: 'RUS&CL CH',              sesso: 'm' },
+        mpmm: { nome: 'Katrinakristal Del Citone',      roi: 'LO9971414',   titoli: '',                       sesso: 'f' },
+        pmmm: { nome: 'Alfa Adelante Del Citone',       roi: 'DS144314',    titoli: 'BD DV EUR IDC-S...',     sesso: 'm' },
+        mmmm: { nome: 'Ghislaineginevra Di Acquanegra', roi: 'DS127799',    titoli: '',                       sesso: 'f' }
+      }
+    }
+
+  }, // fine Kalì Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
