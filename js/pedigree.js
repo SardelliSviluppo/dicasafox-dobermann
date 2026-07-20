@@ -3649,65 +3649,47 @@ discendenti: [],
       stato:       ''
     },
     pedigree: {
-      soggetto: { nome: 'Tayss Di Casa Fox', roi: 'L01163670', sesso: 'f' },
-      padre: {
-        nome: 'Urbano Del Diamante Nero CH INT ITA', roi: 'L00453422', sesso: 'm',
-        padre: {
-          nome: 'Victor Vito Del Rio Bianco CH HD0', roi: 'L00168484', sesso: 'm',
-          padre: {
-            nome: 'Moro Del Diamante Nero IT CH', roi: 'L098134383', sesso: 'm',
-            padre: { nome: 'Indio Del Diamante Nero',  roi: 'DS149786',  sesso: 'm' },
-            madre: { nome: 'Flora Del Diamante Nero',  roi: 'DS096685',  sesso: 'f' }
-          },
-          madre: {
-            nome: 'Zeni Del Riobianco IT CH HD0', roi: 'DS169167', sesso: 'f',
-            padre: { nome: 'Napoleone Del Riobianco', roi: 'DS132576', sesso: 'm' },
-            madre: { nome: 'Farah Del Riobianco',     roi: 'DS115088', sesso: 'f' }
-          }
-        },
-        madre: {
-          nome: 'Indiana Del Diamante Nero CH', roi: 'L00052352', sesso: 'f',
-          padre: {
-            nome: 'Nitro Del Rio Bianco AIAD DV IDC SG BDJSG...', roi: 'L09914550', sesso: 'm',
-            padre: { nome: 'Nilo Del Rio Bianco CH', roi: 'DS132577', sesso: 'm' },
-            madre: { nome: 'Farah Del Riobianco',    roi: 'DS115088', sesso: 'f' }
-          },
-          madre: {
-            nome: 'India Del Diamante Nero CH', roi: 'DS149788', sesso: 'f',
-            padre: { nome: 'Nero Del Diamante Nero CH', roi: 'DS108119', sesso: 'm' },
-            madre: { nome: 'Ora Di Stefusto',           roi: 'DS078891', sesso: 'f' }
-          }
-        }
+      soggetto: { nome: 'Tayss Di Casa Fox', roi: 'LO1163670', titoli: 'CH IT', sesso: 'f' },
+
+      padre: { nome: 'Urbano Del Diamante Nero CH INT ITA', roi: 'LO0453422', titoli: 'CH INT · CH ITA', sesso: 'm' },
+      madre: { nome: 'Holly Di Casa Fox',                   roi: 'LO08100447', titoli: '',               sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Victor Vito Del Rio Bianco',          roi: 'LO0168484',          titoli: 'CH · HD0',                          sesso: 'm' },
+        mp: { nome: 'Indiana Del Diamante Nero',           roi: 'LO0052352',          titoli: 'CH',                                sesso: 'f' },
+        pm: { nome: 'Zedor Del Nasi',                      roi: 'SLRD002747/JR700549', titoli: 'INTCH · HD0 · PHPV/HC0 · RD0',     sesso: 'm' },
+        mm: { nome: 'Elisir Di Casa Fox',                  roi: 'LO0593231',          titoli: 'HD0',                               sesso: 'f' },
       },
-      madre: {
-        nome: 'Holly Di Casa Fox', roi: 'L008100447', sesso: 'f',
-        padre: {
-          nome: 'Zedor Del Nasi INTCH,HD0,PHPV/HC0,RD0,P...', roi: 'SLRD002747/JR700549', sesso: 'm',
-          padre: {
-            nome: 'Baron Nike Renewal CH YU CACIB INTCH', roi: 'JR75450 DOB', sesso: 'm',
-            padre: { nome: 'Prinz Vom Norden Stamm CH IT CH AIAD IN...', roi: 'DS091001',    sesso: 'm' },
-            madre: { nome: 'Borana Sawages CAC CACIB BOB PRM',           roi: 'JR71417 DOB', sesso: 'f' }
-          },
-          madre: {
-            nome: 'Akuna-Matata De Grande Vinko CH RUS', roi: 'SLR002731', sesso: 'f',
-            padre: { nome: 'Tigr Iz Slavnoi Stai CH RUS CH',  roi: 'RKF0031707',    sesso: 'm' },
-            madre: { nome: 'Ak-Yar Andromeda CH RUS IPO I',   roi: 'UKU004311/97',  sesso: 'f' }
-          }
-        },
-        madre: {
-          nome: 'Elisir Di Casa Fox HD0', roi: 'LO0593231', sesso: 'f',
-          padre: {
-            nome: 'Battista Di Casa Fox CH I, CH A.I.A.D, ZTP 1-...', roi: 'LO0366679', sesso: 'm',
-            padre: { nome: 'Victor Di Casa Balestrieri HD1CH', roi: 'LO9928601',   sesso: 'm' },
-            madre: { nome: 'Allison',                          roi: 'LO00060631',  sesso: 'f' }
-          },
-          madre: {
-            nome: 'Eveerzigova Di Poggiopiano HD-A CH', roi: 'LO02140939', sesso: 'f',
-            padre: { nome: 'Quillanqasim Del Citone',       roi: 'LO01118239', sesso: 'm' },
-            madre: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802',  sesso: 'f' }
-          }
-        }
-      }
+
+      bisnonni: {
+        ppp: { nome: 'Moro Del Diamante Nero',             roi: 'LO98134383',         titoli: 'IT CH',                             sesso: 'm' },
+        mpp: { nome: 'Zeni Del Riobianco',                 roi: 'DS169167',           titoli: 'IT CH · HD0',                       sesso: 'f' },
+        pmp: { nome: 'Nitro Del Rio Bianco',               roi: 'LO9914550',          titoli: 'AIAD · DV · IDC SG',                sesso: 'm' },
+        mmp: { nome: 'India Del Diamante Nero',            roi: 'DS149788',           titoli: 'CH',                                sesso: 'f' },
+        ppm: { nome: 'Baron Nike Renewal',                 roi: 'JR75450 DOB',        titoli: 'CH YU · CACIB · INTCH',             sesso: 'm' },
+        mpm: { nome: 'Akuna-Matata De Grande Vinko',       roi: 'SLR002731',          titoli: 'CH RUS',                            sesso: 'f' },
+        pmm: { nome: 'Battista Di Casa Fox',               roi: 'LO0366679',          titoli: 'CH I · CH A.I.A.D · ZTP 1-A',      sesso: 'm' },
+        mmm: { nome: 'Eveerzigova Di Poggiopiano',         roi: 'LO02140939',         titoli: 'HD-A · CH',                         sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Indio Del Diamante Nero',           roi: 'DS149786',           titoli: '',                                  sesso: 'm' },
+        mppp: { nome: 'Flora Del Diamante Nero',           roi: 'DS096685',           titoli: '',                                  sesso: 'f' },
+        pmpp: { nome: 'Napoleone Del Riobianco',           roi: 'DS132576',           titoli: '',                                  sesso: 'm' },
+        mmpp: { nome: 'Farah Del Riobianco',               roi: 'DS115088',           titoli: '',                                  sesso: 'f' },
+        ppmp: { nome: 'Nilo Del Rio Bianco',               roi: 'DS132577',           titoli: 'CH',                                sesso: 'm' },
+        mpmp: { nome: 'Farah Del Riobianco',               roi: 'DS115088',           titoli: '',                                  sesso: 'f' },
+        pmmp: { nome: 'Nero Del Diamante Nero',            roi: 'DS108119',           titoli: 'CH',                                sesso: 'm' },
+        mmmp: { nome: 'Ora Di Stefusto',                   roi: 'DS078891',           titoli: '',                                  sesso: 'f' },
+        pppm: { nome: 'Prinz Vom Norden Stamm',            roi: 'DS091001',           titoli: 'CH IT · CH AIAD',                   sesso: 'm' },
+        mppm: { nome: 'Borana Sawages',                    roi: 'JR71417 DOB',        titoli: 'CAC · CACIB · BOB · PRM',           sesso: 'f' },
+        pmpm: { nome: 'Tigr Iz Slavnoi Stai',              roi: 'RKF0031707',         titoli: 'CH RUS',                            sesso: 'm' },
+        mmpm: { nome: 'Ak-Yar Andromeda',                  roi: 'UKU004311/97',       titoli: 'CH RUS · IPO I',                    sesso: 'f' },
+        ppmm: { nome: 'Victor Di Casa Balestrieri',        roi: 'LO9928601',          titoli: 'HD1 · CH',                          sesso: 'm' },
+        mpmm: { nome: 'Allison',                           roi: 'LO0060631',          titoli: '',                                  sesso: 'f' },
+        pmmm: { nome: 'Quillanqasim Del Citone',           roi: 'LO01118239',         titoli: '',                                  sesso: 'm' },
+        mmmm: { nome: 'Brigittebardot Di Poggiopiano',     roi: 'LO9966802',          titoli: '',                                  sesso: 'f' },
+      },
     },
     avvenimenti: [
       { data: '13 aprile 2013',    descrizione: 'Avvenimento',               luogo: 'ZTP' },
