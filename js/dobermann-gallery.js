@@ -146,7 +146,7 @@ const FEMMINE = [
     }))
   },
   {
-    name: "Elisir Di Casa Fox", gender: "femmina", category: "femmine",
+    name: "Elisir Di Casa Fox", gender: "femmina", category: "femmine", hasPedigree: true,
     photos: Array.from({length: 3}, (_, i) => ({
       full:  `images/dobermann/femmine/elisir-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/femmine/elisir-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

@@ -2803,6 +2803,123 @@ discendenti: [],
 
   }, // fine Bleky Spirit Di Casa Fox
 
+  'Elisir Di Casa Fox': {
+    anagrafica: {
+      nome:        'Elisir Di Casa Fox',
+      roi:         'LO0593231',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Femmina',
+      nascita:     '18 ottobre 2004',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Allevamento Di Casa Fox',
+      microchip:   '380098100601579',
+      tatuaggio:   '4SRD7',
+      stato:       ''
+    },
+
+    titoli: [
+      { data: '13 giugno 2006', titolo: 'Giovane Promessa ENCI' }
+    ],
+
+    avvenimenti: [
+      { data: '30 novembre 2005', descrizione: 'Controllo radiografico',     luogo: 'Displasia anca HD.A (0)' },
+      { data: '25 giugno 2006',   descrizione: 'Deposito campione biologico', luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+
+    risultati: [
+      {
+        data: '3 - 4 giugno 2006',
+        evento: 'Esposizione Internazionale',
+        localita: 'Terni (TR)',
+        giornata: '3 - 4 giugno 2006',
+        sottoprova: '',
+        numeroCatalogo: '108',
+        classe: 'Lavoro',
+        qualifica: 'Eccellente',
+        classifica: '1ª classificata',
+        certificati: 'CAC/CACIB',
+        giudice: "Bulo' Jose' Maria",
+        tipo: 'esposizione'
+      },
+      {
+        data: '20 - 21 maggio 2006',
+        evento: 'Esposizione Internazionale',
+        localita: 'Firenze (FI)',
+        giornata: '20 - 21 maggio 2006',
+        sottoprova: '',
+        numeroCatalogo: '151',
+        classe: 'Lavoro',
+        qualifica: 'Eccellente',
+        classifica: '1ª classificata',
+        certificati: 'CAC/R. CACIB',
+        giudice: 'Tan Hietalahti Elina',
+        tipo: 'esposizione'
+      }
+    ],
+
+    discendenti: [
+      {
+        data: '10 novembre 2007',
+        figli: [
+          { roi: 'LO08100421', nome: 'Hieronimus Di Casa Fox', sesso: 'm' },
+          { roi: 'LO08100448', nome: 'Heloise Di Casa Fox',    sesso: 'f' },
+          { roi: 'LO08100447', nome: 'Holly Di Casa Fox',      sesso: 'f' },
+          { roi: 'LO08100415', nome: 'Horus Di Casa Fox',      sesso: 'm' },
+          { roi: 'LO08100446', nome: 'Heliott Di Casa Fox',    sesso: 'm' },
+          { roi: 'LO08100445', nome: 'Harethad Di Casa Fox',   sesso: 'f' },
+          { roi: 'LO08100423', nome: 'Honey Di Casa Fox',      sesso: 'f' },
+          { roi: 'LO08100422', nome: 'Hero Di Casa Fox',       sesso: 'm' }
+        ]
+      }
+    ],
+
+    pedigree: {
+      soggetto: { nome: 'Elisir Di Casa Fox', roi: 'LO0593231', titoli: 'HD0', sesso: 'f' },
+
+      padre: { nome: 'Battista Di Casa Fox', roi: 'LO0366679', titoli: 'CH I, CH A.I.A.D, ZTP 1-A, HD-A', sesso: 'm' },
+      madre: { nome: 'Everzigova Di Poggiopiano', roi: 'LO02140939', titoli: 'HD-A CH', sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Victor Di Casa Balestrieri', roi: 'LO9928601',  titoli: 'HD1CH',  sesso: 'm' },
+        mp: { nome: 'Allison',                    roi: 'LO0060631',  titoli: '',        sesso: 'f' },
+        pm: { nome: 'Quillanqasim Del Citone',     roi: 'LO01118239', titoli: '',        sesso: 'm' },
+        mm: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802', titoli: '',       sesso: 'f' }
+      },
+
+      bisnonni: {
+        ppp: { nome: 'Cock Di Casa Balestrieri',  roi: '117189',     titoli: '',                          sesso: 'm' },
+        mpp: { nome: 'Elli Di Casa Balestrieri',  roi: 'DS137259',   titoli: '',                          sesso: 'f' },
+        pmp: { nome: 'FireFox',                   roi: 'DS126736',   titoli: '',                          sesso: 'm' },
+        mmp: { nome: 'Ladyhawk Del Montaldo',     roi: 'DS177173',   titoli: '',                          sesso: 'f' },
+        ppm: { nome: 'Tigr Iz Slavnoi Stai',      roi: 'RKF0031707', titoli: 'RUS&CL CH',                 sesso: 'm' },
+        mpm: { nome: 'Katrinakrystal Del Citone', roi: 'LO9971414',  titoli: '',                          sesso: 'f' },
+        pmm: { nome: 'Alfa Adelante Del Citone',  roi: 'DS144314',   titoli: 'BD DV EUR IDC-S...',         sesso: 'm' },
+        mmm: { nome: 'Ghislaineginevra Di Acquanegra', roi: 'DS127799', titoli: '',                       sesso: 'f' }
+      },
+
+      quarta: {
+        pppp: { nome: 'Gamon De Campovalano',       roi: '0977477',    titoli: 'CH SCHH1',                  sesso: 'm' },
+        mppp: { nome: 'Verena',                     roi: 'DS087904',   titoli: '',                          sesso: 'f' },
+        pmpp: { nome: 'Gamon Di Campovalano',       roi: 'DS097477',   titoli: 'CHMOND J CH J I...',         sesso: 'm' },
+        mmpp: { nome: 'Verena',                     roi: 'DS087904',   titoli: '',                          sesso: 'f' },
+        ppmp: { nome: 'Orson Van Roveline',         roi: 'DS113204',   titoli: '',                          sesso: 'm' },
+        mpmp: { nome: 'Daron',                      roi: 'DS107341',   titoli: '',                          sesso: 'f' },
+        pmmp: { nome: 'FireFox',                    roi: 'DS126736',   titoli: '',                          sesso: 'm' },
+        mmmp: { nome: 'Erica Del Montaldo',         roi: 'DS126792',   titoli: '',                          sesso: 'f' },
+        pppm: { nome: 'Ugor Di Villa Conte',        roi: 'DS127362',   titoli: 'CH ZTP INT IT LUX CH',       sesso: 'm' },
+        mppm: { nome: 'Indira V. D. Rauberhohle',   roi: 'RKF0018800', titoli: 'CH',                        sesso: 'f' },
+        pmpm: { nome: 'Astor Del Citone',           roi: 'DS144318',   titoli: 'ZTP SCHH3 HD0 ZTP IPO1',    sesso: 'm' },
+        mmpm: { nome: 'Crystalconny Del Citone',    roi: 'DS161428',   titoli: '',                          sesso: 'f' },
+        ppmm: { nome: 'Prinz Vom Norden Stamm',     roi: 'DS091001',   titoli: 'CH IT CH AIAD IN...',        sesso: 'm' },
+        mpmm: { nome: 'Tequilamali Del Citone',     roi: 'DS106530',   titoli: 'BDSG DVSG IDCSG...',         sesso: 'f' },
+        pmmm: { nome: 'Rhesa Vom Franckenhorst',    roi: 'DS097852',   titoli: '',                          sesso: 'm' },
+        mmmm: { nome: 'Sierra Vom Franckenhorst',   roi: 'DS120218',   titoli: '',                          sesso: 'f' }
+      }
+    }
+
+  }, // fine Elisir Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
