@@ -195,7 +195,7 @@ const FEMMINE = [
     }))
   },
   {
-    name: "Reja Di Casa Fox", gender: "femmina", category: "femmine",
+    name: "Reja Di Casa Fox", gender: "femmina", category: "femmine", hasPedigree: true,
     photos: Array.from({length: 6}, (_, i) => ({
       full:  `images/dobermann/femmine/reja-di-casa-fox/foto_${String(i+1).padStart(2,'0')}.jpg`,
       thumb: `images/dobermann/femmine/reja-di-casa-fox/thumbs/foto_${String(i+1).padStart(2,'0')}.jpg`

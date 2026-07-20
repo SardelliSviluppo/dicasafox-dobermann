@@ -3519,6 +3519,119 @@ discendenti: [],
     ]
   } // fine Janila Black Di Casa Fox
 
+  , 'Reja Di Casa Fox': {
+    anagrafica: {
+      nome:        'Reja Di Casa Fox',
+      roi:         'LO10189986',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Femmina',
+      nascita:     '15 settembre 2010',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'Platone Domenico',
+      microchip:   '380260080066675',
+      tatuaggio:   '',
+      stato:       ''
+    },
+    pedigree: {
+      padre: {
+        nome: 'Hero Di Casa Fox HD0',
+        roi:  'LO08100422',
+        padre: {
+          nome: 'Zedor Del Nasi INTCH, HD0, PHPV/HC0, RD0',
+          roi:  'SLRD002747/JR700549',
+          padre: {
+            nome: 'Baron Nike Renewal CH YU CACIB INTCH',
+            roi:  'JR75450 DOB',
+            padre: { nome: 'Prinz Vom Norden Stamm CH IT CH AIAD IN', roi: 'DS091001' },
+            madre: { nome: 'Borana Sawages CAC CACIB BOB PRM',         roi: 'JR71417 DOB' }
+          },
+          madre: {
+            nome: 'Akuna-Matata De Grande Vinko CH RUS',
+            roi:  'SLR002731',
+            padre: { nome: 'Tigr Iz Slavnoi Stai CH RUS CH', roi: 'RKF0031707' },
+            madre: { nome: 'Ak-Yar Andromeda CH RUS IPO I',  roi: 'UKU004311/97' }
+          }
+        },
+        madre: {
+          nome: 'Elisir Di Casa Fox HD0',
+          roi:  'LO0593231',
+          padre: {
+            nome: 'Battista Di Casa Fox CH I, CH A.I.A.D, ZTP 1-A',
+            roi:  'LO0366679',
+            padre: { nome: 'Victor Di Casa Balestrieri HD1CH', roi: 'LO9928601' },
+            madre: { nome: 'Allison',                          roi: 'LO00060631' }
+          },
+          madre: {
+            nome: 'Eveerzigova Di Poggiopiano HD-A CH',
+            roi:  'LO02140939',
+            padre: { nome: 'Quillanqasim Del Citone',      roi: 'LO001118239' },
+            madre: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802' }
+          }
+        }
+      },
+      madre: {
+        nome: 'Reginaquinta Di Prisconte',
+        roi:  'LO0875964',
+        padre: {
+          nome: 'Pathos Delle Querce Nere CH',
+          roi:  'LO00547687',
+          padre: {
+            nome: 'Urbano Del Diamante Nero CH INT ITA',
+            roi:  'LO0453422',
+            padre: { nome: 'Victor Vito Del Rio Bianco CH HD0', roi: 'LO0168484' },
+            madre: { nome: 'Indiana Del Diamante Nero CH',       roi: 'LO00052352' }
+          },
+          madre: {
+            nome: 'Ninette Delle Sinvessa',
+            roi:  'LO02103523',
+            padre: { nome: 'Quillanqasim Del Citone',    roi: 'LO001118239' },
+            madre: { nome: 'Cocacola Della Sinvessa',    roi: 'LO9892667' }
+          }
+        },
+        madre: {
+          nome: 'Ully Di Prisconte HDA',
+          roi:  'LO00518840',
+          padre: {
+            nome: 'Heartless Di Prisconte ZTP HDA',
+            roi:  'LO0261637',
+            padre: { nome: 'Gino Gomez Del Citone FH1 - Camp. Mond F', roi: 'LO9842928' },
+            madre: { nome: 'Oregina Di Prisconte CH',                   roi: 'LO0034701' }
+          },
+          madre: {
+            nome: 'Enoir Di Prisconte',
+            roi:  'LO9892496',
+            padre: { nome: 'Graaf Vito V. Neerlands Stam CH NED INT', roi: 'NHSB2033689' },
+            madre: { nome: 'Rea Di Prisconte',                         roi: 'DS165936' }
+          }
+        }
+      }
+    },
+    avvenimenti: [
+      { data: '28 marzo 2012',  descrizione: 'Controllo radiografico',    luogo: 'Displasia anca HD.A (0)' },
+      { data: '21 marzo 2014',  descrizione: 'Deposito campione biologico', luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+    risultati: [
+      { data: '8 - 9 giugno 2013', evento: 'Raduno Nazionale',           localita: 'Montelibretti (RM)',      giornata: '8 - 9 giugno 2013', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '5 maggio 2013',     evento: 'Esposizione Internazionale', localita: 'Ercolano (NA)',           giornata: '5 maggio 2013',     numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '4 maggio 2013',     evento: 'Esposizione Internazionale', localita: 'Ercolano (NA)',           giornata: '4 maggio 2013',     numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '27 gennaio 2013',   evento: 'Raduno Nazionale',           localita: 'Campiglia Marittima (LI)', giornata: '27 gennaio 2013', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '16 giugno 2012',    evento: 'Esposizione Internazionale', localita: 'Terni (TR)',              giornata: '16 giugno 2012',    numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '20 maggio 2012',    evento: 'Esposizione Nazionale',      localita: 'Telese Terme (BN)',       giornata: '20 maggio 2012',    numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '6 maggio 2012',     evento: 'Esposizione Internazionale', localita: 'Ercolano (NA)',           giornata: '6 maggio 2012',     numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '16 ottobre 2011',   evento: 'Esposizione Internazionale', localita: 'Campobasso (CB)',         giornata: '16 ottobre 2011',   numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' }
+    ],
+    titoli: [],
+    discendenti: [
+      {
+        data: '27 aprile 2015',
+        figli: [
+          { roi: 'LO15104990', nome: 'Heidi', sesso: 'f' }
+        ]
+      }
+    ]
+  } // fine Reja Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
