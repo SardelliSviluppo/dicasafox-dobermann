@@ -3632,6 +3632,139 @@ discendenti: [],
     ]
   } // fine Reja Di Casa Fox
 
+  ,
+
+  'Tayss Di Casa Fox': {
+    anagrafica: {
+      nome:        'Tayss Di Casa Fox',
+      roi:         'L01163670',
+      razza:       'Dobermann',
+      mantello:    'Nero focato',
+      sesso:       'Femmina',
+      nascita:     '14 marzo 2011',
+      allevatore:  'Allevamento Di Casa Fox',
+      proprietario:'De Angelis Roberto',
+      microchip:   '380260000484546',
+      tatuaggio:   '',
+      stato:       ''
+    },
+    pedigree: {
+      soggetto: { nome: 'Tayss Di Casa Fox', roi: 'L01163670', sesso: 'f' },
+      padre: {
+        nome: 'Urbano Del Diamante Nero CH INT ITA', roi: 'L00453422', sesso: 'm',
+        padre: {
+          nome: 'Victor Vito Del Rio Bianco CH HD0', roi: 'L00168484', sesso: 'm',
+          padre: {
+            nome: 'Moro Del Diamante Nero IT CH', roi: 'L098134383', sesso: 'm',
+            padre: { nome: 'Indio Del Diamante Nero',  roi: 'DS149786',  sesso: 'm' },
+            madre: { nome: 'Flora Del Diamante Nero',  roi: 'DS096685',  sesso: 'f' }
+          },
+          madre: {
+            nome: 'Zeni Del Riobianco IT CH HD0', roi: 'DS169167', sesso: 'f',
+            padre: { nome: 'Napoleone Del Riobianco', roi: 'DS132576', sesso: 'm' },
+            madre: { nome: 'Farah Del Riobianco',     roi: 'DS115088', sesso: 'f' }
+          }
+        },
+        madre: {
+          nome: 'Indiana Del Diamante Nero CH', roi: 'L00052352', sesso: 'f',
+          padre: {
+            nome: 'Nitro Del Rio Bianco AIAD DV IDC SG BDJSG...', roi: 'L09914550', sesso: 'm',
+            padre: { nome: 'Nilo Del Rio Bianco CH', roi: 'DS132577', sesso: 'm' },
+            madre: { nome: 'Farah Del Riobianco',    roi: 'DS115088', sesso: 'f' }
+          },
+          madre: {
+            nome: 'India Del Diamante Nero CH', roi: 'DS149788', sesso: 'f',
+            padre: { nome: 'Nero Del Diamante Nero CH', roi: 'DS108119', sesso: 'm' },
+            madre: { nome: 'Ora Di Stefusto',           roi: 'DS078891', sesso: 'f' }
+          }
+        }
+      },
+      madre: {
+        nome: 'Holly Di Casa Fox', roi: 'L008100447', sesso: 'f',
+        padre: {
+          nome: 'Zedor Del Nasi INTCH,HD0,PHPV/HC0,RD0,P...', roi: 'SLRD002747/JR700549', sesso: 'm',
+          padre: {
+            nome: 'Baron Nike Renewal CH YU CACIB INTCH', roi: 'JR75450 DOB', sesso: 'm',
+            padre: { nome: 'Prinz Vom Norden Stamm CH IT CH AIAD IN...', roi: 'DS091001',    sesso: 'm' },
+            madre: { nome: 'Borana Sawages CAC CACIB BOB PRM',           roi: 'JR71417 DOB', sesso: 'f' }
+          },
+          madre: {
+            nome: 'Akuna-Matata De Grande Vinko CH RUS', roi: 'SLR002731', sesso: 'f',
+            padre: { nome: 'Tigr Iz Slavnoi Stai CH RUS CH',  roi: 'RKF0031707',    sesso: 'm' },
+            madre: { nome: 'Ak-Yar Andromeda CH RUS IPO I',   roi: 'UKU004311/97',  sesso: 'f' }
+          }
+        },
+        madre: {
+          nome: 'Elisir Di Casa Fox HD0', roi: 'LO0593231', sesso: 'f',
+          padre: {
+            nome: 'Battista Di Casa Fox CH I, CH A.I.A.D, ZTP 1-...', roi: 'LO0366679', sesso: 'm',
+            padre: { nome: 'Victor Di Casa Balestrieri HD1CH', roi: 'LO9928601',   sesso: 'm' },
+            madre: { nome: 'Allison',                          roi: 'LO00060631',  sesso: 'f' }
+          },
+          madre: {
+            nome: 'Eveerzigova Di Poggiopiano HD-A CH', roi: 'LO02140939', sesso: 'f',
+            padre: { nome: 'Quillanqasim Del Citone',       roi: 'LO01118239', sesso: 'm' },
+            madre: { nome: 'Brigittebardot Di Poggiopiano', roi: 'LO9966802',  sesso: 'f' }
+          }
+        }
+      }
+    },
+    avvenimenti: [
+      { data: '13 aprile 2013',    descrizione: 'Avvenimento',               luogo: 'ZTP' },
+      { data: '17 novembre 2013',  descrizione: 'Avvenimento',               luogo: 'Brevetto 2' },
+      { data: '19 aprile 2012',    descrizione: 'Controllo radiografico',    luogo: 'Displasia anca HD.B (1)' },
+      { data: '17 marzo 2014',     descrizione: 'Deposito campione biologico', luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+    risultati: [
+      { data: '4 - 5 luglio 2015',          evento: 'Raduno Nazionale',           localita: 'Montelibretti (RM)',       giornata: '4 - 5 luglio 2015',          numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '25 gennaio 2015',            evento: 'Raduno Nazionale',           localita: 'Campiglia Marittima (LI)', giornata: '25 gennaio 2015',            numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '5 ottobre 2014',             evento: 'Raduno Nazionale',           localita: 'Mondragone (CE)',          giornata: '5 ottobre 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '29 giugno 2014',             evento: 'Raduno Nazionale',           localita: 'Bernate Ticino (MI)',      giornata: '29 giugno 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: 'Dal 31 maggio al 1 giugno 2014', evento: 'Raduno Nazionale',       localita: 'Montelibretti (RM)',       giornata: '31 maggio 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '11 maggio 2014',             evento: 'Esposizione Internazionale', localita: 'Campiglia Marittima (LI)', giornata: '11 maggio 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '10 maggio 2014',             evento: 'Esposizione Internazionale', localita: 'Campiglia Marittima (LI)', giornata: '10 maggio 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '4 maggio 2014',              evento: 'Raduno Nazionale',           localita: 'Padova (PD)',              giornata: '4 maggio 2014',              numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '27 aprile 2014',             evento: 'Esposizione Nazionale',      localita: 'Grosseto (GR)',            giornata: '27 aprile 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '12 - 13 aprile 2014',        evento: 'Esposizione Internazionale', localita: 'Montichiari (BS)',         giornata: '12 aprile 2014',             numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '29 - 30 marzo 2014',         evento: 'Esposizione Internazionale', localita: 'Padova (PD)',              giornata: '29 marzo 2014',              numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '26 gennaio 2014',            evento: 'Raduno Nazionale',           localita: 'Campiglia Marittima (LI)', giornata: '26 gennaio 2014',            numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '12 gennaio 2014',            evento: 'Esposizione Internazionale', localita: 'Rho (MI)',                 giornata: '12 gennaio 2014',            numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '8 - 9 giugno 2013',          evento: 'Raduno Nazionale',           localita: 'Montelibretti (RM)',       giornata: '8 giugno 2013',              numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '27 gennaio 2013',            evento: 'Raduno Nazionale',           localita: 'Campiglia Marittima (LI)', giornata: '27 gennaio 2013',            numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '16 - 17 novembre 2013',      evento: "Prove di utilita' e difesa",  localita: 'Cecina (LI)',              giornata: '17 novembre 2013',           sottoprova: 'Brevetto ENCI 2', qualifica: 'MB', classifica: '5^ classificata', giudice: 'Grosso Clemente Giorgio', tipo: 'prova' }
+    ],
+    titoli: [
+      { categoria: 'Nazionali', data: '15 settembre 2014', titolo: 'Campione Italiano di Bellezza' }
+    ],
+    discendenti: [
+      {
+        data: '25 agosto 2015',
+        figli: [
+          { roi: 'L015160666', nome: 'Loona Di Casa Fox',   sesso: 'f' },
+          { roi: 'L015160670', nome: 'Larissa Di Casa Fox', sesso: 'f' },
+          { roi: 'L015160661', nome: 'Legend Di Casa Fox',  sesso: 'm' },
+          { roi: 'L015160663', nome: 'Leon Di Casa Fox',    sesso: 'm' }
+        ]
+      },
+      {
+        data: '27 ottobre 2016',
+        figli: [
+          { roi: 'L0176145', nome: 'Puma Blacky Di Casa Fox',  sesso: 'f' },
+          { roi: 'L0176148', nome: 'Princess Di Casa Fox',     sesso: 'f' },
+          { roi: 'L0176138', nome: 'Perceus Di Casa Fox',      sesso: 'm' },
+          { roi: 'L0176144', nome: 'Parsifal Di Casa Fox',     sesso: 'm' },
+          { roi: 'L0176147', nome: 'Pateberlin Di Casa Fox',   sesso: 'f' },
+          { roi: 'L0176139', nome: 'Platoon Di Casa Fox',      sesso: 'm' },
+          { roi: 'L0176146', nome: 'Pink Ginger Di Casa Fox',  sesso: 'f' },
+          { roi: 'L0176142', nome: 'Priamo Di Casa Fox',       sesso: 'm' },
+          { roi: 'L0176143', nome: 'Portos Di Casa Fox',       sesso: 'm' },
+          { roi: 'L0176141', nome: 'Poseidon Di Casa Fox',     sesso: 'm' },
+          { roi: 'L0176140', nome: 'Pyron Di Casa Fox',        sesso: 'm' }
+        ]
+      }
+    ]
+  } // fine Tayss Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
