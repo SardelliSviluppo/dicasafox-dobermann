@@ -3366,78 +3366,47 @@ discendenti: [],
       stato:        'Riproduttrice selezionata'
     },
     pedigree: {
-      padre: {
-        nome: 'Elano Graf Of Ja-Mes-Le\' Mon',
-        roi:  'MET10074/11',
-        padre: {
-          nome: 'Chester Von Der Topferstadt Ch Aust',
-          roi:  'VDH121589',
-          padre: {
-            nome: 'Leo Vom Markischen Land',
-            roi:  'ZB119791',
-            padre: { nome: 'Nitro Del Rio Bianco Aiad Dv Idc Sg BdJsg', roi: 'LO9914550' },
-            madre: { nome: 'Isa V. Markischen Land HD 1 VPG 3 FH1 IPO', roi: '117243' }
-          },
-          madre: {
-            nome: 'Gina Vom Markischen Land AD VPG1 HD1',
-            roi:  '1105604',
-            padre: { nome: 'Mauveres Mufasa De Stang-Zu Ch Int Ru', roi: 'RKF0021213' },
-            madre: { nome: 'Dolly Vom Markischen Land SCHH3', roi: '110615' }
-          }
-        },
-        madre: {
-          nome: 'Aurelie Grafin Of Ja-Mes-Le\' Mon HD 0, P',
-          roi:  'MET.DOB.8292/08',
-          padre: {
-            nome: 'Dexter Vom Harten Kern HD 0, PRA 0, PHP',
-            roi:  'JR72983A',
-            padre: { nome: 'Fhiram Royal Bell HD0 ZTP INTCH P F E CH', roi: 'HR12356DP' },
-            madre: { nome: 'Grafin Draska Jimona Of Mon-Ja-Mes', roi: 'DP12304A' }
-          },
-          madre: {
-            nome: 'Grafin Giulina Gembia Of Mon-Ja-Mes FCI',
-            roi:  'MET.DOB.8258/H/08',
-            padre: { nome: 'Gemini \'Ginga House\'', roi: 'LO0245351' },
-            madre: { nome: 'Bianca Jimona Of Mon-Ja-Mes O.CH, HD 0', roi: 'OHZBDP11958A' }
-          }
-        }
+      soggetto: { nome: 'Janila Black Di Casa Fox', roi: 'LO1569792', titoli: 'CH IT · ENCI Winner 2017', sesso: 'f' },
+
+      padre: { nome: 'Elano Graf Of Ja-Mes-Le\' Mon', roi: 'MET10074/11', titoli: '',         sesso: 'm' },
+      madre: { nome: 'Xylia Di Casa Fox',              roi: 'LO1296670',   titoli: '',         sesso: 'f' },
+
+      nonni: {
+        pp: { nome: 'Chester Von Der Topferstadt',     roi: 'VDH121589',          titoli: 'CH AUST',                              sesso: 'm' },
+        mp: { nome: 'Aurelie Grafin Of Ja-Mes-Le\' Mon', roi: 'MET.DOB.8292/08', titoli: 'HD0',                                  sesso: 'f' },
+        pm: { nome: 'Nex Di Campovalano',              roi: 'LO0831599',          titoli: '',                                     sesso: 'm' },
+        mm: { nome: 'Margot Di Casa Fox',              roi: 'LO0913868',          titoli: '',                                     sesso: 'f' },
       },
-      madre: {
-        nome: 'Xylia Di Casa Fox',
-        roi:  'LO1296670',
-        padre: {
-          nome: 'Nex Di Campovalano',
-          roi:  'LO0831599',
-          padre: {
-            nome: 'Kaiser Del Nasi',
-            roi:  'LO0671383',
-            padre: { nome: 'Ferrofarahgomez Di Campovalano RCAC', roi: 'LO0278726' },
-            madre: { nome: 'Wallis Niki Of Tanderberg IPO1 CAC CACIB', roi: 'JR 77899 DOB' }
-          },
-          madre: {
-            nome: 'Gioys Di Villa Conte',
-            roi:  'LO0078450',
-            padre: { nome: 'Nitro Del Rio Bianco Aiad Dv Idc Sg BdJsg', roi: 'LO9914550' },
-            madre: { nome: 'Petra Di Villa Conte HD-B', roi: 'LO9897701' }
-          }
-        },
-        madre: {
-          nome: 'Margot Di Casa Fox',
-          roi:  'LO0913868',
-          padre: {
-            nome: 'Chivago Vom Wilden Suden',
-            roi:  '120826',
-            padre: { nome: 'Jivago V.H. Wantij HD Belg CH Int CH VDH', roi: 'NHSB1979227' },
-            madre: { nome: 'Medina Von Der Rauberhohle', roi: '115267' }
-          },
-          madre: {
-            nome: 'Gillyflower Di Casa Fox',
-            roi:  'LO0658874',
-            padre: { nome: 'Ethor Di Campovalano', roi: 'LO02162230' },
-            madre: { nome: 'Allison', roi: 'LO00060631' }
-          }
-        }
-      }
+
+      bisnonni: {
+        ppp: { nome: 'Leo Vom Markischen Land',        roi: 'ZB119791',           titoli: '',                                     sesso: 'm' },
+        mpp: { nome: 'Gina Vom Markischen Land',       roi: '1105604',            titoli: 'AD · VPG1 · HD1',                      sesso: 'f' },
+        pmp: { nome: 'Dexter Vom Harten Kern',         roi: 'JR72983A',           titoli: 'HD0 · PRA0',                           sesso: 'm' },
+        mmp: { nome: 'Grafin Giulina Gembia Of Mon-Ja-Mes', roi: 'MET.DOB.8258/H/08', titoli: 'FCI',                             sesso: 'f' },
+        ppm: { nome: 'Kaiser Del Nasi',                roi: 'LO0671383',          titoli: '',                                     sesso: 'm' },
+        mpm: { nome: 'Gioys Di Villa Conte',           roi: 'LO0078450',          titoli: '',                                     sesso: 'f' },
+        pmm: { nome: 'Chivago Vom Wilden Suden',       roi: '120826',             titoli: '',                                     sesso: 'm' },
+        mmm: { nome: 'Gillyflower Di Casa Fox',        roi: 'LO0658874',          titoli: '',                                     sesso: 'f' },
+      },
+
+      quarta: {
+        pppp: { nome: 'Nitro Del Rio Bianco',          roi: 'LO9914550',          titoli: 'AIAD · DV · IDC SG',                  sesso: 'm' },
+        mppp: { nome: 'Isa V. Markischen Land',        roi: '117243',             titoli: 'HD1 · VPG3 · FH1 · IPO',             sesso: 'f' },
+        pmpp: { nome: 'Mauveres Mufasa De Stang-Zu',   roi: 'RKF0021213',         titoli: 'CH INT · RU',                          sesso: 'm' },
+        mmpp: { nome: 'Dolly Vom Markischen Land',     roi: '110615',             titoli: 'SCHH3',                                sesso: 'f' },
+        ppmp: { nome: 'Fhiram Royal Bell',             roi: 'HR12356DP',          titoli: 'HD0 · ZTP · INTCH · CH',              sesso: 'm' },
+        mpmp: { nome: 'Grafin Draska Jimona Of Mon-Ja-Mes', roi: 'DP12304A',      titoli: '',                                     sesso: 'f' },
+        pmmp: { nome: 'Gemini \'Ginga House\'',       roi: 'LO0245351',          titoli: '',                                     sesso: 'm' },
+        mmmp: { nome: 'Bianca Jimona Of Mon-Ja-Mes',   roi: 'OHZBDP11958A',       titoli: 'O.CH · HD0',                           sesso: 'f' },
+        pppm: { nome: 'Ferrofarahgomez Di Campovalano', roi: 'LO0278726',         titoli: 'RCAC',                                 sesso: 'm' },
+        mppm: { nome: 'Wallis Niki Of Tanderberg',     roi: 'JR77899 DOB',        titoli: 'IPO1 · CAC · CACIB',                   sesso: 'f' },
+        pmpm: { nome: 'Nitro Del Rio Bianco',          roi: 'LO9914550',          titoli: 'AIAD · DV · IDC SG',                  sesso: 'm' },
+        mmpm: { nome: 'Petra Di Villa Conte',          roi: 'LO9897701',          titoli: 'HD-B',                                 sesso: 'f' },
+        ppmm: { nome: 'Jivago V.H. Wantij',            roi: 'NHSB1979227',        titoli: 'HD Belg · CH Int · CH VDH',            sesso: 'm' },
+        mpmm: { nome: 'Medina Von Der Rauberhohle',    roi: '115267',             titoli: '',                                     sesso: 'f' },
+        pmmm: { nome: 'Ethor Di Campovalano',          roi: 'LO02162230',         titoli: '',                                     sesso: 'm' },
+        mmmm: { nome: 'Allison',                       roi: 'LO0060631',          titoli: '',                                     sesso: 'f' },
+      },
     },
     avvenimenti: [
       { data: '4 febbraio 2018',  descrizione: 'Brevetto 2',                 luogo: '' },
