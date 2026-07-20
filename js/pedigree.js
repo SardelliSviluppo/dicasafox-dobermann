@@ -3351,6 +3351,174 @@ discendenti: [],
 
   }, // fine Kalì Di Casa Fox
 
+  'Janila Black Di Casa Fox': {
+    anagrafica: {
+      nome:         'Janila Black Di Casa Fox',
+      roi:          'LO1569792',
+      razza:        'Dobermann',
+      mantello:     'Nero focato',
+      sesso:        'Femmina',
+      nascita:      '19 marzo 2015',
+      allevatore:   'Allevamento Di Casa Fox',
+      proprietario: 'Carfi Paolo',
+      microchip:    '380260002435263',
+      tatuaggio:    '',
+      stato:        'Riproduttrice selezionata'
+    },
+    pedigree: {
+      padre: {
+        nome: 'Elano Graf Of Ja-Mes-Le\' Mon',
+        roi:  'MET10074/11',
+        padre: {
+          nome: 'Chester Von Der Topferstadt Ch Aust',
+          roi:  'VDH121589',
+          padre: {
+            nome: 'Leo Vom Markischen Land',
+            roi:  'ZB119791',
+            padre: { nome: 'Nitro Del Rio Bianco Aiad Dv Idc Sg BdJsg', roi: 'LO9914550' },
+            madre: { nome: 'Isa V. Markischen Land HD 1 VPG 3 FH1 IPO', roi: '117243' }
+          },
+          madre: {
+            nome: 'Gina Vom Markischen Land AD VPG1 HD1',
+            roi:  '1105604',
+            padre: { nome: 'Mauveres Mufasa De Stang-Zu Ch Int Ru', roi: 'RKF0021213' },
+            madre: { nome: 'Dolly Vom Markischen Land SCHH3', roi: '110615' }
+          }
+        },
+        madre: {
+          nome: 'Aurelie Grafin Of Ja-Mes-Le\' Mon HD 0, P',
+          roi:  'MET.DOB.8292/08',
+          padre: {
+            nome: 'Dexter Vom Harten Kern HD 0, PRA 0, PHP',
+            roi:  'JR72983A',
+            padre: { nome: 'Fhiram Royal Bell HD0 ZTP INTCH P F E CH', roi: 'HR12356DP' },
+            madre: { nome: 'Grafin Draska Jimona Of Mon-Ja-Mes', roi: 'DP12304A' }
+          },
+          madre: {
+            nome: 'Grafin Giulina Gembia Of Mon-Ja-Mes FCI',
+            roi:  'MET.DOB.8258/H/08',
+            padre: { nome: 'Gemini \'Ginga House\'', roi: 'LO0245351' },
+            madre: { nome: 'Bianca Jimona Of Mon-Ja-Mes O.CH, HD 0', roi: 'OHZBDP11958A' }
+          }
+        }
+      },
+      madre: {
+        nome: 'Xylia Di Casa Fox',
+        roi:  'LO1296670',
+        padre: {
+          nome: 'Nex Di Campovalano',
+          roi:  'LO0831599',
+          padre: {
+            nome: 'Kaiser Del Nasi',
+            roi:  'LO0671383',
+            padre: { nome: 'Ferrofarahgomez Di Campovalano RCAC', roi: 'LO0278726' },
+            madre: { nome: 'Wallis Niki Of Tanderberg IPO1 CAC CACIB', roi: 'JR 77899 DOB' }
+          },
+          madre: {
+            nome: 'Gioys Di Villa Conte',
+            roi:  'LO0078450',
+            padre: { nome: 'Nitro Del Rio Bianco Aiad Dv Idc Sg BdJsg', roi: 'LO9914550' },
+            madre: { nome: 'Petra Di Villa Conte HD-B', roi: 'LO9897701' }
+          }
+        },
+        madre: {
+          nome: 'Margot Di Casa Fox',
+          roi:  'LO0913868',
+          padre: {
+            nome: 'Chivago Vom Wilden Suden',
+            roi:  '120826',
+            padre: { nome: 'Jivago V.H. Wantij HD Belg CH Int CH VDH', roi: 'NHSB1979227' },
+            madre: { nome: 'Medina Von Der Rauberhohle', roi: '115267' }
+          },
+          madre: {
+            nome: 'Gillyflower Di Casa Fox',
+            roi:  'LO0658874',
+            padre: { nome: 'Ethor Di Campovalano', roi: 'LO02162230' },
+            madre: { nome: 'Allison', roi: 'LO00060631' }
+          }
+        }
+      }
+    },
+    avvenimenti: [
+      { data: '4 febbraio 2018',  descrizione: 'Brevetto 2',                 luogo: '' },
+      { data: '6 luglio 2016',    descrizione: 'Controllo radiografico',      luogo: 'Displasia anca HD.A (0)' },
+      { data: '22 giugno 2017',   descrizione: 'Deposito campione biologico', luogo: 'Laboratorio Vetogene - ENCI Servizi' },
+      { data: '19 luglio 2017',   descrizione: 'Deposito campione biologico', luogo: 'Laboratorio Vetogene - ENCI Servizi' }
+    ],
+    risultati: [
+      { data: '9 giugno 2024',         evento: 'Esposizione Internazionale', localita: 'Carrara (MS)',              giornata: '9 giugno 2024',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '3 febbraio 2019',        evento: 'Raduno Nazionale',           localita: 'Pistoia (PT)',              giornata: '3 febbraio 2019',        numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '9 - 10 giugno 2018',     evento: 'Raduno Nazionale',           localita: 'Spoleto (PG)',              giornata: '9 - 10 giugno 2018',     numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '25 febbraio 2018',       evento: 'Raduno Nazionale',           localita: 'Campi Bisenzio (FI)',       giornata: '25 febbraio 2018',       numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '18 giugno 2017',         evento: 'Esposizione Internazionale', localita: 'Rho (MI)',                  giornata: '18 giugno 2017',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '17 giugno 2017',         evento: 'Esposizione Internazionale', localita: 'Rho (MI)',                  giornata: '17 giugno 2017',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '16 giugno 2017',         evento: 'Esposizione Internazionale', localita: 'Rho (MI)',                  giornata: '16 giugno 2017',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '30 aprile 2017',         evento: 'Raduno Nazionale',           localita: 'Camposampiero (PD)',        giornata: '30 aprile 2017',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '17 - 18 settembre 2016', evento: 'Raduno Nazionale',           localita: 'Cavalese (TN)',             giornata: '17 - 18 settembre 2016', numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '10 luglio 2016',         evento: 'Raduno Nazionale',           localita: 'Laveno-Mombello (VA)',      giornata: '10 luglio 2016',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '11 - 12 giugno 2016',    evento: 'Raduno Nazionale',           localita: 'Pisa (PI)',                 giornata: '11 - 12 giugno 2016',    numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '3 giugno 2016',          evento: 'Esposizione Internazionale', localita: 'Pisa (PI)',                 giornata: '3 giugno 2016',          numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '24 aprile 2016',         evento: 'Esposizione Internazionale', localita: 'Campiglia Marittima (LI)', giornata: '24 aprile 2016',         numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '27 marzo 2016',          evento: 'Esposizione Internazionale', localita: 'Rimini (RN)',               giornata: '27 marzo 2016',          numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '26 marzo 2016',          evento: 'Esposizione Internazionale', localita: 'Rimini (RN)',               giornata: '26 marzo 2016',          numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '20 marzo 2016',          evento: 'Esposizione Internazionale', localita: 'Reggio Nell\'Emilia (RE)', giornata: '20 marzo 2016',          numeroCatalogo: '', classe: '', qualifica: '', classifica: '', certificati: '', giudice: '', tipo: 'esposizione' },
+      { data: '1 - 2 giugno 2019',      evento: 'Prove di utilit\u00e0 e difesa',  localita: 'Pietrasanta (LU)',  giornata: '', sottoprova: '', qualifica: '', classifica: '', giudice: '', tipo: 'prova' },
+      { data: '10 marzo 2019',          evento: 'Prove di utilit\u00e0 e difesa',  localita: 'Ravenna (RA)',      giornata: '', sottoprova: '', qualifica: '', classifica: '', giudice: '', tipo: 'prova' },
+      { data: '3 - 4 febbraio 2018',    evento: 'Prove di utilit\u00e0 e difesa',  localita: 'Ravenna (RA)',      giornata: '', sottoprova: '', qualifica: '', classifica: '', giudice: '', tipo: 'prova' },
+      { data: '6 - 7 gennaio 2018',     evento: 'Prove di utilit\u00e0 e difesa',  localita: 'La Spezia (SP)',    giornata: '', sottoprova: '', qualifica: '', classifica: '', giudice: '', tipo: 'prova' },
+      { data: '28 gennaio 2017',        evento: 'Prove di utilit\u00e0 e difesa',  localita: 'Cecina (LI)',       giornata: '', sottoprova: '', qualifica: '', classifica: '', giudice: '', tipo: 'prova' }
+    ],
+    titoli: [
+      { data: '15 luglio 2016',  titolo: 'Giovane Promessa ENCI',         categoria: 'nazionali' },
+      { data: '16 giugno 2017',  titolo: 'Campione Italiano di Bellezza', categoria: 'nazionali' },
+      { data: '18 giugno 2017',  titolo: 'ENCI Winner 2017',              categoria: 'nazionali' },
+      { data: '1 ottobre 2018',  titolo: 'Campione Sociale',              categoria: 'nazionali' }
+    ],
+    discendenti: [
+      {
+        data: '7 ottobre 2018',
+        figli: [
+          { roi: 'LO18194733', nome: 'Regina Cleopatra Di Casa Fox',  sesso: 'f' },
+          { roi: 'LO18194729', nome: 'Re Sirio Di Casa Fox',           sesso: 'm' },
+          { roi: 'LO18194731', nome: 'Re Art\u00f9 Di Casa Fox',       sesso: 'm' },
+          { roi: 'LO18194732', nome: 'Rock Di Casa Fox',               sesso: 'm' },
+          { roi: 'LO18194730', nome: 'Robin Hood Di Casa Fox',         sesso: 'm' },
+          { roi: 'LO18194727', nome: 'Real Ghana Di Casa Fox',         sesso: 'm' },
+          { roi: 'LO18194728', nome: 'Ramses Di Casa Fox',             sesso: 'm' },
+          { roi: 'LO18194734', nome: 'Roma Di Casa Fox',               sesso: 'f' }
+        ]
+      },
+      {
+        data: '8 marzo 2020',
+        figli: [
+          { roi: 'LO2058256', nome: 'Coco Delle Ombre Etrusche',             sesso: 'm' },
+          { roi: 'LO2058266', nome: 'Caos Delle Ombre Etrusche',             sesso: 'm' },
+          { roi: 'LO2058248', nome: 'Celine Dior Delle Ombre Etrusche',      sesso: 'f' },
+          { roi: 'LO2058261', nome: 'Calvin Ares Delle Ombre Etrusche',      sesso: 'm' },
+          { roi: 'LO2058247', nome: 'Chira Delle Ombre Etrusche',            sesso: 'f' },
+          { roi: 'LO2058263', nome: 'C Berlino Delle Ombre Etrusche',        sesso: 'm' },
+          { roi: 'LO2058251', nome: 'Cuba Delle Ombre Etrusche',             sesso: 'f' },
+          { roi: 'LO2058253', nome: 'Cleopatra Delle Ombre Etrusche',        sesso: 'f' },
+          { roi: 'LO2058249', nome: 'Cleo Delle Ombre Etrusche',             sesso: 'f' },
+          { roi: 'LO2058255', nome: 'Cesare Delle Ombre Etrusche',           sesso: 'm' },
+          { roi: 'LO2058259', nome: 'Cosmo Delle Ombre Etrusche',            sesso: 'm' }
+        ]
+      },
+      {
+        data: '1 settembre 2021',
+        figli: [
+          { roi: 'LO21205634', nome: 'Fendi Blu Delle Ombre Etrusche',           sesso: 'f' },
+          { roi: 'LO21205656', nome: 'Fuego Delle Ombre Etrusche',               sesso: 'm' },
+          { roi: 'LO21205645', nome: 'Freud Delle Ombre Etrusche',               sesso: 'm' },
+          { roi: 'LO21205646', nome: 'Fabulous Black Jack Delle Ombre Etrusche', sesso: 'm' },
+          { roi: 'LO21205636', nome: 'Fenice Delle Ombre Etrusche',              sesso: 'f' },
+          { roi: 'LO21205639', nome: 'Futura Delle Ombre Etrusche',              sesso: 'f' },
+          { roi: 'LO21205658', nome: 'Falco Delle Ombre Etrusche',               sesso: 'm' }
+        ]
+      }
+    ]
+  } // fine Janila Black Di Casa Fox
+
 }; // fine DOG_DB
 
 // Alias per compatibilità con il vecchio sistema (pulsante pedigree)
